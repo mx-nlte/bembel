@@ -49,6 +49,6 @@ jobs:
       with:
         name: build-test-files
         path: |
+          CTestTestfile.cmake
           tests
           examples
-        path: CTestTestfile.cmake
