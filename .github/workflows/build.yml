@@ -49,6 +49,10 @@ jobs:
       with:
         name: build-test-files
         path: |
-          CTestTestfile.cmake
           tests
           examples
+    - name: Upload CTest File
+      uses: actions/upload-artifact@v3
+      with:
+        name: build-test-files
+        path: CTestTestfile.cmake
