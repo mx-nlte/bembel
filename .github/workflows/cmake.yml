@@ -18,6 +18,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+    - name: Download Executables
+      uses: actions/download-artifact@v3
+      with:
+        name: build-test-files
     - name: Test
       working-directory: ${{github.workspace}}/build
       shell: bash
