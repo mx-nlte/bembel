@@ -21,7 +21,7 @@ jobs:
     - name: Download Executables
       uses: actions/download-artifact@v3
       with:
-        name: build-test-files
+        name: build
     - name: Debug
       shell: bash
       run: pwd && ls -la
