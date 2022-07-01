@@ -22,6 +22,9 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: build-test-files
+    - name: Debug
+      shell: bash
+      run: pwd && ls -la
     - name: Test
       working-directory: ${{github.workspace}}/build
       shell: bash

@@ -50,5 +50,5 @@ jobs:
     - name: Upload Executables
       uses: actions/upload-artifact@v3
       with:
-        name: build-test-files
+        name: build
         path: build
