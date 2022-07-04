@@ -25,15 +25,15 @@ jobs:
         path: ${{github.workspace}}/build
     - name: Debug 1
       shell: bash
-      run: pwd && ls -la && ls -la tests
+      run: pwd && ls -la && ls -la build/tests
     - name: Change Permission
       shell: bash
       # Downloaded artifacts loose permissions.
       # See https://github.com/actions/download-artifact/blob/main/README.md
-      run: chmod +x tests/*.out examples/*.out
+      run: chmod +x build/tests/*.out build/examples/*.out
     - name: Debug 2
       shell: bash
-      run: ls -la tests && ls -la examples
+      run: ls -la tests && ls -la build/examples
     - name: Test
       working-directory: ${{github.workspace}}/build
       shell: bash
