@@ -33,7 +33,7 @@ jobs:
       run: chmod +x build/tests/*.out build/examples/*.out
     - name: Debug 2
       shell: bash
-      run: ls -la tests && ls -la build/examples
+      run: ls -la build/tests && ls -la build/examples
     - name: Test
       working-directory: ${{github.workspace}}/build
       shell: bash
