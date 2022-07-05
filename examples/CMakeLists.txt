@@ -11,12 +11,12 @@ set(CIFILES
     AnsatzSpace
     BlockClusterTree
     Geometry
-    # LaplaceSingleLayerFull
-    # LaplaceSingleLayerH2
-    # HelmholtzSingleLayerFull
-    # HelmholtzSingleLayerH2
-    # MaxwellSingleLayerFull
-    # MaxwellSingleLayerH2
+    LaplaceSingleLayerFull
+    LaplaceSingleLayerH2
+    HelmholtzSingleLayerFull
+    HelmholtzSingleLayerH2
+    MaxwellSingleLayerFull
+    MaxwellSingleLayerH2
     )
 
 foreach(file IN LISTS CIFILES)
