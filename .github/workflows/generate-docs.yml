@@ -28,5 +28,4 @@ jobs:
         with:
           name: docs
           path: |
-            readme.md
-            Doxy_out/*
+            .
