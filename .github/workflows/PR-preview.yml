@@ -7,6 +7,7 @@ on:
       - reopened
       - synchronize
       - closed
+    branches: [ "**" ]
 
 permissions:
   contents: write
