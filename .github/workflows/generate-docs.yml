@@ -22,3 +22,11 @@ jobs:
       - name: Creating Documentation
         run: |
           doxygen Doxyfile
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: |
+            readme.md
+            Doxy_out/*
