@@ -1,0 +1,30 @@
+name: Deploy PR previews
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  PR-preview:
+    runs-on: ubuntu-latest
+
+    generate-docs:
+      uses: ./.github/workflows/generate-docs.yml
+
+    deploy-preview:
+      steps:
+        - name: Download Artifacts
+          uses: actions/download-artifact@v3
+          with:
+            name: docs
+
+        - name: Deploy preview
+          uses: rossjrw/pr-preview-action@v1
+          with:
+            source-dir: .
