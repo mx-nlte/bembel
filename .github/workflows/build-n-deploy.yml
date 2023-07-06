@@ -18,7 +18,7 @@ jobs:
     uses: ./.github/workflows/generate-docs.yml
 
   deploy-docs:
-    needs: build-generate-docs
+    needs: generate-docs
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
