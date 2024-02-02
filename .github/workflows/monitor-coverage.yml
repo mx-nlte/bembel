@@ -37,6 +37,10 @@ jobs:
       shell: bash
       run: cmake --build build --config $BUILD_TYPE -j 2
 
+    - name: Debug
+      shell: bash
+      run: ls -la build && ls -la build/tests && ls -la build/tests/CMakeFiles/test_Glue.dir
+
     - name: Run Unittests
       working-directory: ${{github.workspace}}/build
       shell: bash
