@@ -27,7 +27,7 @@
     </tr>
     <tr>
       <th scope="row">Date:</th>
-      <td>2024-02-05 10:13:43</td>
+      <td>2024-02-06 14:34:01</td>
     </tr>
   </table>
 </div>
@@ -41,20 +41,20 @@
     </tr>
     <tr>
       <th scope="row">Lines:</th>
-      <td>13</td>
-      <td>13</td>
+      <td>16</td>
+      <td>16</td>
       <td class="coverage-high">100.0%</td>
     </tr>
     <tr>
       <th scope="row">Functions:</th>
-      <td>2</td>
-      <td>2</td>
+      <td>3</td>
+      <td>3</td>
       <td class="coverage-high">100.0%</td>
     </tr>
     <tr>
       <th scope="row">Branches:</th>
-      <td>22</td>
-      <td>44</td>
+      <td>29</td>
+      <td>58</td>
       <td class="coverage-low">50.0%</td>
     </tr>
   </table>
@@ -75,6 +75,7 @@
     </tr>
     <tr><td><a href="#l25">Bembel::FunctionEvaluatorEval&lt;double, 0u, TestOperatorC&gt;::eval(Bembel::SuperSpace&lt;TestOperatorC&gt; const&amp;, int, Bembel::ElementTreeNode const&amp;, Eigen::Matrix&lt;double, 12, 1, 0, 12, 1&gt; const&amp;, Eigen::Matrix&lt;double, -1, 1, 0, -1, 1&gt; const&amp;) const (line 25)</a></td><td>called 1920 times, returned 1920 times</td><td>60.0%</td></tr>
     <tr><td><a href="#l43">Bembel::FunctionEvaluatorEval&lt;double, 1u, TestOperatorDivC&gt;::eval(Bembel::SuperSpace&lt;TestOperatorDivC&gt; const&amp;, int, Bembel::ElementTreeNode const&amp;, Eigen::Matrix&lt;double, 12, 1, 0, 12, 1&gt; const&amp;, Eigen::Matrix&lt;double, -1, 2, 0, -1, 2&gt; const&amp;) const (line 43)</a></td><td>called 1920 times, returned 1920 times</td><td>58.0%</td></tr>
+    <tr><td><a href="#l89">Bembel::FunctionEvaluatorEval&lt;double, 2u, Bembel::LaplaceSingleLayerOperator&gt;::eval(Bembel::SuperSpace&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;, int, Bembel::ElementTreeNode const&amp;, Eigen::Matrix&lt;double, 12, 1, 0, 12, 1&gt; const&amp;, Eigen::Matrix&lt;double, -1, 1, 0, -1, 1&gt; const&amp;) const (line 89)</a></td><td>called 1 time, returned 1 time</td><td>60.0%</td></tr>
   </table>
 </details>
 
@@ -798,8 +799,8 @@
       <td class="lineno"><a id="l89" href="#l89">89</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount "></td>
-      <td class="src "><span class="w">  </span><span class="n">eval</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">SuperSpace</span><span class="o">&lt;</span><span class="n">LinOp</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">super_space</span><span class="p">,</span></td>
+      <td class="linecount coveredLine">1</td>
+      <td class="src coveredLine"><span class="w">  </span><span class="n">eval</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">SuperSpace</span><span class="o">&lt;</span><span class="n">LinOp</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">super_space</span><span class="p">,</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l90" href="#l90">90</a></td>
@@ -846,16 +847,40 @@
     <tr class="source-line">
       <td class="lineno"><a id="l96" href="#l96">96</a></td>
       <td class="linebranch">
+        <details class="linebranchDetails">
+        <summary class="linebranchSummary">1/2</summary>
+        <div class="linebranchContents">
+          <div class="takenBranch">&check; Branch 1 taken 1 times.</div>
+          <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+        </div>
+        </details>
       </td>
-      <td class="linecount "></td>
-      <td class="src "><span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="n">segment</span><span class="o">&lt;</span><span class="mi">2</span><span class="o">&gt;</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span></td>
+      <td class="linecount partialCoveredLine">1</td>
+      <td class="src partialCoveredLine"><span class="w">    </span><span class="k">auto</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="n">segment</span><span class="o">&lt;</span><span class="mi">2</span><span class="o">&gt;</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l97" href="#l97">97</a></td>
       <td class="linebranch">
+        <details class="linebranchDetails">
+        <summary class="linebranchSummary">6/12</summary>
+        <div class="linebranchContents">
+          <div class="takenBranch">&check; Branch 2 taken 1 times.</div>
+          <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
+          <div class="takenBranch">&check; Branch 5 taken 1 times.</div>
+          <div class="notTakenBranch">&cross; Branch 6 not taken.</div>
+          <div class="takenBranch">&check; Branch 8 taken 1 times.</div>
+          <div class="notTakenBranch">&cross; Branch 9 not taken.</div>
+          <div class="takenBranch">&check; Branch 11 taken 1 times.</div>
+          <div class="notTakenBranch">&cross; Branch 12 not taken.</div>
+          <div class="takenBranch">&check; Branch 14 taken 1 times.</div>
+          <div class="notTakenBranch">&cross; Branch 15 not taken.</div>
+          <div class="takenBranch">&check; Branch 17 taken 1 times.</div>
+          <div class="notTakenBranch">&cross; Branch 18 not taken.</div>
+        </div>
+        </details>
       </td>
-      <td class="linecount "></td>
-      <td class="src "><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">coeff</span><span class="p">.</span><span class="n">transpose</span><span class="p">()</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">super_space</span><span class="p">.</span><span class="n">basis</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">element</span><span class="p">.</span><span class="n">get_h</span><span class="p">();</span></td>
+      <td class="linecount partialCoveredLine">1</td>
+      <td class="src partialCoveredLine"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">coeff</span><span class="p">.</span><span class="n">transpose</span><span class="p">()</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">super_space</span><span class="p">.</span><span class="n">basis</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">element</span><span class="p">.</span><span class="n">get_h</span><span class="p">();</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l98" href="#l98">98</a></td>

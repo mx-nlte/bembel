@@ -27,7 +27,7 @@
     </tr>
     <tr>
       <th scope="row">Date:</th>
-      <td>2024-02-05 10:13:43</td>
+      <td>2024-02-06 14:34:01</td>
     </tr>
   </table>
 </div>
@@ -47,9 +47,9 @@
     </tr>
     <tr>
       <th scope="row">Functions:</th>
-      <td>26</td>
-      <td>27</td>
-      <td class="coverage-high">96.3%</td>
+      <td>32</td>
+      <td>34</td>
+      <td class="coverage-high">94.1%</td>
     </tr>
     <tr>
       <th scope="row">Branches:</th>
@@ -79,6 +79,12 @@
     <tr><td><a href="#l79">Bembel::Glue&lt;Bembel::DummyOperator&gt;::get_glue_matrix() const (line 79)</a></td><td>called 4 times, returned 4 times</td><td>100.0%</td></tr>
     <tr><td><a href="#l72">Bembel::Glue&lt;Bembel::DummyOperator&gt;::init_Glue(Bembel::SuperSpace&lt;Bembel::DummyOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::DummyOperator&gt; const&amp;) (line 72)</a></td><td>called 4 times, returned 4 times</td><td>85.0%</td></tr>
     <tr><td><a href="#l81">Bembel::Glue&lt;Bembel::DummyOperator&gt;::makeDofIdentificationList(Bembel::SuperSpace&lt;Bembel::DummyOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::DummyOperator&gt; const&amp;) (line 81)</a></td><td>called 4 times, returned 4 times</td><td>100.0%</td></tr>
+    <tr><td><a href="#l69">Bembel::Glue&lt;Bembel::LaplaceSingleLayerOperator&gt;::Glue(Bembel::SuperSpace&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;) (line 69)</a></td><td>called 1 time, returned 1 time</td><td>62.0%</td></tr>
+    <tr><td><a href="#l90">Bembel::Glue&lt;Bembel::LaplaceSingleLayerOperator&gt;::assembleGlueMatrix(Bembel::SuperSpace&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;) (line 90)</a></td><td>called 1 time, returned 1 time</td><td>39.0%</td></tr>
+    <tr><td><a href="#l120">Bembel::Glue&lt;Bembel::LaplaceSingleLayerOperator&gt;::assembleGlueMatrix(Bembel::SuperSpace&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;)::{lambda(Bembel::GlueRoutines::dofIdentification, Bembel::GlueRoutines::dofIdentification)#1}::operator()(Bembel::GlueRoutines::dofIdentification, Bembel::GlueRoutines::dofIdentification) const (line 120)</a></td><td>not called</td><td>0.0%</td></tr>
+    <tr><td><a href="#l79">Bembel::Glue&lt;Bembel::LaplaceSingleLayerOperator&gt;::get_glue_matrix() const (line 79)</a></td><td>called 1 time, returned 1 time</td><td>100.0%</td></tr>
+    <tr><td><a href="#l72">Bembel::Glue&lt;Bembel::LaplaceSingleLayerOperator&gt;::init_Glue(Bembel::SuperSpace&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;) (line 72)</a></td><td>called 1 time, returned 1 time</td><td>85.0%</td></tr>
+    <tr><td><a href="#l81">Bembel::Glue&lt;Bembel::LaplaceSingleLayerOperator&gt;::makeDofIdentificationList(Bembel::SuperSpace&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;) (line 81)</a></td><td>called 1 time, returned 1 time</td><td>100.0%</td></tr>
     <tr><td><a href="#l69">Bembel::Glue&lt;TestOperatorC&gt;::Glue(Bembel::SuperSpace&lt;TestOperatorC&gt; const&amp;, Bembel::Projector&lt;TestOperatorC&gt; const&amp;) (line 69)</a></td><td>called 64 times, returned 64 times</td><td>62.0%</td></tr>
     <tr><td><a href="#l90">Bembel::Glue&lt;TestOperatorC&gt;::assembleGlueMatrix(Bembel::SuperSpace&lt;TestOperatorC&gt; const&amp;, Bembel::Projector&lt;TestOperatorC&gt; const&amp;) (line 90)</a></td><td>called 64 times, returned 64 times</td><td>70.0%</td></tr>
     <tr><td><a href="#l79">Bembel::Glue&lt;TestOperatorC&gt;::get_glue_matrix() const (line 79)</a></td><td>called 64 times, returned 64 times</td><td>100.0%</td></tr>
@@ -95,6 +101,7 @@
     <tr><td><a href="#l168">Bembel::GlueRoutines::getEdgeDofIndices(int, int, int, int) (line 168)</a></td><td>called 4096 times, returned 4096 times</td><td>79.0%</td></tr>
     <tr><td><a href="#l244">Bembel::GlueRoutines::glueCoefficientDivergenceConforming(std::array&lt;int, 4ul&gt; const&amp;) (line 244)</a></td><td>called 1024 times, returned 1024 times</td><td>100.0%</td></tr>
     <tr><td><a href="#l262">Bembel::GlueRoutines::glue_identificationmaker_&lt;Bembel::DummyOperator, 2u&gt;::makeIdentification(std::vector&lt;std::array&lt;int, 4ul&gt;, std::allocator&lt;std::array&lt;int, 4ul&gt; &gt; &gt; const&amp;, Bembel::SuperSpace&lt;Bembel::DummyOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::DummyOperator&gt; const&amp;) (line 262)</a></td><td>called 4 times, returned 4 times</td><td>100.0%</td></tr>
+    <tr><td><a href="#l262">Bembel::GlueRoutines::glue_identificationmaker_&lt;Bembel::LaplaceSingleLayerOperator, 2u&gt;::makeIdentification(std::vector&lt;std::array&lt;int, 4ul&gt;, std::allocator&lt;std::array&lt;int, 4ul&gt; &gt; &gt; const&amp;, Bembel::SuperSpace&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;, Bembel::Projector&lt;Bembel::LaplaceSingleLayerOperator&gt; const&amp;) (line 262)</a></td><td>called 1 time, returned 1 time</td><td>100.0%</td></tr>
     <tr><td><a href="#l279">Bembel::GlueRoutines::glue_identificationmaker_&lt;TestOperatorC, 0u&gt;::makeIdentification(std::vector&lt;std::array&lt;int, 4ul&gt;, std::allocator&lt;std::array&lt;int, 4ul&gt; &gt; &gt; const&amp;, Bembel::SuperSpace&lt;TestOperatorC&gt; const&amp;, Bembel::Projector&lt;TestOperatorC&gt; const&amp;) (line 279)</a></td><td>called 64 times, returned 64 times</td><td>45.0%</td></tr>
     <tr><td><a href="#l419">Bembel::GlueRoutines::glue_identificationmaker_&lt;TestOperatorDivC, 1u&gt;::makeIdentification(std::vector&lt;std::array&lt;int, 4ul&gt;, std::allocator&lt;std::array&lt;int, 4ul&gt; &gt; &gt; const&amp;, Bembel::SuperSpace&lt;TestOperatorDivC&gt; const&amp;, Bembel::Projector&lt;TestOperatorDivC&gt; const&amp;) (line 419)</a></td><td>called 64 times, returned 64 times</td><td>88.0%</td></tr>
     <tr><td><a href="#l228">Bembel::GlueRoutines::normalComponentIsInwardDirected(int) (line 228)</a></td><td>called 3008 times, returned 3008 times</td><td>100.0%</td></tr>
@@ -596,12 +603,12 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 2 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 2 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">  </span><span class="n">Glue</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">SuperSpace</span><span class="o">&lt;</span><span class="n">Derived</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">superspace</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Projector</span><span class="o">&lt;</span><span class="n">Derived</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">proj</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
@@ -610,26 +617,26 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">init_Glue</span><span class="p">(</span><span class="n">superspace</span><span class="p">,</span><span class="w"> </span><span class="n">proj</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l71" href="#l71">71</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">  </span><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l72" href="#l72">72</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">  </span><span class="kt">void</span><span class="w"> </span><span class="n">init_Glue</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">SuperSpace</span><span class="o">&lt;</span><span class="n">Derived</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&amp;</span><span class="n">superspace</span><span class="p">,</span></td>
     </tr>
     <tr class="source-line">
@@ -643,7 +650,7 @@
       <td class="lineno"><a id="l74" href="#l74">74</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">    </span><span class="n">edges_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">superspace</span><span class="p">.</span><span class="n">get_mesh</span><span class="p">().</span><span class="n">get_element_tree</span><span class="p">().</span><span class="n">patchTopologyInfo</span><span class="p">();</span></td>
     </tr>
     <tr class="source-line">
@@ -652,19 +659,19 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 2 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 2 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">glue_mat_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">assembleGlueMatrix</span><span class="p">(</span><span class="n">superspace</span><span class="p">,</span><span class="w"> </span><span class="n">proj</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l76" href="#l76">76</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">    </span><span class="k">return</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
@@ -685,7 +692,7 @@
       <td class="lineno"><a id="l79" href="#l79">79</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">  </span><span class="n">Eigen</span><span class="o">::</span><span class="n">SparseMatrix</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="w"> </span><span class="n">get_glue_matrix</span><span class="p">()</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">glue_mat_</span><span class="p">;</span><span class="w"> </span><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
@@ -699,7 +706,7 @@
       <td class="lineno"><a id="l81" href="#l81">81</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">  </span><span class="kr">inline</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">GlueRoutines</span><span class="o">::</span><span class="n">dofIdentification</span><span class="o">&gt;</span><span class="w"> </span><span class="n">makeDofIdentificationList</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
@@ -727,7 +734,7 @@
       <td class="lineno"><a id="l85" href="#l85">85</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">        </span><span class="n">LinearOperatorTraits</span><span class="o">&lt;</span><span class="n">Derived</span><span class="o">&gt;::</span><span class="n">Form</span><span class="o">&gt;::</span><span class="n">makeIdentification</span><span class="p">(</span><span class="n">edges_</span><span class="p">,</span></td>
     </tr>
     <tr class="source-line">
@@ -741,7 +748,7 @@
       <td class="lineno"><a id="l87" href="#l87">87</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">                                                                 </span><span class="n">proj</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
@@ -762,7 +769,7 @@
       <td class="lineno"><a id="l90" href="#l90">90</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">  </span><span class="n">Eigen</span><span class="o">::</span><span class="n">SparseMatrix</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="w"> </span><span class="n">assembleGlueMatrix</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
@@ -776,7 +783,7 @@
       <td class="lineno"><a id="l92" href="#l92">92</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">    </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">pre_dofs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">proj</span><span class="p">.</span><span class="n">get_dofs_after_projector</span><span class="p">();</span></td>
     </tr>
     <tr class="source-line">
@@ -797,7 +804,7 @@
       <td class="lineno"><a id="l95" href="#l95">95</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">Eigen</span><span class="o">::</span><span class="n">Triplet</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">trips</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
@@ -806,12 +813,12 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">GlueRoutines</span><span class="o">::</span><span class="n">dofIdentification</span><span class="o">&gt;</span><span class="w"> </span><span class="n">dof_id</span><span class="w"> </span><span class="o">=</span></td>
     </tr>
     <tr class="source-line">
@@ -841,12 +848,12 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 2 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 2 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">bool</span><span class="o">&gt;</span><span class="w"> </span><span class="n">dof_is_slave</span><span class="p">(</span><span class="n">pre_dofs</span><span class="p">,</span><span class="w"> </span><span class="nb">false</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
@@ -855,12 +862,12 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 2 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 2 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">bool</span><span class="o">&gt;</span><span class="w"> </span><span class="n">dof_is_master</span><span class="p">(</span><span class="n">pre_dofs</span><span class="p">,</span><span class="w"> </span><span class="nb">false</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
@@ -881,7 +888,7 @@
       <td class="lineno"><a id="l104" href="#l104">104</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">number_of_slaves</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
@@ -893,11 +900,11 @@
           <div class="takenBranch">&check; Branch 4 taken 2688 times.</div>
           <div class="notTakenBranch">&cross; Branch 5 not taken.</div>
           <div class="takenBranch">&check; Branch 9 taken 2688 times.</div>
-          <div class="takenBranch">&check; Branch 10 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 10 taken 133 times.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">5636</td>
+      <td class="linecount partialCoveredLine">5637</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">auto</span><span class="w"> </span><span class="n">dofset</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">dof_id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
@@ -1025,12 +1032,12 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 3 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 3 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">sort</span><span class="p">(</span><span class="n">dof_id</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">dof_id</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span></td>
     </tr>
     <tr class="source-line">
@@ -1072,7 +1079,7 @@
       <td class="lineno"><a id="l125" href="#l125">125</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">    </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">post_dofs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pre_dofs</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">number_of_slaves</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
@@ -1107,14 +1114,14 @@
       <td class="lineno"><a id="l130" href="#l130">130</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">skip</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l131" href="#l131">131</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">master_index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
@@ -1123,19 +1130,19 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">2/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 0 taken 42896 times.</div>
-          <div class="takenBranch">&check; Branch 1 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 0 taken 42897 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 133 times.</div>
         </div>
         </details>
       </td>
-      <td class="linecount coveredLine">81812</td>
+      <td class="linecount coveredLine">81814</td>
       <td class="src coveredLine"><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">post_dofs</span><span class="p">;</span><span class="w"> </span><span class="o">++</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l133" href="#l133">133</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">81552</td>
+      <td class="linecount coveredLine">81553</td>
       <td class="src coveredLine"><span class="w">      </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">post_index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
@@ -1144,25 +1151,25 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">6/8</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 45840 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 45841 times.</div>
           <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
           <div class="takenBranch">&check; Branch 4 taken 2944 times.</div>
-          <div class="takenBranch">&check; Branch 5 taken 42896 times.</div>
+          <div class="takenBranch">&check; Branch 5 taken 42897 times.</div>
           <div class="takenBranch">&check; Branch 6 taken 2944 times.</div>
           <div class="notTakenBranch">&cross; Branch 7 not taken.</div>
           <div class="takenBranch">&check; Branch 8 taken 2944 times.</div>
-          <div class="takenBranch">&check; Branch 9 taken 42896 times.</div>
+          <div class="takenBranch">&check; Branch 9 taken 42897 times.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">87440</td>
+      <td class="linecount partialCoveredLine">87441</td>
       <td class="src partialCoveredLine"><span class="w">      </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">dof_is_slave</span><span class="p">[</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">skip</span><span class="p">]</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="p">((</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">skip</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">pre_dofs</span><span class="p">))</span><span class="w"> </span><span class="o">++</span><span class="n">skip</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l135" href="#l135">135</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">81552</td>
+      <td class="linecount coveredLine">81553</td>
       <td class="src coveredLine"><span class="w">      </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">pre_index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">skip</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
@@ -1171,12 +1178,12 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 2 taken 42896 times.</div>
+          <div class="takenBranch">&check; Branch 2 taken 42897 times.</div>
           <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">81552</td>
+      <td class="linecount partialCoveredLine">81553</td>
       <td class="src partialCoveredLine"><span class="w">      </span><span class="n">trips</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">Eigen</span><span class="o">::</span><span class="n">Triplet</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="p">(</span><span class="n">pre_index</span><span class="p">,</span><span class="w"> </span><span class="n">post_index</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">));</span></td>
     </tr>
     <tr class="source-line">
@@ -1192,10 +1199,10 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">5/8</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 42896 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 42897 times.</div>
           <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
           <div class="takenBranch">&check; Branch 4 taken 2688 times.</div>
-          <div class="takenBranch">&check; Branch 5 taken 40208 times.</div>
+          <div class="takenBranch">&check; Branch 5 taken 40209 times.</div>
           <div class="takenBranch">&check; Branch 7 taken 2688 times.</div>
           <div class="notTakenBranch">&cross; Branch 8 not taken.</div>
           <div class="notTakenBranch">&cross; Branch 10 not taken.</div>
@@ -1203,7 +1210,7 @@
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">81552</td>
+      <td class="linecount partialCoveredLine">81553</td>
       <td class="src partialCoveredLine"><span class="w">      </span><span class="n">assert</span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">dof_is_master</span><span class="p">[</span><span class="n">pre_index</span><span class="p">]</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">dof_is_slave</span><span class="p">[</span><span class="n">pre_index</span><span class="p">]));</span></td>
     </tr>
     <tr class="source-line">
@@ -1212,14 +1219,14 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">3/4</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 42896 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 42897 times.</div>
           <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
           <div class="takenBranch">&check; Branch 4 taken 2688 times.</div>
-          <div class="takenBranch">&check; Branch 5 taken 40208 times.</div>
+          <div class="takenBranch">&check; Branch 5 taken 40209 times.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">81552</td>
+      <td class="linecount partialCoveredLine">81553</td>
       <td class="src partialCoveredLine"><span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">dof_is_master</span><span class="p">[</span><span class="n">pre_index</span><span class="p">])</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
@@ -1347,12 +1354,12 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">Eigen</span><span class="o">::</span><span class="n">SparseMatrix</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="w"> </span><span class="n">glue_matrix</span><span class="p">(</span><span class="n">pre_dofs</span><span class="p">,</span><span class="w"> </span><span class="n">post_dofs</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
@@ -1361,12 +1368,12 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 3 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 3 taken 133 times.</div>
           <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">glue_matrix</span><span class="p">.</span><span class="n">setFromTriplets</span><span class="p">(</span><span class="n">trips</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">trips</span><span class="p">.</span><span class="n">end</span><span class="p">());</span></td>
     </tr>
     <tr class="source-line">
@@ -1383,25 +1390,25 @@
         <summary class="linebranchSummary">1/2</summary>
         <div class="linebranchContents">
           <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
-          <div class="takenBranch">&check; Branch 2 taken 132 times.</div>
+          <div class="takenBranch">&check; Branch 2 taken 133 times.</div>
         </div>
         </details>
       </td>
-      <td class="linecount partialCoveredLine">260</td>
+      <td class="linecount partialCoveredLine">261</td>
       <td class="src partialCoveredLine"><span class="w">    </span><span class="n">assert</span><span class="p">(</span><span class="n">trips</span><span class="p">.</span><span class="n">size</span><span class="p">()</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">pre_dofs</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l158" href="#l158">158</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">520</td>
+      <td class="linecount coveredLine">522</td>
       <td class="src coveredLine"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">glue_matrix</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l159" href="#l159">159</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">260</td>
+      <td class="linecount coveredLine">261</td>
       <td class="src coveredLine"><span class="w">  </span><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
@@ -2322,7 +2329,7 @@
       <td class="lineno"><a id="l262" href="#l262">262</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">4</td>
+      <td class="linecount coveredLine">5</td>
       <td class="src coveredLine"><span class="w">  </span><span class="k">static</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">dofIdentification</span><span class="o">&gt;</span><span class="w"> </span><span class="n">makeIdentification</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
@@ -2343,7 +2350,7 @@
       <td class="lineno"><a id="l265" href="#l265">265</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">4</td>
+      <td class="linecount coveredLine">5</td>
       <td class="src coveredLine"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">{};</span></td>
     </tr>
     <tr class="source-line">
