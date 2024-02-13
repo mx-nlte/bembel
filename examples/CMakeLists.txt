@@ -9,16 +9,16 @@ configure_file(${CMAKE_SOURCE_DIR}/geo/torus.dat ${CMAKE_CURRENT_BINARY_DIR}/ CO
 
 set(CIFILES
     AnsatzSpace
-    # BlockClusterTree
-    # Geometry
-    # MassMatrix
-    # LaplaceBeltrami
-    # LaplaceSingleLayerFull
-    # LaplaceSingleLayerH2
-    # HelmholtzSingleLayerFull
-    # HelmholtzSingleLayerH2
-    # MaxwellSingleLayerFull
-    # MaxwellSingleLayerH2
+    BlockClusterTree
+    Geometry
+    MassMatrix
+    LaplaceBeltrami
+    LaplaceSingleLayerFull
+    LaplaceSingleLayerH2
+    HelmholtzSingleLayerFull
+    HelmholtzSingleLayerH2
+    MaxwellSingleLayerFull
+    MaxwellSingleLayerH2
     )
 
 foreach(file IN LISTS CIFILES)
