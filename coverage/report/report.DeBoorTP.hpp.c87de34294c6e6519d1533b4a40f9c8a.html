@@ -27,7 +27,7 @@
     </tr>
     <tr>
       <th scope="row">Date:</th>
-      <td>2024-02-14 08:11:32</td>
+      <td>2024-02-14 08:35:45</td>
     </tr>
   </table>
 </div>
@@ -73,7 +73,7 @@
       <th>Call count</th>
       <th>Block coverage</th>
     </tr>
-    <tr><td><a href="#l22">Eigen::Matrix&lt;double, -1, -1, 0, -1, -1&gt; Bembel::Spl::DeBoorDer&lt;double&gt;(Eigen::Matrix&lt;double, -1, -1, 0, -1, -1&gt; const&amp;, std::vector&lt;double, std::allocator&lt;double&gt; &gt; const&amp;, std::vector&lt;double, std::allocator&lt;double&gt; &gt; const&amp;) (line 22)</a></td><td>called 2550 times, returned 2550 times</td><td>100.0%</td></tr>
+    <tr><td><a href="#l22">Eigen::Matrix&lt;double, -1, -1, 0, -1, -1&gt; Bembel::Spl::DeBoorDer&lt;double&gt;(Eigen::Matrix&lt;double, -1, -1, 0, -1, -1&gt; const&amp;, std::vector&lt;double, std::allocator&lt;double&gt; &gt; const&amp;, std::vector&lt;double, std::allocator&lt;double&gt; &gt; const&amp;) (line 22)</a></td><td>called 3033 times, returned 3033 times</td><td>100.0%</td></tr>
     <tr><td><a href="#l99">Eigen::Matrix&lt;double, -1, -1, 0, -1, -1&gt; Bembel::Spl::DeBoorTP&lt;double&gt;(Eigen::Matrix&lt;double, -1, -1, 0, -1, -1&gt; const&amp;, std::vector&lt;double, std::allocator&lt;double&gt; &gt; const&amp;, std::vector&lt;double, std::allocator&lt;double&gt; &gt; const&amp;, std::vector&lt;double, std::allocator&lt;double&gt; &gt; const&amp;, std::vector&lt;double, std::allocator&lt;double&gt; &gt; const&amp;) (line 99)</a></td><td>called 33 times, returned 33 times</td><td>100.0%</td></tr>
   </table>
 </details>
@@ -240,7 +240,7 @@
       <td class="lineno"><a id="l22" href="#l22">22</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">2550</td>
+      <td class="linecount coveredLine">3033</td>
       <td class="src coveredLine"><span class="n">Eigen</span><span class="o">::</span><span class="n">Matrix</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="mi">-1</span><span class="p">,</span><span class="w"> </span><span class="mi">-1</span><span class="o">&gt;</span><span class="w"> </span><span class="n">DeBoorDer</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
@@ -268,21 +268,21 @@
       <td class="lineno"><a id="l26" href="#l26">26</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">2550</td>
+      <td class="linecount coveredLine">3033</td>
       <td class="src coveredLine"><span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">control_points_cols</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">control_points</span><span class="p">.</span><span class="n">cols</span><span class="p">();</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l27" href="#l27">27</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">2550</td>
+      <td class="linecount coveredLine">3033</td>
       <td class="src coveredLine"><span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">polynomial_degree</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">knot</span><span class="p">.</span><span class="n">size</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">control_points_cols</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l28" href="#l28">28</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">2550</td>
+      <td class="linecount coveredLine">3033</td>
       <td class="src coveredLine"><span class="w">  </span><span class="n">Eigen</span><span class="o">::</span><span class="n">Matrix</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="mi">-1</span><span class="p">,</span><span class="w"> </span><span class="mi">-1</span><span class="o">&gt;</span><span class="w"> </span><span class="n">temp</span><span class="p">(</span><span class="n">control_points</span><span class="p">.</span><span class="n">rows</span><span class="p">(),</span><span class="w"> </span><span class="n">control_points_cols</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
@@ -291,33 +291,33 @@
         <details class="linebranchDetails">
         <summary class="linebranchSummary">2/2</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 0 taken 29070 times.</div>
-          <div class="takenBranch">&check; Branch 1 taken 2550 times.</div>
+          <div class="takenBranch">&check; Branch 0 taken 36081 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 3033 times.</div>
         </div>
         </details>
       </td>
-      <td class="linecount coveredLine">31620</td>
+      <td class="linecount coveredLine">39114</td>
       <td class="src coveredLine"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">control_points_cols</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="o">--</span><span class="n">i</span><span class="p">;)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l30" href="#l30">30</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">58140</td>
+      <td class="linecount coveredLine">72162</td>
       <td class="src coveredLine"><span class="w">    </span><span class="n">temp</span><span class="p">.</span><span class="n">col</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">polynomial_degree</span><span class="p">)</span><span class="w"> </span><span class="o">/</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l31" href="#l31">31</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">29070</td>
+      <td class="linecount coveredLine">36081</td>
       <td class="src coveredLine"><span class="w">                  </span><span class="p">(</span><span class="n">knot</span><span class="p">[</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">polynomial_degree</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">knot</span><span class="p">[</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">])</span><span class="w"> </span><span class="o">*</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l32" href="#l32">32</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">58140</td>
+      <td class="linecount coveredLine">72162</td>
       <td class="src coveredLine"><span class="w">                  </span><span class="p">(</span><span class="n">control_points</span><span class="p">.</span><span class="n">col</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">control_points</span><span class="p">.</span><span class="n">col</span><span class="p">(</span><span class="n">i</span><span class="p">));</span></td>
     </tr>
     <tr class="source-line">
@@ -338,21 +338,21 @@
       <td class="lineno"><a id="l35" href="#l35">35</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">2550</td>
+      <td class="linecount coveredLine">3033</td>
       <td class="src coveredLine"><span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="w"> </span><span class="n">tempknt</span><span class="p">(</span><span class="n">knot</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">knot</span><span class="p">.</span><span class="n">end</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l36" href="#l36">36</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">2550</td>
+      <td class="linecount coveredLine">3033</td>
       <td class="src coveredLine"><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">DeBoor</span><span class="p">(</span><span class="n">temp</span><span class="p">,</span><span class="w"> </span><span class="n">tempknt</span><span class="p">,</span><span class="w"> </span><span class="n">evaluation_points</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l37" href="#l37">37</a></td>
       <td class="linebranch">
       </td>
-      <td class="linecount coveredLine">2550</td>
+      <td class="linecount coveredLine">3033</td>
       <td class="src coveredLine"><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
