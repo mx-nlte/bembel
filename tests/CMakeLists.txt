@@ -8,12 +8,14 @@ set(UNITTESTS
 		test_Bernstein
 		test_Projector
 		test_Glue
+		test_TangentialTrace
 		test_FMMTransferMatrices
 		test_FMMForwardTransformation
 		test_FMMBackwardTransformation
 		test_Laplace
 		test_Helmholtz
 		test_DuffyTrick
+		test_HomogenisedCoefficients
 		)
 
 foreach(file IN LISTS UNITTESTS)
