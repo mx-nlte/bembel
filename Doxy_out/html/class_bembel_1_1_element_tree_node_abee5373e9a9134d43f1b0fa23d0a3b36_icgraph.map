@@ -9,7 +9,7 @@
 <area shape="rect" id="node11" href="$group___duffy_trick.html#ga2a96bf79e6357a8465e7feedffc27b39" title="quadrature routine for identical elements" alt="" coords="552,457,697,498"/>
 <area shape="rect" id="node12" href="$group___duffy_trick.html#ga1a2ace5d00944aa5a991084c252a2fcd" title="quadrature routine for the common edge case" alt="" coords="552,522,697,563"/>
 <area shape="rect" id="node13" href="$group___duffy_trick.html#ga4159560d18ac51da0f9f8b9a1cd3c334" title="quadrature routine for identical elements" alt="" coords="552,587,697,629"/>
-<area shape="rect" id="node14" href="$struct_bembel_1_1_super_space.html#afb46395178178b0d82d14ba3dfeb806e" title=" " alt="" coords="547,653,703,694"/>
+<area shape="rect" id="node14" href="$struct_bembel_1_1_super_space.html#afb46395178178b0d82d14ba3dfeb806e" title="Evaluation of a point in the element and its Jacobian matrix." alt="" coords="547,653,703,694"/>
 <area shape="rect" id="node16" href="$class_bembel_1_1_element_tree_node.html#abb52690ebac4df925982bdae798f5528" title=" " alt="" coords="527,718,722,759"/>
 <area shape="rect" id="node18" href="$class_bembel_1_1_element_tree_node.html#ae3631bf2aa5cb9919af47bc751a4cf8c" title=" " alt="" coords="527,783,722,825"/>
 <area shape="rect" id="node8" href="$group___duffy_trick.html#ga08c83eb5d1c80c396c653ca32c90f719" title="This function wraps the quadrature routines for the duffy trick and returns all integrals for the giv..." alt="" coords="269,490,440,531"/>

@@ -137,6 +137,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afbe66fe8571dc707289a2dbcaae673e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_bembel_1_1_super_space.html#afbe66fe8571dc707289a2dbcaae673e2">init_SuperSpace</a> (const <a class="el" href="class_bembel_1_1_geometry.html">Geometry</a> &amp;geom, int M, int P)</td></tr>
 <tr class="separator:afbe66fe8571dc707289a2dbcaae673e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb46395178178b0d82d14ba3dfeb806e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_bembel_1_1_super_space.html#afb46395178178b0d82d14ba3dfeb806e">map2surface</a> (const <a class="el" href="class_bembel_1_1_element_tree_node.html">ElementTreeNode</a> &amp;e, const Eigen::Vector2d &amp;xi, double w, <a class="el" href="group___geometry.html#ga7f3488fb214d75f08146ff31726428b4">SurfacePoint</a> *surf_pt) const</td></tr>
+<tr class="memdesc:afb46395178178b0d82d14ba3dfeb806e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluation of a point in the element and its Jacobian matrix.  <a href="struct_bembel_1_1_super_space.html#afb46395178178b0d82d14ba3dfeb806e">More...</a><br /></td></tr>
 <tr class="separator:afb46395178178b0d82d14ba3dfeb806e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81bb4d97f282fd307102400237c37102"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_bembel_1_1_super_space.html#a81bb4d97f282fd307102400237c37102">addScaledBasisInteraction</a> (Eigen::Matrix&lt; <a class="el" href="struct_bembel_1_1_super_space.html#ad4d1abf0c875a4d026ae2e7534a08a6c">Scalar</a>, Eigen::Dynamic, Eigen::Dynamic &gt; *intval, typename <a class="el" href="struct_bembel_1_1_linear_operator_traits.html">LinearOperatorTraits</a>&lt; Derived &gt;::<a class="el" href="struct_bembel_1_1_super_space.html#ad4d1abf0c875a4d026ae2e7534a08a6c">Scalar</a> w, const Eigen::Vector2d &amp;s, const Eigen::Vector2d &amp;t) const</td></tr>
 <tr class="memdesc:a81bb4d97f282fd307102400237c37102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute all products of local shape functions on the unit square at coordinates s,t, scale by w and add to intval.  <a href="struct_bembel_1_1_super_space.html#a81bb4d97f282fd307102400237c37102">More...</a><br /></td></tr>
@@ -416,7 +417,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate local shape functions on the unit square at coordinate s, scale by w and add to intval. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00249">249</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00260">260</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -464,7 +465,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate local shape functions on the unit interval at coordinate s, scale by w and add to intval. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00310">310</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00321">321</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -521,7 +522,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate derivatives of local shape functions on the unit interval at coordinate s, scale by w and add to intval. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00327">327</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00338">338</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -578,7 +579,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate derivatives in x direction of local shape functions on the unit square at coordinate s, scale by w and add to intval. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00268">268</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00279">279</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -626,7 +627,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate derivatives in y direction of local shape functions on the unit square at coordinate s, scale by w and add to intval. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00289">289</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00300">300</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -680,7 +681,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Compute all products of local shape functions on the unit square at coordinates s,t, scale by w and add to intval. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00120">120</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00131">131</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -734,7 +735,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Compute all products of surface curls of local shape functions on the unit square at coordinates s,t. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00143">143</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00154">154</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -807,7 +808,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Compute all products of surface gradients of local shape functions on the unit square at coordinates s,t. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00170">170</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00181">181</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -872,7 +873,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Compute all products of divergences of local shape functions on the unit square at coordinates s,t, scale by w and add to intval. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00226">226</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00237">237</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -950,7 +951,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Compute all scalar products of vector valued local shape functions on the surface points with reference coordinates s,t, scale by w and add to intval. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00183">183</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00194">194</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1000,7 +1001,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate local shape functions on the unit square at coordinate s. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00256">256</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00267">267</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1043,7 +1044,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate local shape functions on the unit interval at coordinate s. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00317">317</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00328">328</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1075,7 +1076,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate derivatives of local shape functions on the unit interval at coordinate s. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00335">335</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00346">346</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1107,7 +1108,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate derivatives in x direction of local shape functions on the unit square at coordinate s. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00277">277</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00288">288</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1150,7 +1151,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Evaluate derivatives in y direction of local shape functions on the unit square at coordinate s. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00298">298</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00309">309</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1203,7 +1204,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Compute all products of local shape functions on the unit square at coordinates s,t. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00130">130</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00141">141</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1592,13 +1593,25 @@ template&lt;typename Derived &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00107">107</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p>Evaluation of a point in the element and its Jacobian matrix. </p>
+<p>This function performs the affine transformation of an element to the reference domain of the patch and returns the output in a surface point.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>: Element to be evaluated, </td></tr>
+    <tr><td class="paramname">xi</td><td>: Point in [0, 1]^2 of the element </td></tr>
+    <tr><td class="paramname">w</td><td>: <a class="el" href="struct_bembel_1_1_quadrature.html">Quadrature</a> weight </td></tr>
+    <tr><td class="paramname">suf_pt</td><td>: Evaluated point and its jacobian </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00118">118</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_bembel_1_1_super_space_afb46395178178b0d82d14ba3dfeb806e_cgraph.png" border="0" usemap="#astruct_bembel_1_1_super_space_afb46395178178b0d82d14ba3dfeb806e_cgraph" alt=""/></div>
 <map name="astruct_bembel_1_1_super_space_afb46395178178b0d82d14ba3dfeb806e_cgraph" id="astruct_bembel_1_1_super_space_afb46395178178b0d82d14ba3dfeb806e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,161,47"/>
+<area shape="rect" title="Evaluation of a point in the element and its Jacobian matrix." alt="" coords="5,5,161,47"/>
 <area shape="rect" href="class_bembel_1_1_element_tree_node.html#abee5373e9a9134d43f1b0fa23d0a3b36" title="getter" alt="" coords="209,5,404,47"/>
 </map>
 </div>
@@ -1607,7 +1620,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_bembel_1_1_super_space_afb46395178178b0d82d14ba3dfeb806e_icgraph.png" border="0" usemap="#astruct_bembel_1_1_super_space_afb46395178178b0d82d14ba3dfeb806e_icgraph" alt=""/></div>
 <map name="astruct_bembel_1_1_super_space_afb46395178178b0d82d14ba3dfeb806e_icgraph" id="astruct_bembel_1_1_super_space_afb46395178178b0d82d14ba3dfeb806e_icgraph">
-<area shape="rect" title=" " alt="" coords="212,5,368,47"/>
+<area shape="rect" title="Evaluation of a point in the element and its Jacobian matrix." alt="" coords="212,5,368,47"/>
 <area shape="rect" href="group___h2_matrix.html#ga4915ea94de2db58772fd15d5acbc6699" title="Interpolate kernel function on reference domain for FMM." alt="" coords="5,5,164,47"/>
 </map>
 </div>
@@ -1682,7 +1695,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Compute all products of divergences of local shape functions on the unit square at coordinates s,t. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00236">236</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00247">247</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 
 </div>
 </div>
@@ -1748,7 +1761,7 @@ template&lt;typename Derived &gt; </div>
 
 <p>Compute all scalar products of vector valued local shape functions on the surface points with reference coordinates s,t. </p>
 
-<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00210">210</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_super_space_8hpp_source.html#l00221">221</a> of file <a class="el" href="_super_space_8hpp_source.html">SuperSpace.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1771,7 +1784,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="struct_bembel_1_1_super_space.html">SuperSpace</a></li>
-    <li class="footer">Generated on Fri Feb 16 2024 09:09:42 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Feb 16 2024 10:21:17 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
