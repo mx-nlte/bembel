@@ -10,8 +10,8 @@ var indexSectionsWithContent =
   7: "cdfilmnorvy",
   8: "o",
   9: "bp",
-  10: "acdghilmpqs",
-  11: "dt"
+  10: "acdeghilmpqs",
+  11: "cdfgt"
 };
 
 var indexSectionNames =

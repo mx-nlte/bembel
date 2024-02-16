@@ -89,10 +89,6 @@ $(document).ready(function(){initNavTree('namespace_bembel_1_1_basis.html',''); 
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Bembel::Basis Namespace Reference</div>  </div>
 </div><!--header-->
@@ -100,149 +96,6 @@ $(document).ready(function(){initNavTree('namespace_bembel_1_1_basis.html',''); 
 
 <p>The <a class="el" href="namespace_bembel_1_1_basis.html" title="The Basis namespace contains classes and functions that are to be used as an interface between the BE...">Basis</a> namespace contains classes and functions that are to be used as an interface between the BEM code and the functions in the <a class="el" href="namespace_bembel_1_1_spl.html" title="The Spl namespace is the backend for basis functions and B-Spline computations, and should not be use...">Spl</a> namespace.  
 <a href="namespace_bembel_1_1_basis.html#details">More...</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_basis_1_1_p_specific_basis_handler.html">PSpecificBasisHandler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The functions above have a fixed compile time polynomial degree. The PSpecificBasis handler is used to convert this to a runtime p through template recursion.  <a href="class_bembel_1_1_basis_1_1_p_specific_basis_handler.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_basis_1_1_p_specific_basis_handler_3_010_00_01_scalar_01_4.html">PSpecificBasisHandler&lt; 0, Scalar &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_basis_1_1_hidden_bernstein_class.html">HiddenBernsteinClass</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hidden Classes.  <a href="class_bembel_1_1_basis_1_1_hidden_bernstein_class.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_010_00_01_p_01_4.html">HiddenBernsteinClass&lt; T, 0, P &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_01-1_00_01_p_01_4.html">HiddenBernsteinClass&lt; T, -1, P &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html">PSpecificShapeFunctionHandler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">These routines implement a template recursion that allows to choose a compile time instantiation of a basis-evaluation routine with a runtime p. To replace the underlying basis, only these routines should be changed.  <a href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler_3_010_01_4.html">PSpecificShapeFunctionHandler&lt; 0 &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a393334470b216b36849790951be918c2"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:a393334470b216b36849790951be918c2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a393334470b216b36849790951be918c2">funptr_voidOut_scalarptrScalarDoubleIn</a> = void(*)(Eigen::Matrix&lt; Scalar, Eigen::Dynamic, 1 &gt; *, Scalar, double)</td></tr>
-<tr class="separator:a393334470b216b36849790951be918c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a3998db8b2bac73482af08cf2c4669f"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:a3a3998db8b2bac73482af08cf2c4669f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a3a3998db8b2bac73482af08cf2c4669f">funptr_voidOut_scalarptrScalarVec2In</a> = void(*)(Eigen::Matrix&lt; Scalar, Eigen::Dynamic, 1 &gt; *, Scalar, Eigen::Vector2d)</td></tr>
-<tr class="separator:a3a3998db8b2bac73482af08cf2c4669f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af84f6e58830c60ad2e429d00a8869d69"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:af84f6e58830c60ad2e429d00a8869d69"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#af84f6e58830c60ad2e429d00a8869d69">funptr_voidOut_scalarptrScalarVec2Vec2In</a> = void(*)(Eigen::Matrix&lt; Scalar, Eigen::Dynamic, Eigen::Dynamic &gt; *, Scalar, Eigen::Vector2d, Eigen::Vector2d)</td></tr>
-<tr class="separator:af84f6e58830c60ad2e429d00a8869d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ea690532170c1c3532cc85b61240c7d"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:a5ea690532170c1c3532cc85b61240c7d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a5ea690532170c1c3532cc85b61240c7d">funptr_phi</a> = <a class="el" href="namespace_bembel_1_1_basis.html#a393334470b216b36849790951be918c2">funptr_voidOut_scalarptrScalarDoubleIn</a>&lt; Scalar &gt;</td></tr>
-<tr class="separator:a5ea690532170c1c3532cc85b61240c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e6fa0604727b3f19d15a58e0d132801"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:a6e6fa0604727b3f19d15a58e0d132801"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a6e6fa0604727b3f19d15a58e0d132801">funptr_phidx</a> = <a class="el" href="namespace_bembel_1_1_basis.html#a393334470b216b36849790951be918c2">funptr_voidOut_scalarptrScalarDoubleIn</a>&lt; Scalar &gt;</td></tr>
-<tr class="separator:a6e6fa0604727b3f19d15a58e0d132801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82f3fbc74a9ca6e2658cf18ee4df7021"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:a82f3fbc74a9ca6e2658cf18ee4df7021"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a82f3fbc74a9ca6e2658cf18ee4df7021">funptr_phiphi</a> = <a class="el" href="namespace_bembel_1_1_basis.html#a3a3998db8b2bac73482af08cf2c4669f">funptr_voidOut_scalarptrScalarVec2In</a>&lt; Scalar &gt;</td></tr>
-<tr class="separator:a82f3fbc74a9ca6e2658cf18ee4df7021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85568ce19435de37ebd259206ebab5b9"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:a85568ce19435de37ebd259206ebab5b9"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a85568ce19435de37ebd259206ebab5b9">funptr_phiphidx</a> = <a class="el" href="namespace_bembel_1_1_basis.html#a3a3998db8b2bac73482af08cf2c4669f">funptr_voidOut_scalarptrScalarVec2In</a>&lt; Scalar &gt;</td></tr>
-<tr class="separator:a85568ce19435de37ebd259206ebab5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5c35b6e32440ded660c72963c08bdc7"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:ac5c35b6e32440ded660c72963c08bdc7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#ac5c35b6e32440ded660c72963c08bdc7">funptr_phiphidy</a> = <a class="el" href="namespace_bembel_1_1_basis.html#a3a3998db8b2bac73482af08cf2c4669f">funptr_voidOut_scalarptrScalarVec2In</a>&lt; Scalar &gt;</td></tr>
-<tr class="separator:ac5c35b6e32440ded660c72963c08bdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aeb8956fbac254cbdd51304953605ed"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:a6aeb8956fbac254cbdd51304953605ed"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a6aeb8956fbac254cbdd51304953605ed">funptr_phitimesphi</a> = <a class="el" href="namespace_bembel_1_1_basis.html#af84f6e58830c60ad2e429d00a8869d69">funptr_voidOut_scalarptrScalarVec2Vec2In</a>&lt; Scalar &gt;</td></tr>
-<tr class="separator:a6aeb8956fbac254cbdd51304953605ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0d60881a84c8ab93a2c146aa7807cb7"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:aa0d60881a84c8ab93a2c146aa7807cb7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#aa0d60881a84c8ab93a2c146aa7807cb7">funptr_divphitimesdivphi</a> = <a class="el" href="namespace_bembel_1_1_basis.html#af84f6e58830c60ad2e429d00a8869d69">funptr_voidOut_scalarptrScalarVec2Vec2In</a>&lt; Scalar &gt;</td></tr>
-<tr class="separator:aa0d60881a84c8ab93a2c146aa7807cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f1c5b67edc0c34d7132516381ca8563"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:a3f1c5b67edc0c34d7132516381ca8563"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a3f1c5b67edc0c34d7132516381ca8563">BasisHandler</a> = <a class="el" href="class_bembel_1_1_basis_1_1_p_specific_basis_handler.html">PSpecificBasisHandler</a>&lt; <a class="el" href="namespace_bembel_1_1_constants.html#a9844c7cee46cad2052b76f742bd9ad29">Constants::MaxP</a>, Scalar &gt;</td></tr>
-<tr class="memdesc:a3f1c5b67edc0c34d7132516381ca8563"><td class="mdescLeft">&#160;</td><td class="mdescRight">This instantiates the basishandler for a maximal p.  <a href="namespace_bembel_1_1_basis.html#a3f1c5b67edc0c34d7132516381ca8563">More...</a><br /></td></tr>
-<tr class="separator:a3f1c5b67edc0c34d7132516381ca8563"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac29818f73740cc9cabf101d6eb7b8718"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#ac29818f73740cc9cabf101d6eb7b8718">funptr_doubleOut_doubleptrDoubleIn</a> = double(*)(double *, double)</td></tr>
-<tr class="separator:ac29818f73740cc9cabf101d6eb7b8718"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27961bd2cc3596cb6ee85e2e50f5c4b6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a27961bd2cc3596cb6ee85e2e50f5c4b6">funptr_voidOut_doubleptrDoubleIn</a> = void(*)(double *, double)</td></tr>
-<tr class="separator:a27961bd2cc3596cb6ee85e2e50f5c4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc46ada626fcf329e379cd8ec5170306"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#acc46ada626fcf329e379cd8ec5170306">ShapeFunctionHandler</a> = <a class="el" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html">PSpecificShapeFunctionHandler</a>&lt; <a class="el" href="namespace_bembel_1_1_constants.html#a9844c7cee46cad2052b76f742bd9ad29">Constants::MaxP</a> &gt;</td></tr>
-<tr class="separator:acc46ada626fcf329e379cd8ec5170306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:gad90833bf929ec28aabfe8aedc59f63c3"><td class="memTemplParams" colspan="2">template&lt;int P, typename Scalar &gt; </td></tr>
-<tr class="memitem:gad90833bf929ec28aabfe8aedc59f63c3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___spline.html#gad90833bf929ec28aabfe8aedc59f63c3">phi_</a> (Eigen::Matrix&lt; Scalar, Eigen::Dynamic, 1 &gt; *c, Scalar w, double x)</td></tr>
-<tr class="memdesc:gad90833bf929ec28aabfe8aedc59f63c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluates the 1D basis at x weighted with a quadrature weight w  <a href="group___spline.html#gad90833bf929ec28aabfe8aedc59f63c3">More...</a><br /></td></tr>
-<tr class="separator:gad90833bf929ec28aabfe8aedc59f63c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6df93e4cb47305d8468d609a392ef84d"><td class="memTemplParams" colspan="2">template&lt;int P, typename Scalar &gt; </td></tr>
-<tr class="memitem:ga6df93e4cb47305d8468d609a392ef84d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___spline.html#ga6df93e4cb47305d8468d609a392ef84d">phi_dx_</a> (Eigen::Matrix&lt; Scalar, Eigen::Dynamic, 1 &gt; *c, Scalar w, double x)</td></tr>
-<tr class="memdesc:ga6df93e4cb47305d8468d609a392ef84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluates the derivative of phi  <a href="group___spline.html#ga6df93e4cb47305d8468d609a392ef84d">More...</a><br /></td></tr>
-<tr class="separator:ga6df93e4cb47305d8468d609a392ef84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ebe02002265f8b7d7d61a32956f4751"><td class="memTemplParams" colspan="2">template&lt;int P, typename Scalar &gt; </td></tr>
-<tr class="memitem:ga1ebe02002265f8b7d7d61a32956f4751"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___spline.html#ga1ebe02002265f8b7d7d61a32956f4751">phiphi_</a> (Eigen::Matrix&lt; Scalar, Eigen::Dynamic, 1 &gt; *c, Scalar w, Eigen::Vector2d a)</td></tr>
-<tr class="memdesc:ga1ebe02002265f8b7d7d61a32956f4751"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluates the 2D tensor product basis at a point a in [0,1]^2  <a href="group___spline.html#ga1ebe02002265f8b7d7d61a32956f4751">More...</a><br /></td></tr>
-<tr class="separator:ga1ebe02002265f8b7d7d61a32956f4751"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab678c79d14a00c03513126b48fc37449"><td class="memTemplParams" colspan="2">template&lt;int P, typename Scalar &gt; </td></tr>
-<tr class="memitem:gab678c79d14a00c03513126b48fc37449"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___spline.html#gab678c79d14a00c03513126b48fc37449">phiphi_dx_</a> (Eigen::Matrix&lt; Scalar, Eigen::Dynamic, 1 &gt; *c, Scalar w, Eigen::Vector2d a)</td></tr>
-<tr class="memdesc:gab678c79d14a00c03513126b48fc37449"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluates the x-derivative of the 2D tensor product basis at a point a in [0,1]^2  <a href="group___spline.html#gab678c79d14a00c03513126b48fc37449">More...</a><br /></td></tr>
-<tr class="separator:gab678c79d14a00c03513126b48fc37449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa12be803e27738b1612ec4917f55aecd"><td class="memTemplParams" colspan="2">template&lt;int P, typename Scalar &gt; </td></tr>
-<tr class="memitem:gaa12be803e27738b1612ec4917f55aecd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___spline.html#gaa12be803e27738b1612ec4917f55aecd">phiphi_dy_</a> (Eigen::Matrix&lt; Scalar, Eigen::Dynamic, 1 &gt; *c, Scalar w, Eigen::Vector2d a)</td></tr>
-<tr class="memdesc:gaa12be803e27738b1612ec4917f55aecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluates the y-derivative of the 2D tensor product basis at a point a in [0,1]^2  <a href="group___spline.html#gaa12be803e27738b1612ec4917f55aecd">More...</a><br /></td></tr>
-<tr class="separator:gaa12be803e27738b1612ec4917f55aecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabaf5c3305a82d32e8af024c33efab117"><td class="memTemplParams" colspan="2">template&lt;int P, typename Scalar &gt; </td></tr>
-<tr class="memitem:gabaf5c3305a82d32e8af024c33efab117"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___spline.html#gabaf5c3305a82d32e8af024c33efab117">Phi_times_Phi_</a> (Eigen::Matrix&lt; Scalar, Eigen::Dynamic, Eigen::Dynamic &gt; *c, Scalar w, Eigen::Vector2d xi, Eigen::Vector2d eta)</td></tr>
-<tr class="memdesc:gabaf5c3305a82d32e8af024c33efab117"><td class="mdescLeft">&#160;</td><td class="mdescRight">evaluates the interaction of two phiphis, one at xi and one at eta. Used for e.g. gram matrices.  <a href="group___spline.html#gabaf5c3305a82d32e8af024c33efab117">More...</a><br /></td></tr>
-<tr class="separator:gabaf5c3305a82d32e8af024c33efab117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabf6101aa4553adf841708c4b208af2b2"><td class="memTemplParams" colspan="2">template&lt;int P, typename Scalar &gt; </td></tr>
-<tr class="memitem:gabf6101aa4553adf841708c4b208af2b2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___spline.html#gabf6101aa4553adf841708c4b208af2b2">Div_Phi_times_Div_Phi_</a> (Eigen::Matrix&lt; Scalar, Eigen::Dynamic, Eigen::Dynamic &gt; *c, Scalar weight, Eigen::Vector2d xi, Eigen::Vector2d eta)</td></tr>
-<tr class="memdesc:gabf6101aa4553adf841708c4b208af2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, just using the divergence  <a href="group___spline.html#gabf6101aa4553adf841708c4b208af2b2">More...</a><br /></td></tr>
-<tr class="separator:gabf6101aa4553adf841708c4b208af2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab9ad832bc55e1f2854be5baba2d6c8b6"><td class="memTemplParams" colspan="2">template&lt;int N&gt; </td></tr>
-<tr class="memitem:gab9ad832bc55e1f2854be5baba2d6c8b6"><td class="memTemplItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___spline.html#gab9ad832bc55e1f2854be5baba2d6c8b6">BernsteinX</a> (double evaluation_point) noexcept</td></tr>
-<tr class="memdesc:gab9ad832bc55e1f2854be5baba2d6c8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template recursion to produce Bernstein polynomials. This is only limited by the binomial coefficient, see <a class="el" href="_pascal_8hpp.html">Pascal.hpp</a>.  <a href="group___spline.html#gab9ad832bc55e1f2854be5baba2d6c8b6">More...</a><br /></td></tr>
-<tr class="separator:gab9ad832bc55e1f2854be5baba2d6c8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a898fc8ae2ac10f18ca1f25609dae1fe2"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a898fc8ae2ac10f18ca1f25609dae1fe2"><td class="memTemplItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a898fc8ae2ac10f18ca1f25609dae1fe2">BernsteinX&lt; 1 &gt;</a> (double evaluation_point) noexcept</td></tr>
-<tr class="separator:a898fc8ae2ac10f18ca1f25609dae1fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dbaf587dc2933608c74858cdffd5984"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a8dbaf587dc2933608c74858cdffd5984"><td class="memTemplItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a8dbaf587dc2933608c74858cdffd5984">BernsteinX&lt; 0 &gt;</a> (double evaluation_point) noexcept</td></tr>
-<tr class="separator:a8dbaf587dc2933608c74858cdffd5984"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66c81885e9a8bf2bdfe9c469527ccc55"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a66c81885e9a8bf2bdfe9c469527ccc55"><td class="memTemplItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a66c81885e9a8bf2bdfe9c469527ccc55">BernsteinX&lt;-1 &gt;</a> (double evaluation_point) noexcept</td></tr>
-<tr class="separator:a66c81885e9a8bf2bdfe9c469527ccc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9819981f584aabe446e9ee282330caf"><td class="memTemplParams" colspan="2">template&lt;int N, int P&gt; </td></tr>
-<tr class="memitem:af9819981f584aabe446e9ee282330caf"><td class="memTemplItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#af9819981f584aabe446e9ee282330caf">Bernstein</a> (double evaluation_point) noexcept</td></tr>
-<tr class="separator:af9819981f584aabe446e9ee282330caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3313ca7699178115317134ff1bdcea66"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a3313ca7699178115317134ff1bdcea66"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a3313ca7699178115317134ff1bdcea66">EvalBernstein</a> (T *in, double evaluation_point) noexcept</td></tr>
-<tr class="memdesc:a3313ca7699178115317134ff1bdcea66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluation Routines.  <a href="namespace_bembel_1_1_basis.html#a3313ca7699178115317134ff1bdcea66">More...</a><br /></td></tr>
-<tr class="separator:a3313ca7699178115317134ff1bdcea66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360333f7cd331e2323e98d04eb86eb57"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a360333f7cd331e2323e98d04eb86eb57"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a360333f7cd331e2323e98d04eb86eb57">EvalBernstein</a> (T *in, const std::vector&lt; double &gt; &amp;evaluation_points, T *out) noexcept</td></tr>
-<tr class="separator:a360333f7cd331e2323e98d04eb86eb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a290eb6f5468a2043bb08e52e400cce64"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a290eb6f5468a2043bb08e52e400cce64"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a290eb6f5468a2043bb08e52e400cce64">EvalBernstein</a> (T *in, const std::vector&lt; double &gt; &amp;evaluation_points) noexcept</td></tr>
-<tr class="separator:a290eb6f5468a2043bb08e52e400cce64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f759de34154ce57e8560c0bb140d14"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a51f759de34154ce57e8560c0bb140d14"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a51f759de34154ce57e8560c0bb140d14">EvalBernsteinBasisPEQ</a> (T *in, double evaluation_point) noexcept</td></tr>
-<tr class="separator:a51f759de34154ce57e8560c0bb140d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a620ae3f039796ff31e2e17d9b0eabd64"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a620ae3f039796ff31e2e17d9b0eabd64"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a620ae3f039796ff31e2e17d9b0eabd64">EvalBernsteinBasis</a> (T *in, double evaluation_point) noexcept</td></tr>
-<tr class="separator:a620ae3f039796ff31e2e17d9b0eabd64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae68f650c62a08a1ee8dc2812a411c090"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:ae68f650c62a08a1ee8dc2812a411c090"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#ae68f650c62a08a1ee8dc2812a411c090">EvalBernsteinDer</a> (T *in, double evaluation_point) noexcept</td></tr>
-<tr class="memdesc:ae68f650c62a08a1ee8dc2812a411c090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluation of the Derivatives.  <a href="namespace_bembel_1_1_basis.html#ae68f650c62a08a1ee8dc2812a411c090">More...</a><br /></td></tr>
-<tr class="separator:ae68f650c62a08a1ee8dc2812a411c090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2768e7ab2a20707772a5619a7a83e9d0"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a2768e7ab2a20707772a5619a7a83e9d0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a2768e7ab2a20707772a5619a7a83e9d0">EvalBernsteinDer</a> (T *in, const std::vector&lt; double &gt; &amp;evaluation_points, T *out) noexcept</td></tr>
-<tr class="separator:a2768e7ab2a20707772a5619a7a83e9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a732695ccbfd409c726bf15ff76967523"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a732695ccbfd409c726bf15ff76967523"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a732695ccbfd409c726bf15ff76967523">EvalBernsteinDer</a> (T *in, const std::vector&lt; double &gt; &amp;evaluation_points) noexcept</td></tr>
-<tr class="separator:a732695ccbfd409c726bf15ff76967523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84fa165310115d9c21d2c05ee4c663b6"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a84fa165310115d9c21d2c05ee4c663b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a84fa165310115d9c21d2c05ee4c663b6">EvalBernsteinDerBasisPEQ</a> (T *in, double evaluation_point) noexcept</td></tr>
-<tr class="separator:a84fa165310115d9c21d2c05ee4c663b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9777e23a9212ed1ca55faaba0e8a5ae9"><td class="memTemplParams" colspan="2">template&lt;typename T , int P&gt; </td></tr>
-<tr class="memitem:a9777e23a9212ed1ca55faaba0e8a5ae9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespace_bembel_1_1_basis.html#a9777e23a9212ed1ca55faaba0e8a5ae9">EvalBernsteinDerBasis</a> (T *in, double evaluation_point) noexcept</td></tr>
-<tr class="separator:a9777e23a9212ed1ca55faaba0e8a5ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="namespace_bembel_1_1_basis.html" title="The Basis namespace contains classes and functions that are to be used as an interface between the BE...">Basis</a> namespace contains classes and functions that are to be used as an interface between the BEM code and the functions in the <a class="el" href="namespace_bembel_1_1_spl.html" title="The Spl namespace is the backend for basis functions and B-Spline computations, and should not be use...">Spl</a> namespace. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
@@ -1114,7 +967,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="namespace_bembel_1_1_basis.html">Basis</a></li>
-    <li class="footer">Generated on Fri Feb 16 2024 10:21:18 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Feb 16 2024 16:17:19 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

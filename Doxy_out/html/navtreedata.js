@@ -25,50 +25,20 @@
 var NAVTREE =
 [
   [ "Bembel", "index.html", [
-    [ "Todo List", "todo.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
-    [ "Modules", "modules.html", "modules" ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
-      ] ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
-    ] ]
+    [ "Overview", "index.html", null ],
+    [ "Getting started", "_getting_started.html", null ],
+    [ "Source Code", "modules.html", "modules" ],
+    [ "Class List", "annotated.html", "annotated" ],
+    [ "Namespace List", "namespaces.html", "namespaces" ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_ansatz_space.html",
-"_macros_8hpp.html#a5d06ae12acc0d70f33e90388d551295a",
-"class_bembel_1_1_element_tree.html",
-"class_bembel_1_1_v_t_k_surface_export.html",
-"namespace_bembel.html#a4964bb4906731ef7ac920f39216a2fc8",
-"struct_bembel_1_1_gauss_legendre_rule_3_016_01_4.html#ac3cb5d4db94f5672a7716416ed0ada70"
+"_getting_started.html",
+"class_bembel_1_1_generic_matrix.html#a835bca2c3f98650ecc867e29c5bff3c7",
+"group___h2_matrix.html#gac08b2cd8d930efac4c5f9c836d3134d7",
+"struct_bembel_1_1_gauss_legendre_rule_3_0117_01_4.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
