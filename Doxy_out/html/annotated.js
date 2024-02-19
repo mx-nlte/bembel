@@ -1,15 +1,6 @@
 var annotated =
 [
     [ "Bembel", "namespace_bembel.html", [
-      [ "Basis", "namespace_bembel_1_1_basis.html", [
-        [ "PSpecificBasisHandler", "class_bembel_1_1_basis_1_1_p_specific_basis_handler.html", "class_bembel_1_1_basis_1_1_p_specific_basis_handler" ],
-        [ "PSpecificBasisHandler< 0, Scalar >", "class_bembel_1_1_basis_1_1_p_specific_basis_handler_3_010_00_01_scalar_01_4.html", "class_bembel_1_1_basis_1_1_p_specific_basis_handler_3_010_00_01_scalar_01_4" ],
-        [ "HiddenBernsteinClass", "class_bembel_1_1_basis_1_1_hidden_bernstein_class.html", "class_bembel_1_1_basis_1_1_hidden_bernstein_class" ],
-        [ "HiddenBernsteinClass< T, 0, P >", "class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_010_00_01_p_01_4.html", "class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_010_00_01_p_01_4" ],
-        [ "HiddenBernsteinClass< T, -1, P >", "class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_01-1_00_01_p_01_4.html", "class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_01-1_00_01_p_01_4" ],
-        [ "PSpecificShapeFunctionHandler", "class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html", "class_bembel_1_1_basis_1_1_p_specific_shape_function_handler" ],
-        [ "PSpecificShapeFunctionHandler< 0 >", "class_bembel_1_1_basis_1_1_p_specific_shape_function_handler_3_010_01_4.html", "class_bembel_1_1_basis_1_1_p_specific_shape_function_handler_3_010_01_4" ]
-      ] ],
       [ "GlueRoutines", "namespace_bembel_1_1_glue_routines.html", [
         [ "dofIdentification", "struct_bembel_1_1_glue_routines_1_1dof_identification.html", "struct_bembel_1_1_glue_routines_1_1dof_identification" ],
         [ "glue_identificationmaker_", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker__.html", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker__" ],
@@ -142,12 +133,6 @@ var annotated =
       [ "QuadratureVector< QuadratureRule, 0 >", "struct_bembel_1_1_quadrature_vector_3_01_quadrature_rule_00_010_01_4.html", "struct_bembel_1_1_quadrature_vector_3_01_quadrature_rule_00_010_01_4" ],
       [ "TensorProductQuadratureVector", "struct_bembel_1_1_tensor_product_quadrature_vector.html", "struct_bembel_1_1_tensor_product_quadrature_vector" ],
       [ "TensorProductQuadratureVector< QuadratureRule, 0 >", "struct_bembel_1_1_tensor_product_quadrature_vector_3_01_quadrature_rule_00_010_01_4.html", "struct_bembel_1_1_tensor_product_quadrature_vector_3_01_quadrature_rule_00_010_01_4" ],
-      [ "static_assertKlessseqN", "struct_bembel_1_1static__assert_klessseq_n.html", null ],
-      [ "static_assertKlessseqN< true >", "struct_bembel_1_1static__assert_klessseq_n_3_01true_01_4.html", null ],
-      [ "Binomial", "struct_bembel_1_1_binomial.html", null ],
-      [ "Binomial< 0, 0 >", "struct_bembel_1_1_binomial_3_010_00_010_01_4.html", null ],
-      [ "Binomial< N, N >", "struct_bembel_1_1_binomial_3_01_n_00_01_n_01_4.html", null ],
-      [ "Binomial< 0, N >", "struct_bembel_1_1_binomial_3_010_00_01_n_01_4.html", null ],
       [ "GenericMatrix", "class_bembel_1_1_generic_matrix.html", "class_bembel_1_1_generic_matrix" ]
     ] ],
     [ "DirtyLittleHelpers", "namespace_dirty_little_helpers.html", [

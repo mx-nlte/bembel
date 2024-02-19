@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['duffytrick_1494',['DuffyTrick',['../group___duffy_trick.html',1,'']]]
+  ['duffytrick_1283',['DuffyTrick',['../group___duffy_trick.html',1,'']]]
 ];

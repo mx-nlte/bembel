@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['pascal_2ehpp_975',['Pascal.hpp',['../_pascal_8hpp.html',1,'']]],
-  ['patch_2ehpp_976',['Patch.hpp',['../_patch_8hpp.html',1,'']]],
-  ['patchvector_2ehpp_977',['PatchVector.hpp',['../_patch_vector_8hpp.html',1,'']]],
-  ['potential_978',['Potential',['../_potential.html',1,'']]],
-  ['potential_2ehpp_979',['Potential.hpp',['../_potential_8hpp.html',1,'']]],
-  ['print2file_2ehpp_980',['print2file.hpp',['../print2file_8hpp.html',1,'']]],
-  ['projector_2ehpp_981',['Projector.hpp',['../_projector_8hpp.html',1,'']]]
+  ['quadrature_853',['Quadrature',['../_quadrature.html',1,'']]],
+  ['quadrature_2ehpp_854',['Quadrature.hpp',['../_quadrature_8hpp.html',1,'']]],
+  ['quadraturevector_2ehpp_855',['QuadratureVector.hpp',['../_quadrature_vector_8hpp.html',1,'']]]
 ];

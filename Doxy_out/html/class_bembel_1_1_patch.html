@@ -100,6 +100,8 @@ $(document).ready(function(){initNavTree('class_bembel_1_1_patch.html',''); init
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_bembel_1_1_patch-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Bembel::Patch Class Reference<div class="ingroups"><a class="el" href="group___modules.html">Modules</a> &raquo; <a class="el" href="group___geometry.html">Geometry</a></div></div>  </div>
@@ -114,7 +116,47 @@ $(document).ready(function(){initNavTree('class_bembel_1_1_patch.html',''); init
 <div class="textblock"><p>handles a single patch </p>
 
 <p class="definition">Definition at line <a class="el" href="_patch_8hpp_source.html#l00020">20</a> of file <a class="el" href="_patch_8hpp_source.html">Patch.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a80ca8c0adab73909c408c84a520ea10c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a80ca8c0adab73909c408c84a520ea10c">Patch</a> ()</td></tr>
+<tr class="memdesc:a80ca8c0adab73909c408c84a520ea10c"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructors  <a href="class_bembel_1_1_patch.html#a80ca8c0adab73909c408c84a520ea10c">More...</a><br /></td></tr>
+<tr class="separator:a80ca8c0adab73909c408c84a520ea10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b3acf6880f6b657a3d6df49e68c4407"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a9b3acf6880f6b657a3d6df49e68c4407">Patch</a> (const std::vector&lt; Eigen::Matrix&lt; double, -1, -1 &gt;&gt; &amp;control_points, const std::vector&lt; double &gt; &amp;knots_x, const std::vector&lt; double &gt; &amp;knots_y)</td></tr>
+<tr class="separator:a9b3acf6880f6b657a3d6df49e68c4407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e90e693ae9764675d67ea9b1755252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a94e90e693ae9764675d67ea9b1755252">init_Patch</a> (const std::vector&lt; Eigen::Matrix&lt; double, -1, -1 &gt;&gt; &amp;xyzw, const std::vector&lt; double &gt; &amp;x_knots, const std::vector&lt; double &gt; &amp;y_knots)</td></tr>
+<tr class="memdesc:a94e90e693ae9764675d67ea9b1755252"><td class="mdescLeft">&#160;</td><td class="mdescRight">init  <a href="class_bembel_1_1_patch.html#a94e90e693ae9764675d67ea9b1755252">More...</a><br /></td></tr>
+<tr class="separator:a94e90e693ae9764675d67ea9b1755252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5fae946174996738c5e8ba25778d40c"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#ad5fae946174996738c5e8ba25778d40c">eval</a> (const Eigen::Vector2d &amp;reference_point) const</td></tr>
+<tr class="separator:ad5fae946174996738c5e8ba25778d40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e68f5e893b2be0b67130f5cdfc01944"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, 3, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944">evalJacobian</a> (const Eigen::Vector2d &amp;reference_point) const</td></tr>
+<tr class="separator:a4e68f5e893b2be0b67130f5cdfc01944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839327eaea60f8007fee75ac480853fb"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a839327eaea60f8007fee75ac480853fb">evalNormal</a> (const Eigen::Vector2d &amp;reference_point) const</td></tr>
+<tr class="separator:a839327eaea60f8007fee75ac480853fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0331b6d8f22db8074e6821bb8ded5bd"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#ad0331b6d8f22db8074e6821bb8ded5bd">eval</a> (double x, double y) const</td></tr>
+<tr class="separator:ad0331b6d8f22db8074e6821bb8ded5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425d4cc97f11344f1c1d8ce481e25281"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, 3, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a425d4cc97f11344f1c1d8ce481e25281">evalJacobian</a> (double x, double y) const</td></tr>
+<tr class="separator:a425d4cc97f11344f1c1d8ce481e25281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3580acec79763e60c1d514dc5aa36fa3"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, 3, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a3580acec79763e60c1d514dc5aa36fa3">evalNormal</a> (double x, double y) const</td></tr>
+<tr class="separator:a3580acec79763e60c1d514dc5aa36fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33252985226bd18c29ca05749553ada"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#ae33252985226bd18c29ca05749553ada">updateSurfacePoint</a> (<a class="el" href="group___geometry.html#ga7f3488fb214d75f08146ff31726428b4">SurfacePoint</a> *srf_pt, const Eigen::Vector2d &amp;ref_pt, double w, const Eigen::Vector2d &amp;xi) const</td></tr>
+<tr class="separator:ae33252985226bd18c29ca05749553ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae08d87745c6c2fc4770add4b6c16cb97"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#ae08d87745c6c2fc4770add4b6c16cb97">data_</a></td></tr>
+<tr class="memdesc:ae08d87745c6c2fc4770add4b6c16cb97"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter  <a href="class_bembel_1_1_patch.html#ae08d87745c6c2fc4770add4b6c16cb97">More...</a><br /></td></tr>
+<tr class="separator:ae08d87745c6c2fc4770add4b6c16cb97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5535635d648515cfa43bf4d05d795744"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a5535635d648515cfa43bf4d05d795744">polynomial_degree_x_</a></td></tr>
+<tr class="separator:a5535635d648515cfa43bf4d05d795744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae63b07be99aee55011627725e4320e8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#aae63b07be99aee55011627725e4320e8">polynomial_degree_y_</a></td></tr>
+<tr class="separator:aae63b07be99aee55011627725e4320e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbb4d0b4fbf84369314ce72f4c728cb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#a0dbb4d0b4fbf84369314ce72f4c728cb">unique_knots_x_</a></td></tr>
+<tr class="separator:a0dbb4d0b4fbf84369314ce72f4c728cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d9420422cd9668b9503c2eb73a2f9f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_patch.html#af3d9420422cd9668b9503c2eb73a2f9f">unique_knots_y_</a></td></tr>
+<tr class="separator:af3d9420422cd9668b9503c2eb73a2f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a80ca8c0adab73909c408c84a520ea10c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80ca8c0adab73909c408c84a520ea10c">&#9670;&nbsp;</a></span>Patch() <span class="overload">[1/2]</span></h2>
 
@@ -190,17 +232,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_patch_a9b3acf6880f6b657a3d6df49e68c4407_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_a9b3acf6880f6b657a3d6df49e68c4407_cgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_patch_a9b3acf6880f6b657a3d6df49e68c4407_cgraph" id="aclass_bembel_1_1_patch_a9b3acf6880f6b657a3d6df49e68c4407_cgraph">
-<area shape="rect" title=" " alt="" coords="5,195,164,221"/>
-<area shape="rect" href="class_bembel_1_1_patch.html#a94e90e693ae9764675d67ea9b1755252" title="init" alt="" coords="212,187,356,229"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#a5a9d9cd6f78e5d54f4a89905378d9374" title=" " alt="" coords="408,129,608,170"/>
-<area shape="rect" href="group___spline.html#gaedbab2805662ec55aede9e429b384756" title="implements Bezier extraction via the solution of an interpolation problem." alt="" coords="404,195,612,221"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#afe8b940b8c20a2b4efe8850f853bf5c5" title="Tiny helper functions." alt="" coords="717,304,864,331"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#ad0cf5f62596d46c750b189c0ef35980e" title="Simple TP Bsplines." alt="" coords="705,5,877,32"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#ab0d60a0b9e034bd8e1843da043d2307a" title=" " alt="" coords="700,56,881,112"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#a3a58c86e1147b0087815020b43d06d63" title=" " alt="" coords="660,136,921,163"/>
-<area shape="rect" href="group___spline.html#gad40828354c5de3057dce2c485b434415" title="Creates a T&#45;vector of equidistant itnerpolation points for a given knot vector without any repetition..." alt="" coords="677,187,904,229"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="711,253,870,280"/>
-<area shape="rect" href="group___spline.html#ga72fafe41754fc4ebeb6251b0819e6191" title="&quot;By the book&quot; implementations of the Cox&#45;DeBoor formula. Inefficient, do not use at bottlenecks." alt="" coords="969,5,1125,32"/>
+<area shape="rect" title=" " alt="" coords="5,13,164,39"/>
+<area shape="rect" href="class_bembel_1_1_patch.html#a94e90e693ae9764675d67ea9b1755252" title="init" alt="" coords="212,5,356,47"/>
 </map>
 </div>
 
@@ -232,17 +265,6 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_patch_8hpp_source.html#l00080">80</a> of file <a class="el" href="_patch_8hpp_source.html">Patch.hpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_bembel_1_1_patch_ad5fae946174996738c5e8ba25778d40c_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_ad5fae946174996738c5e8ba25778d40c_cgraph" alt=""/></div>
-<map name="aclass_bembel_1_1_patch_ad5fae946174996738c5e8ba25778d40c_cgraph" id="aclass_bembel_1_1_patch_ad5fae946174996738c5e8ba25778d40c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,93,156,120"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#adf2f8c431af1c6bfc05beeda7e292405" title=" " alt="" coords="209,5,390,61"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aebeecdc6e23d86464fc813ba14dd2168" title=" " alt="" coords="204,86,395,127"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="220,152,379,179"/>
-</map>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -295,11 +317,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_patch_ad0331b6d8f22db8074e6821bb8ded5bd_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_ad0331b6d8f22db8074e6821bb8ded5bd_cgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_patch_ad0331b6d8f22db8074e6821bb8ded5bd_cgraph" id="aclass_bembel_1_1_patch_ad0331b6d8f22db8074e6821bb8ded5bd_cgraph">
-<area shape="rect" title=" " alt="" coords="5,93,156,120"/>
-<area shape="rect" href="class_bembel_1_1_patch.html#ad5fae946174996738c5e8ba25778d40c" title=" " alt="" coords="204,93,355,120"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#adf2f8c431af1c6bfc05beeda7e292405" title=" " alt="" coords="407,5,589,61"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aebeecdc6e23d86464fc813ba14dd2168" title=" " alt="" coords="403,86,593,127"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="419,152,577,179"/>
+<area shape="rect" title=" " alt="" coords="5,5,156,32"/>
+<area shape="rect" href="class_bembel_1_1_patch.html#ad5fae946174996738c5e8ba25778d40c" title=" " alt="" coords="204,5,355,32"/>
 </map>
 </div>
 
@@ -330,18 +349,6 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_patch_8hpp_source.html#l00122">122</a> of file <a class="el" href="_patch_8hpp_source.html">Patch.hpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_bembel_1_1_patch_a4e68f5e893b2be0b67130f5cdfc01944_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_a4e68f5e893b2be0b67130f5cdfc01944_cgraph" alt=""/></div>
-<map name="aclass_bembel_1_1_patch_a4e68f5e893b2be0b67130f5cdfc01944_cgraph" id="aclass_bembel_1_1_patch_a4e68f5e893b2be0b67130f5cdfc01944_cgraph">
-<area shape="rect" title=" " alt="" coords="5,137,212,164"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#adf2f8c431af1c6bfc05beeda7e292405" title=" " alt="" coords="265,5,446,61"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#a0a1673d8eca8cf9a795dc0a17e56f06f" title=" " alt="" coords="265,85,446,141"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aebeecdc6e23d86464fc813ba14dd2168" title=" " alt="" coords="260,166,451,207"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="276,232,435,259"/>
-</map>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -396,12 +403,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_patch_a425d4cc97f11344f1c1d8ce481e25281_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_a425d4cc97f11344f1c1d8ce481e25281_cgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_patch_a425d4cc97f11344f1c1d8ce481e25281_cgraph" id="aclass_bembel_1_1_patch_a425d4cc97f11344f1c1d8ce481e25281_cgraph">
-<area shape="rect" title=" " alt="" coords="5,137,212,164"/>
-<area shape="rect" href="class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title=" " alt="" coords="260,137,467,164"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#adf2f8c431af1c6bfc05beeda7e292405" title=" " alt="" coords="519,5,701,61"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#a0a1673d8eca8cf9a795dc0a17e56f06f" title=" " alt="" coords="519,85,701,141"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aebeecdc6e23d86464fc813ba14dd2168" title=" " alt="" coords="515,166,705,207"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="531,232,689,259"/>
+<area shape="rect" title=" " alt="" coords="5,5,212,32"/>
+<area shape="rect" href="class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title=" " alt="" coords="260,5,467,32"/>
 </map>
 </div>
 
@@ -437,12 +440,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_patch_a839327eaea60f8007fee75ac480853fb_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_a839327eaea60f8007fee75ac480853fb_cgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_patch_a839327eaea60f8007fee75ac480853fb_cgraph" id="aclass_bembel_1_1_patch_a839327eaea60f8007fee75ac480853fb_cgraph">
-<area shape="rect" title=" " alt="" coords="5,137,204,164"/>
-<area shape="rect" href="class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title=" " alt="" coords="252,137,459,164"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#adf2f8c431af1c6bfc05beeda7e292405" title=" " alt="" coords="511,5,693,61"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#a0a1673d8eca8cf9a795dc0a17e56f06f" title=" " alt="" coords="511,85,693,141"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aebeecdc6e23d86464fc813ba14dd2168" title=" " alt="" coords="507,166,697,207"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="523,232,681,259"/>
+<area shape="rect" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" href="class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title=" " alt="" coords="252,5,459,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -497,13 +496,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_patch_a3580acec79763e60c1d514dc5aa36fa3_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_a3580acec79763e60c1d514dc5aa36fa3_cgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_patch_a3580acec79763e60c1d514dc5aa36fa3_cgraph" id="aclass_bembel_1_1_patch_a3580acec79763e60c1d514dc5aa36fa3_cgraph">
-<area shape="rect" title=" " alt="" coords="5,137,204,164"/>
-<area shape="rect" href="class_bembel_1_1_patch.html#a839327eaea60f8007fee75ac480853fb" title=" " alt="" coords="252,137,451,164"/>
-<area shape="rect" href="class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title=" " alt="" coords="499,137,705,164"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#adf2f8c431af1c6bfc05beeda7e292405" title=" " alt="" coords="758,5,939,61"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#a0a1673d8eca8cf9a795dc0a17e56f06f" title=" " alt="" coords="758,85,939,141"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aebeecdc6e23d86464fc813ba14dd2168" title=" " alt="" coords="753,166,944,207"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="769,232,928,259"/>
+<area shape="rect" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" href="class_bembel_1_1_patch.html#a839327eaea60f8007fee75ac480853fb" title=" " alt="" coords="252,5,451,32"/>
+<area shape="rect" href="class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title=" " alt="" coords="499,5,705,32"/>
 </map>
 </div>
 
@@ -552,23 +547,6 @@ Here is the call graph for this function:</div>
 <p>init </p>
 
 <p class="definition">Definition at line <a class="el" href="_patch_8hpp_source.html#l00034">34</a> of file <a class="el" href="_patch_8hpp_source.html">Patch.hpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_bembel_1_1_patch_a94e90e693ae9764675d67ea9b1755252_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_a94e90e693ae9764675d67ea9b1755252_cgraph" alt=""/></div>
-<map name="aclass_bembel_1_1_patch_a94e90e693ae9764675d67ea9b1755252_cgraph" id="aclass_bembel_1_1_patch_a94e90e693ae9764675d67ea9b1755252_cgraph">
-<area shape="rect" title="init" alt="" coords="5,187,149,229"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#a5a9d9cd6f78e5d54f4a89905378d9374" title=" " alt="" coords="201,129,401,170"/>
-<area shape="rect" href="group___spline.html#gaedbab2805662ec55aede9e429b384756" title="implements Bezier extraction via the solution of an interpolation problem." alt="" coords="197,195,405,221"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#afe8b940b8c20a2b4efe8850f853bf5c5" title="Tiny helper functions." alt="" coords="511,304,657,331"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#ad0cf5f62596d46c750b189c0ef35980e" title="Simple TP Bsplines." alt="" coords="498,5,670,32"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#ab0d60a0b9e034bd8e1843da043d2307a" title=" " alt="" coords="493,56,675,112"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#a3a58c86e1147b0087815020b43d06d63" title=" " alt="" coords="453,136,715,163"/>
-<area shape="rect" href="group___spline.html#gad40828354c5de3057dce2c485b434415" title="Creates a T&#45;vector of equidistant itnerpolation points for a given knot vector without any repetition..." alt="" coords="471,187,697,229"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="505,253,663,280"/>
-<area shape="rect" href="group___spline.html#ga72fafe41754fc4ebeb6251b0819e6191" title="&quot;By the book&quot; implementations of the Cox&#45;DeBoor formula. Inefficient, do not use at bottlenecks." alt="" coords="763,5,919,32"/>
-</map>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -632,18 +610,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_patch_8hpp_source.html#l00212">212</a> of file <a class="el" href="_patch_8hpp_source.html">Patch.hpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_bembel_1_1_patch_ae33252985226bd18c29ca05749553ada_cgraph.png" border="0" usemap="#aclass_bembel_1_1_patch_ae33252985226bd18c29ca05749553ada_cgraph" alt=""/></div>
-<map name="aclass_bembel_1_1_patch_ae33252985226bd18c29ca05749553ada_cgraph" id="aclass_bembel_1_1_patch_ae33252985226bd18c29ca05749553ada_cgraph">
-<area shape="rect" title=" " alt="" coords="5,130,223,171"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#adf2f8c431af1c6bfc05beeda7e292405" title=" " alt="" coords="275,5,457,61"/>
-<area shape="rect" href="class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html#a0a1673d8eca8cf9a795dc0a17e56f06f" title=" " alt="" coords="275,85,457,141"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aebeecdc6e23d86464fc813ba14dd2168" title=" " alt="" coords="271,166,461,207"/>
-<area shape="rect" href="namespace_bembel_1_1_spl.html#aff0011d9cba5053388899d445558f1fe" title=" " alt="" coords="287,232,445,259"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -739,7 +705,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="class_bembel_1_1_patch.html">Patch</a></li>
-    <li class="footer">Generated on Mon Feb 19 2024 08:50:30 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Feb 19 2024 14:59:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['patchvector_1435',['PatchVector',['../group___geometry.html#ga2a0fac9275fef7f9601b40a644585cec',1,'Bembel']]],
-  ['pointer_1436',['pointer',['../struct_bembel_1_1_element_tree_node_1_1const__iterator.html#ae4d3686af4f7a908f1fe0e210bf89b85',1,'Bembel::ElementTreeNode::const_iterator']]]
+  ['realscalar_1229',['RealScalar',['../class_eigen_1_1_h2_matrix.html#a459d5e9f235c43136006e9039a56f5aa',1,'Eigen::H2Matrix']]],
+  ['reference_1230',['reference',['../struct_bembel_1_1_element_tree_node_1_1const__iterator.html#a97245521050d52837532b176df0939d0',1,'Bembel::ElementTreeNode::const_iterator']]],
+  ['rowindex_1231',['rowIndex',['../class_bembel_1_1_generic_matrix.html#acc2323719617a3388d714c42f2d49841',1,'Bembel::GenericMatrix']]]
 ];

@@ -6,9 +6,9 @@
 <area shape="rect" id="node9" href="$group___h2_matrix.html#gacde0a6d4057b3a1ec3d5bcaf57ff4eeb" title="Computes transfer matrices in required order to apply them all&#45;at&#45;once in a matrix&#45;vector&#45;product,..." alt="" coords="230,215,425,256"/>
 <area shape="rect" id="node10" href="$class_bembel_1_1_element_tree_node.html#af00e0f28bd1f612f2b90f950e0752f1f" title=" " alt="" coords="214,281,441,307"/>
 <area shape="rect" id="node13" href="$group___duffy_trick.html#ga08c83eb5d1c80c396c653ca32c90f719" title="This function wraps the quadrature routines for the duffy trick and returns all integrals for the giv..." alt="" coords="242,332,413,373"/>
-<area shape="rect" id="node25" href="$class_bembel_1_1_ansatz_space.html#a3436dfc118853350bcffeb91b5debfeb" title=" " alt="" coords="236,397,419,439"/>
-<area shape="rect" id="node26" href="$class_bembel_1_1_ansatz_space.html#a976516196d270b3fb5f3af0ef34dc95b" title=" " alt="" coords="246,463,409,504"/>
-<area shape="rect" id="node27" href="$class_bembel_1_1_ansatz_space.html#a5649a924885719a7bff5fd7ba2f90640" title=" " alt="" coords="246,529,409,585"/>
+<area shape="rect" id="node25" href="$class_bembel_1_1_ansatz_space.html#a3436dfc118853350bcffeb91b5debfeb" title="Retrieves the polynomial degree of this AnsatzSpace." alt="" coords="236,397,419,439"/>
+<area shape="rect" id="node26" href="$class_bembel_1_1_ansatz_space.html#a976516196d270b3fb5f3af0ef34dc95b" title="Retrieves the reference to the SuperSpace associated with this AnsatzSpace." alt="" coords="246,463,409,504"/>
+<area shape="rect" id="node27" href="$class_bembel_1_1_ansatz_space.html#a5649a924885719a7bff5fd7ba2f90640" title="Retrieves the transformation matrix associated with this AnsatzSpace." alt="" coords="246,529,409,585"/>
 <area shape="rect" id="node28" href="$namespace_bembel.html#aeae05c4d8cf11542222e8ce43f67e715" title=" " alt="" coords="230,609,425,651"/>
 <area shape="rect" id="node29" href="$group___h2_matrix.html#ga41fd2374858ae6bf7cbac5a7a5c2013a" title="Compute tensor interpolation points on unit square from 1D interpolation points." alt="" coords="242,675,413,716"/>
 <area shape="rect" id="node30" href="$class_bembel_1_1_generic_matrix.html#a2141a2c6c734ccaa841c716f64f5e38a" title=" " alt="" coords="241,740,413,781"/>

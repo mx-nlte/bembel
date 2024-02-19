@@ -1,5 +1,5 @@
 <map id="Bembel::AnsatzSpace::get_polynomial_degree" name="Bembel::AnsatzSpace::get_polynomial_degree">
-<area shape="rect" id="node1" title=" " alt="" coords="515,71,697,112"/>
+<area shape="rect" id="node1" title="Retrieves the polynomial degree of this AnsatzSpace." alt="" coords="515,71,697,112"/>
 <area shape="rect" id="node2" href="$class_bembel_1_1_discrete_linear_form.html#a3d13dbedc3aa1f72ae2168de40d9926a" title=" " alt="" coords="260,5,467,47"/>
 <area shape="rect" id="node4" href="$class_bembel_1_1_discrete_potential.html#acf272dd1b282d27f2ca6acd22fce80d6" title=" " alt="" coords="267,71,459,112"/>
 <area shape="rect" id="node6" href="$class_eigen_1_1_h2_matrix.html#aa020f25d1d009e639d3f49d96f3d3d6b" title="Assemble H2&#45;Matrix for linear operator linOp and AnsatzSpace ansatz_space with number_of_points inter..." alt="" coords="286,136,441,177"/>

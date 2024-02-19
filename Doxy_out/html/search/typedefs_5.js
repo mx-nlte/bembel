@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['gausslegendre_1432',['GaussLegendre',['../namespace_bembel.html#a627a97868d13d2c171c0264ebf325345',1,'Bembel']]],
-  ['gausssquare_1433',['GaussSquare',['../namespace_bembel.html#a9cbed010627e5ae4755780b2f9a29bcb',1,'Bembel']]]
+  ['iterator_5fcategory_1226',['iterator_category',['../struct_bembel_1_1_element_tree_node_1_1const__iterator.html#a1d455b34b35186eef364c2e1e0541d28',1,'Bembel::ElementTreeNode::const_iterator']]]
 ];

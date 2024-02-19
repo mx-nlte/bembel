@@ -8,8 +8,8 @@
 <area shape="rect" id="node20" href="$struct_bembel_1_1_super_space.html#a14e5e60f4c5b98840f6457bcdf3b9376" title=" " alt="" coords="276,431,432,472"/>
 <area shape="rect" id="node21" href="$class_bembel_1_1_element_tree.html#abd179822f5abd8261b3cceed00d91061" title=" " alt="" coords="256,496,452,537"/>
 <area shape="rect" id="node22" href="$struct_bembel_1_1_super_space.html#a6675b25cd3d78e2d9958ebbceb72e548" title=" " alt="" coords="263,561,445,603"/>
-<area shape="rect" id="node23" href="$class_bembel_1_1_ansatz_space.html#a976516196d270b3fb5f3af0ef34dc95b" title=" " alt="" coords="273,627,435,668"/>
-<area shape="rect" id="node24" href="$class_bembel_1_1_ansatz_space.html#a5649a924885719a7bff5fd7ba2f90640" title=" " alt="" coords="273,693,435,749"/>
+<area shape="rect" id="node23" href="$class_bembel_1_1_ansatz_space.html#a976516196d270b3fb5f3af0ef34dc95b" title="Retrieves the reference to the SuperSpace associated with this AnsatzSpace." alt="" coords="273,627,435,668"/>
+<area shape="rect" id="node24" href="$class_bembel_1_1_ansatz_space.html#a5649a924885719a7bff5fd7ba2f90640" title="Retrieves the transformation matrix associated with this AnsatzSpace." alt="" coords="273,693,435,749"/>
 <area shape="rect" id="node4" href="$class_bembel_1_1_element_tree.html#a48c2f97dbc1ab7db5e35951984595801" title="iterators" alt="" coords="535,5,696,47"/>
 <area shape="rect" id="node6" href="$class_bembel_1_1_element_tree.html#a73b7b5b1e3f96db5f477f63d783b0e4d" title=" " alt="" coords="535,71,696,112"/>
 <area shape="rect" id="node8" href="$group___duffy_trick.html#ga63fd7fd5ef96ef692b695626b7bfe566" title="compares two elements for similarities and determines, how the elements have to be rotated to move th..." alt="" coords="541,397,689,439"/>

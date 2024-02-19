@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['quadrature_982',['Quadrature',['../_quadrature.html',1,'']]],
-  ['quadrature_2ehpp_983',['Quadrature.hpp',['../_quadrature_8hpp.html',1,'']]],
-  ['quadraturevector_2ehpp_984',['QuadratureVector.hpp',['../_quadrature_vector_8hpp.html',1,'']]]
+  ['readme_2emd_856',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['rotatedtangentialtrace_2ehpp_857',['RotatedTangentialTrace.hpp',['../_rotated_tangential_trace_8hpp.html',1,'']]]
 ];

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['macros_2ehpp_969',['Macros.hpp',['../_macros_8hpp.html',1,'']]],
-  ['manual_2edox_970',['Manual.dox',['../_manual_8dox.html',1,'']]],
-  ['massmatrixscalarcont_2ehpp_971',['MassMatrixScalarCont.hpp',['../_mass_matrix_scalar_cont_8hpp.html',1,'']]],
-  ['massmatrixscalardisc_2ehpp_972',['MassMatrixScalarDisc.hpp',['../_mass_matrix_scalar_disc_8hpp.html',1,'']]],
-  ['maxwell_973',['Maxwell',['../_maxwell.html',1,'']]],
-  ['modules_2edox_974',['Modules.dox',['../_modules_8dox.html',1,'']]]
+  ['patch_2ehpp_847',['Patch.hpp',['../_patch_8hpp.html',1,'']]],
+  ['patchvector_2ehpp_848',['PatchVector.hpp',['../_patch_vector_8hpp.html',1,'']]],
+  ['potential_849',['Potential',['../_potential.html',1,'']]],
+  ['potential_2ehpp_850',['Potential.hpp',['../_potential_8hpp.html',1,'']]],
+  ['print2file_2ehpp_851',['print2file.hpp',['../print2file_8hpp.html',1,'']]],
+  ['projector_2ehpp_852',['Projector.hpp',['../_projector_8hpp.html',1,'']]]
 ];

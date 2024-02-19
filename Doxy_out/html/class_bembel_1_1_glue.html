@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('class_bembel_1_1_glue.html',''); initR
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_bembel_1_1_glue-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Bembel::Glue&lt; Derived &gt; Class Template Reference<div class="ingroups"><a class="el" href="group___modules.html">Modules</a> &raquo; <a class="el" href="group___ansatz_space.html">AnsatzSpace</a></div></div>  </div>
@@ -117,7 +118,21 @@ class Bembel::Glue&lt; Derived &gt;</h3>
 <p>This class takes care of identifying DOFs on different edges, which must be identified with one another. </p>
 
 <p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00063">63</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad29754d21376d0109eb6dea5b21491ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_glue.html#ad29754d21376d0109eb6dea5b21491ab">Glue</a> (const <a class="el" href="struct_bembel_1_1_super_space.html">SuperSpace</a>&lt; Derived &gt; &amp;superspace, const <a class="el" href="class_bembel_1_1_projector.html">Projector</a>&lt; Derived &gt; &amp;proj)</td></tr>
+<tr class="separator:ad29754d21376d0109eb6dea5b21491ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06ac73ca783d02f3445e3e4d87c880a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_glue.html#a06ac73ca783d02f3445e3e4d87c880a0">init_Glue</a> (const <a class="el" href="struct_bembel_1_1_super_space.html">SuperSpace</a>&lt; Derived &gt; &amp;superspace, const <a class="el" href="class_bembel_1_1_projector.html">Projector</a>&lt; Derived &gt; &amp;proj)</td></tr>
+<tr class="separator:a06ac73ca783d02f3445e3e4d87c880a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2331bd268bc12cf2a8b264684258224e"><td class="memItemLeft" align="right" valign="top">Eigen::SparseMatrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_glue.html#a2331bd268bc12cf2a8b264684258224e">get_glue_matrix</a> () const</td></tr>
+<tr class="separator:a2331bd268bc12cf2a8b264684258224e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d40d39d730399b9247fba7b11b2875"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_bembel_1_1_glue_routines_1_1dof_identification.html">GlueRoutines::dofIdentification</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_glue.html#aa6d40d39d730399b9247fba7b11b2875">makeDofIdentificationList</a> (const <a class="el" href="struct_bembel_1_1_super_space.html">SuperSpace</a>&lt; Derived &gt; &amp;superspace, const <a class="el" href="class_bembel_1_1_projector.html">Projector</a>&lt; Derived &gt; &amp;proj)</td></tr>
+<tr class="separator:aa6d40d39d730399b9247fba7b11b2875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c88b12377f89b0b580faf597b3ceda"><td class="memItemLeft" align="right" valign="top">Eigen::SparseMatrix&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_glue.html#ae8c88b12377f89b0b580faf597b3ceda">assembleGlueMatrix</a> (const <a class="el" href="struct_bembel_1_1_super_space.html">SuperSpace</a>&lt; Derived &gt; &amp;superspace, const <a class="el" href="class_bembel_1_1_projector.html">Projector</a>&lt; Derived &gt; &amp;proj)</td></tr>
+<tr class="separator:ae8c88b12377f89b0b580faf597b3ceda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad29754d21376d0109eb6dea5b21491ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad29754d21376d0109eb6dea5b21491ab">&#9670;&nbsp;</a></span>Glue()</h2>
 
@@ -266,8 +281,8 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_bembel_1_1_glue_a2331bd268bc12cf2a8b264684258224e_icgraph.png" border="0" usemap="#aclass_bembel_1_1_glue_a2331bd268bc12cf2a8b264684258224e_icgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_glue_a2331bd268bc12cf2a8b264684258224e_icgraph" id="aclass_bembel_1_1_glue_a2331bd268bc12cf2a8b264684258224e_icgraph">
 <area shape="rect" title=" " alt="" coords="427,5,601,47"/>
-<area shape="rect" href="class_bembel_1_1_ansatz_space.html#a4be284b540e0564403c48e997f352a8b" title=" " alt="" coords="216,5,379,47"/>
-<area shape="rect" href="class_bembel_1_1_ansatz_space.html#a212a649562467e3f8b74d808945e72e3" title=" " alt="" coords="5,5,168,47"/>
+<area shape="rect" href="class_bembel_1_1_ansatz_space.html#a4be284b540e0564403c48e997f352a8b" title="Initializes the AnsatzSpace object." alt="" coords="216,5,379,47"/>
+<area shape="rect" href="class_bembel_1_1_ansatz_space.html#a212a649562467e3f8b74d808945e72e3" title="Constructor for AnsatzSpace." alt="" coords="5,5,168,47"/>
 </map>
 </div>
 
@@ -396,7 +411,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="class_bembel_1_1_glue.html">Glue</a></li>
-    <li class="footer">Generated on Mon Feb 19 2024 08:50:30 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Feb 19 2024 14:59:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

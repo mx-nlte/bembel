@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['value_1461',['value',['../struct_bembel_1_1_binomial.html#aa6ad007aea0af521381b5116ce770e24a5024103d5317ccf45da5cbafc09a78ad',1,'Bembel::Binomial::value()'],['../struct_bembel_1_1_binomial_3_010_00_010_01_4.html#aed9a81609656583053ddc0fcdd437306af4dbb1c7075ad15155009f915c24d573',1,'Bembel::Binomial&lt; 0, 0 &gt;::value()'],['../struct_bembel_1_1_binomial_3_01_n_00_01_n_01_4.html#ae8d8dd7925838b80d9393eaf9fa9597fa8bf6d84d3c8fe33d83337b6c1fe91be1',1,'Bembel::Binomial&lt; N, N &gt;::value()'],['../struct_bembel_1_1_binomial_3_010_00_01_n_01_4.html#ac744667ba965c59bf07d0d955e846c69a50e892f90e3514cb2a8ba4f2accb908a',1,'Bembel::Binomial&lt; 0, N &gt;::value()']]]
+  ['you_5fchose_5fincompatible_5ftypes_5ffor_5fh2matrix_5fand_5fpdeproblem_1252',['YOU_CHOSE_INCOMPATIBLE_TYPES_FOR_H2MATRIX_AND_PDEPROBLEM',['../struct_dirty_little_helpers_1_1test_matching_types_3_01true_01_4.html#a4b5f5af36ebc034b7452b9caadb2b492a3771cae50b6c0a2aacf7233a00f66c9f',1,'DirtyLittleHelpers::testMatchingTypes&lt; true &gt;']]],
+  ['you_5fdid_5fnot_5fspecify_5flinearform_5ftraits_1253',['YOU_DID_NOT_SPECIFY_LINEARFORM_TRAITS',['../struct_bembel_1_1_linear_form_traits.html#a845ee8765d662d19ae9a92905f352691a2fd17a7d9081c02fee070cb8222b5ddc',1,'Bembel::LinearFormTraits']]],
+  ['you_5fdid_5fnot_5fspecify_5fpotential_5ftraits_1254',['YOU_DID_NOT_SPECIFY_POTENTIAL_TRAITS',['../struct_bembel_1_1_potential_traits.html#aa7d95a21d7ceaaafa5837b2fae5d079ea2992147114c1ecfb06b87af534102069',1,'Bembel::PotentialTraits']]]
 ];
