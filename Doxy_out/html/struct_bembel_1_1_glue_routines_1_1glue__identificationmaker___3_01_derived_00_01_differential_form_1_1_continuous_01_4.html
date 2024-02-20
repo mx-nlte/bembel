@@ -107,13 +107,18 @@ $(document).ready(function(){initNavTree('struct_bembel_1_1_glue_routines_1_1glu
 </div><!--header-->
 <div class="contents">
 
+<p>Specification of the struct for the scalar continuous case.  
+ <a href="struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename Derived&gt;<br />
 struct Bembel::GlueRoutines::glue_identificationmaker_&lt; Derived, DifferentialForm::Continuous &gt;</h3>
 
+<p>Specification of the struct for the scalar continuous case. </p>
+<p>The scalar case: Here, we have only one vector component to worry about. However, we need to take care of edges, since here multiple (more than 2) dofs will be reduced to one. This is also the reason we we work with the <a class="el" href="struct_bembel_1_1_glue_routines_1_1dof_identification.html">dofIdentification</a> struct and not already with Eigen::Triplet. The function builds upon the fact, that px == py == p. </p>
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00278">278</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00357">357</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -163,18 +168,18 @@ template&lt;typename Derived &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00279">279</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00358">358</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4_a7d8fcfef1fbd577613f277011b37a49f_cgraph.png" border="0" usemap="#astruct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4_a7d8fcfef1fbd577613f277011b37a49f_cgraph" alt=""/></div>
 <map name="astruct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4_a7d8fcfef1fbd577613f277011b37a49f_cgraph" id="astruct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4_a7d8fcfef1fbd577613f277011b37a49f_cgraph">
 <area shape="rect" title=" " alt="" coords="5,155,252,225"/>
-<area shape="rect" href="class_bembel_1_1_projector.html#a84674f7d213de785c4365c1644f254d2" title=" " alt="" coords="301,5,481,47"/>
+<area shape="rect" href="class_bembel_1_1_projector.html#a84674f7d213de785c4365c1644f254d2" title="Return number of smooth B&#45;splines." alt="" coords="301,5,481,47"/>
 <area shape="rect" href="class_bembel_1_1_projector.html#a77c9379585d6bffdd544028cc670fa4c" title="getter" alt="" coords="317,71,466,112"/>
 <area shape="rect" href="struct_bembel_1_1_super_space.html#a6675b25cd3d78e2d9958ebbceb72e548" title=" " alt="" coords="300,136,483,177"/>
 <area shape="rect" href="struct_bembel_1_1_super_space.html#a5f3f9572bcbb4306e4e7e7ec55801574" title=" " alt="" coords="307,201,475,243"/>
-<area shape="rect" href="namespace_bembel_1_1_glue_routines.html#a55178346ae712779a7cfaeda9b074f70" title=" " alt="" coords="308,267,475,308"/>
+<area shape="rect" href="namespace_bembel_1_1_glue_routines.html#a55178346ae712779a7cfaeda9b074f70" title="This routine collects the indices of DOFs with support on an edge." alt="" coords="308,267,475,308"/>
 <area shape="rect" href="namespace_bembel_1_1_glue_routines.html#a7420efa28ce0349bad5d4763e317430c" title=" " alt="" coords="308,332,475,373"/>
 <area shape="rect" href="namespace_bembel_1_1_glue_routines.html#ab70de110d20324971e3548b43daae952" title=" " alt="" coords="531,303,761,344"/>
 <area shape="rect" href="namespace_bembel_1_1_glue_routines.html#af5e1871b6991f48ec6a6cfd6237ccbf2" title=" " alt="" coords="809,332,1020,373"/>
@@ -192,7 +197,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="namespace_bembel_1_1_glue_routines.html">GlueRoutines</a></li><li class="navelem"><a class="el" href="struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4.html">glue_identificationmaker_&lt; Derived, DifferentialForm::Continuous &gt;</a></li>
-    <li class="footer">Generated on Mon Feb 19 2024 14:59:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Feb 20 2024 10:14:35 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

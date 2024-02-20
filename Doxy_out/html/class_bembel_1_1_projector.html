@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('class_bembel_1_1_projector.html',''); 
 </div><!--header-->
 <div class="contents">
 
-<p>The projector solves interpolation problems to identify the the correct linear combination to represent a B-Spline basis local to each patch by means of the given superspace, and then assembles the required transformation matrices.  
+<p>The <a class="el" href="class_bembel_1_1_projector.html" title="The Projector provides routines to assemble smooth B-Splines on each patch.">Projector</a> provides routines to assemble smooth B-Splines on each patch.  
  <a href="class_bembel_1_1_projector.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>&gt;</code></p>
@@ -115,9 +115,10 @@ $(document).ready(function(){initNavTree('class_bembel_1_1_projector.html',''); 
 <div class="textblock"><h3>template&lt;typename Derived&gt;<br />
 class Bembel::Projector&lt; Derived &gt;</h3>
 
-<p>The projector solves interpolation problems to identify the the correct linear combination to represent a B-Spline basis local to each patch by means of the given superspace, and then assembles the required transformation matrices. </p>
+<p>The <a class="el" href="class_bembel_1_1_projector.html" title="The Projector provides routines to assemble smooth B-Splines on each patch.">Projector</a> provides routines to assemble smooth B-Splines on each patch. </p>
+<p>This class solves local interpolation problems on each patch to assemble B-splines from the Berstein basis. The linear combination of the Bernstein basis functions is stored in a sparse transformation matrix. </p>
 
-<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00035">35</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00037">37</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -125,6 +126,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0f08ad8eab206954c28ba1b0b7252f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructors  <a href="class_bembel_1_1_projector.html#a0f08ad8eab206954c28ba1b0b7252f0a">More...</a><br /></td></tr>
 <tr class="separator:a0f08ad8eab206954c28ba1b0b7252f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91a0a13006f606bab590a0c0eac38870"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_projector.html#a91a0a13006f606bab590a0c0eac38870">Projector</a> (const <a class="el" href="struct_bembel_1_1_super_space.html">SuperSpace</a>&lt; Derived &gt; &amp;super_space, const int knot_repetition)</td></tr>
+<tr class="memdesc:a91a0a13006f606bab590a0c0eac38870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="class_bembel_1_1_projector.html" title="The Projector provides routines to assemble smooth B-Splines on each patch.">Projector</a>.  <a href="class_bembel_1_1_projector.html#a91a0a13006f606bab590a0c0eac38870">More...</a><br /></td></tr>
 <tr class="separator:a91a0a13006f606bab590a0c0eac38870"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bf72a255d274bb53d48ab122e0fdc47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_projector.html#a3bf72a255d274bb53d48ab122e0fdc47">init_Projector</a> (const <a class="el" href="struct_bembel_1_1_super_space.html">SuperSpace</a>&lt; Derived &gt; &amp;super_space, const int knot_repetition)</td></tr>
 <tr class="memdesc:a3bf72a255d274bb53d48ab122e0fdc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">init  <a href="class_bembel_1_1_projector.html#a3bf72a255d274bb53d48ab122e0fdc47">More...</a><br /></td></tr>
@@ -133,8 +135,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a77c9379585d6bffdd544028cc670fa4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">getter  <a href="class_bembel_1_1_projector.html#a77c9379585d6bffdd544028cc670fa4c">More...</a><br /></td></tr>
 <tr class="separator:a77c9379585d6bffdd544028cc670fa4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64da6a6020bbbc39fa66ba2ab2e90814"><td class="memItemLeft" align="right" valign="top">const Eigen::SparseMatrix&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_projector.html#a64da6a6020bbbc39fa66ba2ab2e90814">get_projection_matrix</a> ()</td></tr>
+<tr class="memdesc:a64da6a6020bbbc39fa66ba2ab2e90814"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function returns the transformation matrix to assemble smooth tensor product B-splines.  <a href="class_bembel_1_1_projector.html#a64da6a6020bbbc39fa66ba2ab2e90814">More...</a><br /></td></tr>
 <tr class="separator:a64da6a6020bbbc39fa66ba2ab2e90814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84674f7d213de785c4365c1644f254d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bembel_1_1_projector.html#a84674f7d213de785c4365c1644f254d2">get_dofs_after_projector</a> () const</td></tr>
+<tr class="memdesc:a84674f7d213de785c4365c1644f254d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of smooth B-splines.  <a href="class_bembel_1_1_projector.html#a84674f7d213de785c4365c1644f254d2">More...</a><br /></td></tr>
 <tr class="separator:a84674f7d213de785c4365c1644f254d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -164,8 +168,9 @@ template&lt;typename Derived &gt; </div>
 </div><div class="memdoc">
 
 <p>constructors </p>
+<p>Default constructor </p>
 
-<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00040">40</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00045">45</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
 
 </div>
 </div>
@@ -205,13 +210,23 @@ template&lt;typename Derived &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00041">41</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
+<p>Constructor for the <a class="el" href="class_bembel_1_1_projector.html" title="The Projector provides routines to assemble smooth B-Splines on each patch.">Projector</a>. </p>
+<p>This constructor initializes a <a class="el" href="class_bembel_1_1_projector.html" title="The Projector provides routines to assemble smooth B-Splines on each patch.">Projector</a> object with the provided parameters.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">super_space</td><td>The <a class="el" href="struct_bembel_1_1_super_space.html" title="The superspace manages local polynomial bases on each element of the mesh and provides an interface t...">SuperSpace</a> to handle basis functions. </td></tr>
+    <tr><td class="paramname">knot_repetition</td><td>The number of repetitions of knots in the space. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00055">55</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_projector_a91a0a13006f606bab590a0c0eac38870_cgraph.png" border="0" usemap="#aclass_bembel_1_1_projector_a91a0a13006f606bab590a0c0eac38870_cgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_projector_a91a0a13006f606bab590a0c0eac38870_cgraph" id="aclass_bembel_1_1_projector_a91a0a13006f606bab590a0c0eac38870_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,152,47"/>
+<area shape="rect" title="Constructor for the Projector." alt="" coords="5,5,152,47"/>
 <area shape="rect" href="class_bembel_1_1_projector.html#a3bf72a255d274bb53d48ab122e0fdc47" title="init" alt="" coords="200,5,347,47"/>
 </map>
 </div>
@@ -244,18 +259,21 @@ template&lt;typename Derived &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00062">62</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
+<p>Return number of smooth B-splines. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of DOFs after applying the transformation matrix. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00104">104</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_projector_a84674f7d213de785c4365c1644f254d2_icgraph.png" border="0" usemap="#aclass_bembel_1_1_projector_a84674f7d213de785c4365c1644f254d2_icgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_projector_a84674f7d213de785c4365c1644f254d2_icgraph" id="aclass_bembel_1_1_projector_a84674f7d213de785c4365c1644f254d2_icgraph">
-<area shape="rect" title=" " alt="" coords="745,85,925,127"/>
-<area shape="rect" href="class_bembel_1_1_glue.html#ae8c88b12377f89b0b580faf597b3ceda" title=" " alt="" coords="456,5,667,47"/>
+<area shape="rect" title="Return number of smooth B&#45;splines." alt="" coords="745,85,925,127"/>
+<area shape="rect" href="class_bembel_1_1_glue.html#ae8c88b12377f89b0b580faf597b3ceda" title="Assembles the Glue matrix according to the DOF identification list." alt="" coords="456,5,667,47"/>
 <area shape="rect" href="struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4.html#a7d8fcfef1fbd577613f277011b37a49f" title=" " alt="" coords="438,71,685,141"/>
 <area shape="rect" href="struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_div_conforming_01_4.html#a373616fb11310fbdda224d8144220279" title=" " alt="" coords="425,165,697,236"/>
-<area shape="rect" href="class_bembel_1_1_glue.html#a06ac73ca783d02f3445e3e4d87c880a0" title=" " alt="" coords="201,13,377,39"/>
-<area shape="rect" href="class_bembel_1_1_glue.html#ad29754d21376d0109eb6dea5b21491ab" title=" " alt="" coords="5,13,153,39"/>
+<area shape="rect" href="class_bembel_1_1_glue.html#a06ac73ca783d02f3445e3e4d87c880a0" title="Initializes the AnsatzSpace object." alt="" coords="201,13,377,39"/>
+<area shape="rect" href="class_bembel_1_1_glue.html#ad29754d21376d0109eb6dea5b21491ab" title="Constructor for the Glue class." alt="" coords="5,13,153,39"/>
 </map>
 </div>
 
@@ -287,8 +305,10 @@ template&lt;typename Derived &gt; </div>
 </div><div class="memdoc">
 
 <p>getter </p>
+<p>Return knot repetition.</p>
+<dl class="section return"><dt>Returns</dt><dd>The number of repetitions of knots in the space. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00058">58</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00085">85</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -327,13 +347,17 @@ template&lt;typename Derived &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00059">59</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
+<p>This function returns the transformation matrix to assemble smooth tensor product B-splines. </p>
+<p>In the assembly process of this Projection matrix an local interpolation problem is solved on each element. This matrix needs to be applied to the Bernstein basis to assemble smooth tensor product B-splines.</p>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="class_bembel_1_1_projector.html" title="The Projector provides routines to assemble smooth B-Splines on each patch.">Projector</a> matrix a tall thin Sparse transformation matrix. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00096">96</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_projector_a64da6a6020bbbc39fa66ba2ab2e90814_icgraph.png" border="0" usemap="#aclass_bembel_1_1_projector_a64da6a6020bbbc39fa66ba2ab2e90814_icgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_projector_a64da6a6020bbbc39fa66ba2ab2e90814_icgraph" id="aclass_bembel_1_1_projector_a64da6a6020bbbc39fa66ba2ab2e90814_icgraph">
-<area shape="rect" title=" " alt="" coords="427,5,592,47"/>
+<area shape="rect" title="This function returns the transformation matrix to assemble smooth tensor product B&#45;splines." alt="" coords="427,5,592,47"/>
 <area shape="rect" href="class_bembel_1_1_ansatz_space.html#a4be284b540e0564403c48e997f352a8b" title="Initializes the AnsatzSpace object." alt="" coords="216,5,379,47"/>
 <area shape="rect" href="class_bembel_1_1_ansatz_space.html#a212a649562467e3f8b74d808945e72e3" title="Constructor for AnsatzSpace." alt="" coords="5,5,168,47"/>
 </map>
@@ -378,15 +402,24 @@ template&lt;typename Derived &gt; </div>
 </div><div class="memdoc">
 
 <p>init </p>
+<p>Initializes the <a class="el" href="class_bembel_1_1_projector.html" title="The Projector provides routines to assemble smooth B-Splines on each patch.">Projector</a>.</p>
+<p>This function initializes the member variables of the <a class="el" href="class_bembel_1_1_projector.html" title="The Projector provides routines to assemble smooth B-Splines on each patch.">Projector</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">super_space</td><td>The <a class="el" href="struct_bembel_1_1_super_space.html" title="The superspace manages local polynomial bases on each element of the mesh and provides an interface t...">SuperSpace</a> to handle basis functions. </td></tr>
+    <tr><td class="paramname">knot_repetition</td><td>The number of repetitions of knots in the space. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00047">47</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00069">69</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_bembel_1_1_projector_a3bf72a255d274bb53d48ab122e0fdc47_icgraph.png" border="0" usemap="#aclass_bembel_1_1_projector_a3bf72a255d274bb53d48ab122e0fdc47_icgraph" alt=""/></div>
 <map name="aclass_bembel_1_1_projector_a3bf72a255d274bb53d48ab122e0fdc47_icgraph" id="aclass_bembel_1_1_projector_a3bf72a255d274bb53d48ab122e0fdc47_icgraph">
 <area shape="rect" title="init" alt="" coords="200,5,347,47"/>
-<area shape="rect" href="class_bembel_1_1_projector.html#a91a0a13006f606bab590a0c0eac38870" title=" " alt="" coords="5,5,152,47"/>
+<area shape="rect" href="class_bembel_1_1_projector.html#a91a0a13006f606bab590a0c0eac38870" title="Constructor for the Projector." alt="" coords="5,5,152,47"/>
 </map>
 </div>
 
@@ -401,7 +434,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="class_bembel_1_1_projector.html">Projector</a></li>
-    <li class="footer">Generated on Mon Feb 19 2024 14:59:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Feb 20 2024 10:14:35 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

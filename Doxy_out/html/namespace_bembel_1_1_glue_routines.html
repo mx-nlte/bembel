@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('namespace_bembel_1_1_glue_routines.htm
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00225">225</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00302">302</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -176,7 +176,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00222">222</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00299">299</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -216,7 +216,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00252">252</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00329">329</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -267,13 +267,30 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00168">168</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p>This routine collects the indices of DOFs with support on an edge. </p>
+<p>The indices are computed depending on the edge case and number of DOFs in the x and y direction of the tensor product. The shift parameter can be used to shift all dofs according to the patch index or vector component.</p>
+<p>Edge Case</p>
+<p>0 = (0,0)-&gt;(1,0)</p>
+<p>1 = (1,0)-&gt;(1,1)</p>
+<p>2 = (1,1)-&gt;(0,1)</p>
+<p>3 = (0,1)-&gt;(0,0)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">edgeCase</td><td>Edge case of the patch to collect the DOFs. </td></tr>
+    <tr><td class="paramname">dimXdir</td><td>Number of DOFs in the x direction of the tensor product. </td></tr>
+    <tr><td class="paramname">dimYdir</td><td>Number of DOFs in the y direction of the tensor product. </td></tr>
+    <tr><td class="paramname">shift</td><td>Offset of the DOFs. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00245">245</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespace_bembel_1_1_glue_routines_a55178346ae712779a7cfaeda9b074f70_icgraph.png" border="0" usemap="#anamespace_bembel_1_1_glue_routines_a55178346ae712779a7cfaeda9b074f70_icgraph" alt=""/></div>
 <map name="anamespace_bembel_1_1_glue_routines_a55178346ae712779a7cfaeda9b074f70_icgraph" id="anamespace_bembel_1_1_glue_routines_a55178346ae712779a7cfaeda9b074f70_icgraph">
-<area shape="rect" title=" " alt="" coords="325,68,492,109"/>
+<area shape="rect" title="This routine collects the indices of DOFs with support on an edge." alt="" coords="325,68,492,109"/>
 <area shape="rect" href="struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4.html#a7d8fcfef1fbd577613f277011b37a49f" title=" " alt="" coords="18,5,265,76"/>
 <area shape="rect" href="struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_div_conforming_01_4.html#a373616fb11310fbdda224d8144220279" title=" " alt="" coords="5,100,277,171"/>
 </map>
@@ -305,7 +322,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00244">244</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00321">321</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -352,7 +369,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00228">228</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00305">305</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -391,7 +408,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00231">231</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00308">308</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -438,7 +455,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00235">235</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00312">312</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -468,7 +485,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="namespace_bembel_1_1_glue_routines.html">GlueRoutines</a></li>
-    <li class="footer">Generated on Mon Feb 19 2024 14:59:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Feb 20 2024 10:14:35 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -152,13 +152,26 @@ template&lt;typename Derived &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00099">99</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
+<p>This function solves on each element the interpolation problem to assemble smooth tensor product B-splines. </p>
+<p>This function returns the entries of the matrix which transforms Bernstein polynomials to tensor product B-splines defined by the polynomial degree in x and y direction. The local interpolation mask is filled with the DeBoor algorithm and the system is solved with the Eigen::FullPivLU decomposition.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">super_space</td><td>Reference to the <a class="el" href="struct_bembel_1_1_super_space.html" title="The superspace manages local polynomial bases on each element of the mesh and provides an interface t...">SuperSpace</a> handling basis functions. </td></tr>
+    <tr><td class="paramname">pp1x</td><td>Polynomial degree in x direction plus 1. </td></tr>
+    <tr><td class="paramname">pp1y</td><td>Polynomial degree in y direction plus 1. </td></tr>
+    <tr><td class="paramname">knotrepetition_in</td><td>Knot repetition of the knot vector.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Struct Number of DOFs and indices of the matrix entries and the coefficients of the linear combination assembling smooth B-spline. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_projector_8hpp_source.html#l00158">158</a> of file <a class="el" href="_projector_8hpp_source.html">Projector.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="namespace_bembel_1_1_projector_routines_a66bc5b1efce385b9f29ad1f47ce37ea9_cgraph.png" border="0" usemap="#anamespace_bembel_1_1_projector_routines_a66bc5b1efce385b9f29ad1f47ce37ea9_cgraph" alt=""/></div>
 <map name="anamespace_bembel_1_1_projector_routines_a66bc5b1efce385b9f29ad1f47ce37ea9_cgraph" id="anamespace_bembel_1_1_projector_routines_a66bc5b1efce385b9f29ad1f47ce37ea9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,201,217,243"/>
+<area shape="rect" title="This function solves on each element the interpolation problem to assemble smooth tensor product B&#45;sp..." alt="" coords="5,201,217,243"/>
 <area shape="rect" href="class_bembel_1_1_element_tree.html#a0096ebfa5f958d558ed6bff82927ceb8" title=" " alt="" coords="278,5,439,47"/>
 <area shape="rect" href="class_bembel_1_1_element_tree.html#a47c786a6da606f54e61ea599d1ae8856" title=" " alt="" coords="278,71,439,112"/>
 <area shape="rect" href="class_bembel_1_1_cluster_tree.html#a89a1247815b5ab0e2da43bd8a66c10ff" title="getter" alt="" coords="282,136,435,177"/>
@@ -179,7 +192,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="namespace_bembel_1_1_projector_routines.html">ProjectorRoutines</a></li>
-    <li class="footer">Generated on Mon Feb 19 2024 14:59:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Feb 20 2024 10:14:35 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

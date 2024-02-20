@@ -14,7 +14,7 @@
 <area shape="rect" id="node5" href="$struct_bembel_1_1_discrete_operator_computer_3_01_eigen_1_1_matrix_3_01_scalar_00_01_eigen_1_1_d3ab5fe988617dc61bfc63242dee3aaad.html#a763d4c3d7b491439dfeaba61fdae4ac8" title=" " alt="" coords="714,71,917,157"/>
 <area shape="rect" id="node6" href="$class_bembel_1_1_discrete_potential.html#a31b5689b8960c41d9dca561b3a986b51" title=" " alt="" coords="719,181,911,223"/>
 <area shape="rect" id="node7" href="$class_bembel_1_1_v_t_k_surface_export.html#a9a28ff9434c44eb51145ad6e7b8d6a32" title=" " alt="" coords="251,457,448,499"/>
-<area shape="rect" id="node9" href="$namespace_bembel_1_1_projector_routines.html#a66bc5b1efce385b9f29ad1f47ce37ea9" title=" " alt="" coords="709,299,921,340"/>
+<area shape="rect" id="node9" href="$namespace_bembel_1_1_projector_routines.html#a66bc5b1efce385b9f29ad1f47ce37ea9" title="This function solves on each element the interpolation problem to assemble smooth tensor product B&#45;sp..." alt="" coords="709,299,921,340"/>
 <area shape="rect" id="node10" href="$namespace_bembel.html#a5d75608ee7079ac7c9100764ab6a81be" title=" " alt="" coords="728,365,903,391"/>
 <area shape="rect" id="node8" href="$class_bembel_1_1_v_t_k_surface_export.html#a890038717bae737f964fd030b7deb4ed" title=" " alt="" coords="5,457,203,499"/>
 <area shape="rect" id="node16" href="$class_bembel_1_1_element_tree.html#a00e1a6f0649a7d9f53497efebb6cf20f" title=" " alt="" coords="710,572,921,613"/>
