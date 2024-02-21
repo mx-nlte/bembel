@@ -155,10 +155,6 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </ul>
 </li>
 <li><code>Bembel/</code> contains the library. In <code>Bembel/</code>, module files have been created analogously to the design of the <a class="el" href="namespace_eigen.html">Eigen</a> library. If <a class="el" href="namespace_bembel.html">Bembel</a> is used, only these module files should be included. These modules are the following:<ul>
-<li><code>ClusterTree</code> implements an element structure for refinement. Currently, only uniform refinement has been implemented. A <code>ClusterTree</code> object itself is comprised of a <code>Geometry</code> object and an <code>ElementTree</code>. The <code>ElementTree</code> provides routines for the extraction of topological information, refinement, as well as iterators to effortlessly loop over elements.</li>
-<li><code>DuffyTrick</code> provides quadrature routines for (nearly) singular integrals. Therein, quadrature routines for 4 cases are implemented: Separated elements, elements sharing a corner, elements sharing an edge, and identical elements.</li>
-<li><code>DummyOperator</code> provides a <code>LinearOperator</code> for testing.</li>
-<li><code>Geometry</code> implements the handling of the geometry.</li>
 <li><code><a class="el" href="class_h2_matrix.html" title="Hierarchical Matrix class, which extends the EigenBase class.">H2Matrix</a></code> handles the compression of the large, densely populated matrices. The algorithm was introduced in <a href="#5">[5]</a> and was generalized to the Maxwell case in <a href="#8">[8]</a>.</li>
 <li><code>Helmholtz</code> provides the necessary specializations to solve Helmholtz problems.</li>
 <li><code>HomogenisedLaplace</code> provides the necessary specialisations to solve the homogensied Laplace problem.</li>
@@ -237,7 +233,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 21 2024 09:19:37 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Feb 21 2024 10:24:19 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

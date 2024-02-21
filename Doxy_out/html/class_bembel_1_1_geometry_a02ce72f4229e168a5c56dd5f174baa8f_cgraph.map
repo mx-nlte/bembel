@@ -1,5 +1,5 @@
 <map id="Bembel::Geometry::init_Geometry" name="Bembel::Geometry::init_Geometry">
-<area shape="rect" id="node1" title=" " alt="" coords="5,49,179,90"/>
+<area shape="rect" id="node1" title="Initialize the geometry from a geometry given by a file." alt="" coords="5,49,179,90"/>
 <area shape="rect" id="node2" href="$group___geometry.html#gab6cca6243499deb03e7fb6a7c450870e" title="loads geometry from file with GEOPDE&#45;format. Note that the direction of the normals must be consisten..." alt="" coords="227,5,452,32"/>
 <area shape="rect" id="node4" href="$group___geometry.html#gaaa18e14e95262340034d0b41f2ebc075" title="loads geometry from IGES file. Note that the direction of the normals must be consistent." alt="" coords="229,56,450,83"/>
 <area shape="rect" id="node5" href="$namespace_bembel.html#a4964bb4906731ef7ac920f39216a2fc8" title=" " alt="" coords="253,107,426,133"/>

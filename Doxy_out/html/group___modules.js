@@ -3,6 +3,7 @@ var group___modules =
     [ "AnsatzSpace", "group___ansatz_space.html", "group___ansatz_space" ],
     [ "ClusterTree", "group___cluster_tree.html", "group___cluster_tree" ],
     [ "DuffyTrick", "group___duffy_trick.html", "group___duffy_trick" ],
+    [ "DummyOperator", "group___dummy_operator.html", "group___dummy_operator" ],
     [ "Geometry", "group___geometry.html", "group___geometry" ],
     [ "H2Matrix", "group___h2_matrix.html", "group___h2_matrix" ],
     [ "Helmholtz", "group___helmholtz.html", "group___helmholtz" ],

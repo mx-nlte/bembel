@@ -146,6 +146,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gaaf2c0a5ad28e3c0abc4e3db7a85ab977"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___geometry.html#gaaf2c0a5ad28e3c0abc4e3db7a85ab977">Bembel::makeSection</a> (std::vector&lt; std::string &gt; data, const int linewidth=72)</td></tr>
 <tr class="memdesc:gaaf2c0a5ad28e3c0abc4e3db7a85ab977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform a vector of Data in a vector of lines with a specific length.  <a href="group___geometry.html#gaaf2c0a5ad28e3c0abc4e3db7a85ab977">More...</a><br /></td></tr>
 <tr class="separator:gaaf2c0a5ad28e3c0abc4e3db7a85ab977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c17c87ff88511abb7cf6a47970e2aa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___geometry.html#ga6c17c87ff88511abb7cf6a47970e2aa1">Bembel::writeIGSHeader</a> (std::string file_name)</td></tr>
+<tr class="memdesc:ga6c17c87ff88511abb7cf6a47970e2aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the IGES header into the given file.  <a href="group___geometry.html#ga6c17c87ff88511abb7cf6a47970e2aa1">More...</a><br /></td></tr>
+<tr class="separator:ga6c17c87ff88511abb7cf6a47970e2aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7a32044fa9c3c1ea7475ba5595aec65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___geometry.html#gae7a32044fa9c3c1ea7475ba5595aec65">Bembel::writeGlobalSection</a> (std::string file_name)</td></tr>
+<tr class="memdesc:gae7a32044fa9c3c1ea7475ba5595aec65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the IGES Global section into the given file.  <a href="group___geometry.html#gae7a32044fa9c3c1ea7475ba5595aec65">More...</a><br /></td></tr>
+<tr class="separator:gae7a32044fa9c3c1ea7475ba5595aec65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga13ec0a7ecedd0f45845efd7afeb228b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___geometry.html#ga13ec0a7ecedd0f45845efd7afeb228b7">Bembel::writeDirectory</a> (std::string file_name, std::vector&lt; int &gt; start_idx, std::vector&lt; int &gt; number_of_lines)</td></tr>
+<tr class="memdesc:ga13ec0a7ecedd0f45845efd7afeb228b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the IGES Directory section into the given file.  <a href="group___geometry.html#ga13ec0a7ecedd0f45845efd7afeb228b7">More...</a><br /></td></tr>
+<tr class="separator:ga13ec0a7ecedd0f45845efd7afeb228b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab0557fb935922723f44d095d43c96c93"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___geometry.html#gab0557fb935922723f44d095d43c96c93">Bembel::writePatchData</a> (const <a class="el" href="class_bembel_1_1_patch.html">Patch</a> &amp;patch, const int precision)</td></tr>
 <tr class="memdesc:gab0557fb935922723f44d095d43c96c93"><td class="mdescLeft">&#160;</td><td class="mdescRight">This Function writes the patch from <a class="el" href="namespace_bembel.html">Bembel</a> into a vector which can be written into an IGES file.  <a href="group___geometry.html#gab0557fb935922723f44d095d43c96c93">More...</a><br /></td></tr>
 <tr class="separator:gab0557fb935922723f44d095d43c96c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,7 +170,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This module handles all geometry related concerns. </p>
-<p>The Geometry class is the interface between geometry description and the remainder of the code. We provide an implementation of NURBS discretized patches via the Patch class, but the code is easily extensible to other parametric descriptions mapping from [0,1]2 to parts of the geometry, as long as the corresponding methods for point evaluation and evaluation of the pointwise Jacobian are implemented </p>
+<p>The Geometry class is the interface between geometry description and the remainder of the code. We provide an implementation of NURBS discretized patches via the Patch class, but the code is easily extensible to other parametric descriptions mapping from [0,1]2 to parts of the geometry, as long as the corresponding methods for point evaluation and evaluation of the point wise Jacobian are implemented. </p>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="gabc1f8e94e141fc00501462d78c030071"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabc1f8e94e141fc00501462d78c030071">&#9670;&nbsp;</a></span>ElementSurfacePoints</h2>
@@ -269,8 +278,8 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="group___geometry_gab6cca6243499deb03e7fb6a7c450870e_icgraph.png" border="0" usemap="#agroup___geometry_gab6cca6243499deb03e7fb6a7c450870e_icgraph" alt=""/></div>
 <map name="agroup___geometry_gab6cca6243499deb03e7fb6a7c450870e_icgraph" id="agroup___geometry_gab6cca6243499deb03e7fb6a7c450870e_icgraph">
 <area shape="rect" title="loads geometry from file with GEOPDE&#45;format. Note that the direction of the normals must be consisten..." alt="" coords="492,13,717,39"/>
-<area shape="rect" href="class_bembel_1_1_geometry.html#a02ce72f4229e168a5c56dd5f174baa8f" title=" " alt="" coords="271,5,444,47"/>
-<area shape="rect" href="class_bembel_1_1_geometry.html#a4b577a308bc416d9cead1dae6694050f" title=" " alt="" coords="5,13,223,39"/>
+<area shape="rect" href="class_bembel_1_1_geometry.html#a02ce72f4229e168a5c56dd5f174baa8f" title="Initialize the geometry from a geometry given by a file." alt="" coords="271,5,444,47"/>
+<area shape="rect" href="class_bembel_1_1_geometry.html#a4b577a308bc416d9cead1dae6694050f" title="Constructor." alt="" coords="5,13,223,39"/>
 </map>
 </div>
 
@@ -325,8 +334,8 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="group___geometry_gaaa18e14e95262340034d0b41f2ebc075_icgraph.png" border="0" usemap="#agroup___geometry_gaaa18e14e95262340034d0b41f2ebc075_icgraph" alt=""/></div>
 <map name="agroup___geometry_gaaa18e14e95262340034d0b41f2ebc075_icgraph" id="agroup___geometry_gaaa18e14e95262340034d0b41f2ebc075_icgraph">
 <area shape="rect" title="loads geometry from IGES file. Note that the direction of the normals must be consistent." alt="" coords="492,13,713,39"/>
-<area shape="rect" href="class_bembel_1_1_geometry.html#a02ce72f4229e168a5c56dd5f174baa8f" title=" " alt="" coords="271,5,444,47"/>
-<area shape="rect" href="class_bembel_1_1_geometry.html#a4b577a308bc416d9cead1dae6694050f" title=" " alt="" coords="5,13,223,39"/>
+<area shape="rect" href="class_bembel_1_1_geometry.html#a02ce72f4229e168a5c56dd5f174baa8f" title="Initialize the geometry from a geometry given by a file." alt="" coords="271,5,444,47"/>
+<area shape="rect" href="class_bembel_1_1_geometry.html#a4b577a308bc416d9cead1dae6694050f" title="Constructor." alt="" coords="5,13,223,39"/>
 </map>
 </div>
 
@@ -375,7 +384,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="group___geometry_gaaf2c0a5ad28e3c0abc4e3db7a85ab977_icgraph.png" border="0" usemap="#agroup___geometry_gaaf2c0a5ad28e3c0abc4e3db7a85ab977_icgraph" alt=""/></div>
 <map name="agroup___geometry_gaaf2c0a5ad28e3c0abc4e3db7a85ab977_icgraph" id="agroup___geometry_gaaf2c0a5ad28e3c0abc4e3db7a85ab977_icgraph">
 <area shape="rect" title="Transform a vector of Data in a vector of lines with a specific length." alt="" coords="463,31,627,57"/>
-<area shape="rect" href="namespace_bembel.html#ae7a32044fa9c3c1ea7475ba5595aec65" title=" " alt="" coords="212,5,415,32"/>
+<area shape="rect" href="group___geometry.html#gae7a32044fa9c3c1ea7475ba5595aec65" title="Write the IGES Global section into the given file." alt="" coords="212,5,415,32"/>
 <area shape="rect" href="group___geometry.html#gac59b3f15b6352069bc49b9c3b73e2658" title="Writes Geometry into an IGES file format." alt="" coords="5,31,164,57"/>
 </map>
 </div>
@@ -432,6 +441,113 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ga13ec0a7ecedd0f45845efd7afeb228b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga13ec0a7ecedd0f45845efd7afeb228b7">&#9670;&nbsp;</a></span>writeDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Bembel::writeDirectory </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>file_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>start_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>number_of_lines</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the IGES Directory section into the given file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file_name</td><td>File name to write the section in. </td></tr>
+    <tr><td class="paramname">start_idx</td><td>Vector containing the start lines of the sections. </td></tr>
+    <tr><td class="paramname">start_idx</td><td>Vector containing the lengths of the sections. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of lines of this section. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00336">336</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group___geometry_ga13ec0a7ecedd0f45845efd7afeb228b7_icgraph.png" border="0" usemap="#agroup___geometry_ga13ec0a7ecedd0f45845efd7afeb228b7_icgraph" alt=""/></div>
+<map name="agroup___geometry_ga13ec0a7ecedd0f45845efd7afeb228b7_icgraph" id="agroup___geometry_ga13ec0a7ecedd0f45845efd7afeb228b7_icgraph">
+<area shape="rect" title="Write the IGES Directory section into the given file." alt="" coords="212,5,385,32"/>
+<area shape="rect" href="group___geometry.html#gac59b3f15b6352069bc49b9c3b73e2658" title="Writes Geometry into an IGES file format." alt="" coords="5,5,164,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gae7a32044fa9c3c1ea7475ba5595aec65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae7a32044fa9c3c1ea7475ba5595aec65">&#9670;&nbsp;</a></span>writeGlobalSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Bembel::writeGlobalSection </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>file_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the IGES Global section into the given file. </p>
+<ul>
+<li></li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file_name</td><td>File name to write the section in. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of lines of this section. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00265">265</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group___geometry_gae7a32044fa9c3c1ea7475ba5595aec65_cgraph.png" border="0" usemap="#agroup___geometry_gae7a32044fa9c3c1ea7475ba5595aec65_cgraph" alt=""/></div>
+<map name="agroup___geometry_gae7a32044fa9c3c1ea7475ba5595aec65_cgraph" id="agroup___geometry_gae7a32044fa9c3c1ea7475ba5595aec65_cgraph">
+<area shape="rect" title="Write the IGES Global section into the given file." alt="" coords="5,31,208,57"/>
+<area shape="rect" href="group___geometry.html#gaaf2c0a5ad28e3c0abc4e3db7a85ab977" title="Transform a vector of Data in a vector of lines with a specific length." alt="" coords="256,5,420,32"/>
+<area shape="rect" href="group___geometry.html#ga7fe7dcd5113abedbe0c26bc8d30638ac" title="This function writes a given section to the specified file." alt="" coords="257,56,419,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group___geometry_gae7a32044fa9c3c1ea7475ba5595aec65_icgraph.png" border="0" usemap="#agroup___geometry_gae7a32044fa9c3c1ea7475ba5595aec65_icgraph" alt=""/></div>
+<map name="agroup___geometry_gae7a32044fa9c3c1ea7475ba5595aec65_icgraph" id="agroup___geometry_gae7a32044fa9c3c1ea7475ba5595aec65_icgraph">
+<area shape="rect" title="Write the IGES Global section into the given file." alt="" coords="212,5,415,32"/>
+<area shape="rect" href="group___geometry.html#gac59b3f15b6352069bc49b9c3b73e2658" title="Writes Geometry into an IGES file format." alt="" coords="5,5,164,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="gac59b3f15b6352069bc49b9c3b73e2658"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gac59b3f15b6352069bc49b9c3b73e2658">&#9670;&nbsp;</a></span>writeIGSFile()</h2>
 
@@ -473,7 +589,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00453">453</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00480">480</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -481,13 +597,59 @@ Here is the call graph for this function:</div>
 <map name="agroup___geometry_gac59b3f15b6352069bc49b9c3b73e2658_cgraph" id="agroup___geometry_gac59b3f15b6352069bc49b9c3b73e2658_cgraph">
 <area shape="rect" title="Writes Geometry into an IGES file format." alt="" coords="5,115,164,142"/>
 <area shape="rect" href="group___geometry.html#gaaf2c0a5ad28e3c0abc4e3db7a85ab977" title="Transform a vector of Data in a vector of lines with a specific length." alt="" coords="500,27,664,54"/>
-<area shape="rect" href="namespace_bembel.html#a13ec0a7ecedd0f45845efd7afeb228b7" title=" " alt="" coords="239,39,413,66"/>
-<area shape="rect" href="namespace_bembel.html#ae7a32044fa9c3c1ea7475ba5595aec65" title=" " alt="" coords="225,90,427,116"/>
-<area shape="rect" href="namespace_bembel.html#a6c17c87ff88511abb7cf6a47970e2aa1" title=" " alt="" coords="235,140,417,167"/>
+<area shape="rect" href="group___geometry.html#ga13ec0a7ecedd0f45845efd7afeb228b7" title="Write the IGES Directory section into the given file." alt="" coords="239,39,413,66"/>
+<area shape="rect" href="group___geometry.html#gae7a32044fa9c3c1ea7475ba5595aec65" title="Write the IGES Global section into the given file." alt="" coords="225,90,427,116"/>
+<area shape="rect" href="group___geometry.html#ga6c17c87ff88511abb7cf6a47970e2aa1" title="Write the IGES header into the given file." alt="" coords="235,140,417,167"/>
 <area shape="rect" href="group___geometry.html#ga46aa1c9d9f6c91c896de8bd7415ae06e" title="This function writes a the parameter section of the IGES file." alt="" coords="212,191,440,218"/>
 <area shape="rect" href="group___geometry.html#gab0557fb935922723f44d095d43c96c93" title="This Function writes the patch from Bembel into a vector which can be written into an IGES file." alt="" coords="237,242,415,268"/>
 <area shape="rect" href="group___geometry.html#ga7fe7dcd5113abedbe0c26bc8d30638ac" title="This function writes a given section to the specified file." alt="" coords="501,115,663,142"/>
-<area shape="rect" href="namespace_bembel.html#a2a630a98b04cf9e1474891161b408bd9" title=" " alt="" coords="488,242,676,268"/>
+<area shape="rect" href="namespace_bembel.html#a2a630a98b04cf9e1474891161b408bd9" title="Convert a double to a string with given precision." alt="" coords="488,242,676,268"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga6c17c87ff88511abb7cf6a47970e2aa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c17c87ff88511abb7cf6a47970e2aa1">&#9670;&nbsp;</a></span>writeIGSHeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bembel::writeIGSHeader </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>file_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write the IGES header into the given file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file_name</td><td>File name to write the header in. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00236">236</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group___geometry_ga6c17c87ff88511abb7cf6a47970e2aa1_cgraph.png" border="0" usemap="#agroup___geometry_ga6c17c87ff88511abb7cf6a47970e2aa1_cgraph" alt=""/></div>
+<map name="agroup___geometry_ga6c17c87ff88511abb7cf6a47970e2aa1_cgraph" id="agroup___geometry_ga6c17c87ff88511abb7cf6a47970e2aa1_cgraph">
+<area shape="rect" title="Write the IGES header into the given file." alt="" coords="5,5,188,32"/>
+<area shape="rect" href="group___geometry.html#ga7fe7dcd5113abedbe0c26bc8d30638ac" title="This function writes a given section to the specified file." alt="" coords="236,5,397,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group___geometry_ga6c17c87ff88511abb7cf6a47970e2aa1_icgraph.png" border="0" usemap="#agroup___geometry_ga6c17c87ff88511abb7cf6a47970e2aa1_icgraph" alt=""/></div>
+<map name="agroup___geometry_ga6c17c87ff88511abb7cf6a47970e2aa1_icgraph" id="agroup___geometry_ga6c17c87ff88511abb7cf6a47970e2aa1_icgraph">
+<area shape="rect" title="Write the IGES header into the given file." alt="" coords="212,5,395,32"/>
+<area shape="rect" href="group___geometry.html#gac59b3f15b6352069bc49b9c3b73e2658" title="Writes Geometry into an IGES file format." alt="" coords="5,5,164,32"/>
 </map>
 </div>
 
@@ -593,14 +755,14 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector with patch data in IGES format. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00358">358</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00385">385</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group___geometry_gab0557fb935922723f44d095d43c96c93_cgraph.png" border="0" usemap="#agroup___geometry_gab0557fb935922723f44d095d43c96c93_cgraph" alt=""/></div>
 <map name="agroup___geometry_gab0557fb935922723f44d095d43c96c93_cgraph" id="agroup___geometry_gab0557fb935922723f44d095d43c96c93_cgraph">
 <area shape="rect" title="This Function writes the patch from Bembel into a vector which can be written into an IGES file." alt="" coords="5,5,184,32"/>
-<area shape="rect" href="namespace_bembel.html#a2a630a98b04cf9e1474891161b408bd9" title=" " alt="" coords="232,5,420,32"/>
+<area shape="rect" href="namespace_bembel.html#a2a630a98b04cf9e1474891161b408bd9" title="Convert a double to a string with given precision." alt="" coords="232,5,420,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -664,8 +826,8 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="group___geometry_ga7fe7dcd5113abedbe0c26bc8d30638ac_icgraph.png" border="0" usemap="#agroup___geometry_ga7fe7dcd5113abedbe0c26bc8d30638ac_icgraph" alt=""/></div>
 <map name="agroup___geometry_ga7fe7dcd5113abedbe0c26bc8d30638ac_icgraph" id="agroup___geometry_ga7fe7dcd5113abedbe0c26bc8d30638ac_icgraph">
 <area shape="rect" title="This function writes a given section to the specified file." alt="" coords="463,31,624,57"/>
-<area shape="rect" href="namespace_bembel.html#ae7a32044fa9c3c1ea7475ba5595aec65" title=" " alt="" coords="212,5,415,32"/>
-<area shape="rect" href="namespace_bembel.html#a6c17c87ff88511abb7cf6a47970e2aa1" title=" " alt="" coords="222,56,405,83"/>
+<area shape="rect" href="group___geometry.html#gae7a32044fa9c3c1ea7475ba5595aec65" title="Write the IGES Global section into the given file." alt="" coords="212,5,415,32"/>
+<area shape="rect" href="group___geometry.html#ga6c17c87ff88511abb7cf6a47970e2aa1" title="Write the IGES header into the given file." alt="" coords="222,56,405,83"/>
 <area shape="rect" href="group___geometry.html#gac59b3f15b6352069bc49b9c3b73e2658" title="Writes Geometry into an IGES file format." alt="" coords="5,31,164,57"/>
 </map>
 </div>
@@ -677,7 +839,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 21 2024 09:19:37 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Feb 21 2024 10:24:18 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

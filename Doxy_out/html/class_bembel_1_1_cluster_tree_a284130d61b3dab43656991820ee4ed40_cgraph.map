@@ -7,7 +7,7 @@
 <area shape="rect" id="node4" href="$class_bembel_1_1_element_tree.html#a88842d4e79afeb6d7d2069d4c2bcd58d" title="static members" alt="" coords="736,13,911,54"/>
 <area shape="rect" id="node6" href="$class_bembel_1_1_element_tree.html#a48c2f97dbc1ab7db5e35951984595801" title="iterators" alt="" coords="743,82,904,123"/>
 <area shape="rect" id="node7" href="$class_bembel_1_1_element_tree.html#a73b7b5b1e3f96db5f477f63d783b0e4d" title="Returns an iterator one past the end of the sequence represented by the leafs as ElementTreeNodes of ..." alt="" coords="743,147,904,189"/>
-<area shape="rect" id="node9" href="$class_bembel_1_1_geometry.html#a50c81fee3bcced8bb62649b798c19da6" title=" " alt="" coords="484,151,657,193"/>
+<area shape="rect" id="node9" href="$class_bembel_1_1_geometry.html#a50c81fee3bcced8bb62649b798c19da6" title="Return const pointer to the geometry." alt="" coords="484,151,657,193"/>
 <area shape="rect" id="node10" href="$class_bembel_1_1_element_tree.html#a261632962d142694cb351536ce2de157" title="Refine all patches uniformly." alt="" coords="490,217,651,258"/>
 <area shape="rect" id="node12" href="$class_bembel_1_1_element_tree.html#af3bb605f06602d6c962e2e6b04668f07" title="Return reference to the root ElementTreeNode." alt="" coords="490,282,651,323"/>
 <area shape="rect" id="node11" href="$class_bembel_1_1_element_tree.html#ae531dd7026ef12de425795fed380d7dc" title="Refine the given element or it&#39;s sons." alt="" coords="724,217,923,258"/>

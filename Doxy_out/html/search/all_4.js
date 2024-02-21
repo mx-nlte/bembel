@@ -36,8 +36,8 @@ var searchData=
   ['dsolid_5fharmonics_5ffull_139',['Dsolid_harmonics_full',['../namespace_bembel.html#a997d908407f8a4c0b874fcc4c687c9dc',1,'Bembel']]],
   ['dsolid_5fspherical_5fprev_140',['dsolid_spherical_prev',['../namespace_bembel.html#a38bccc29943da2ba8056951ecf04129d',1,'Bembel']]],
   ['dspherical_5fprev_141',['dspherical_prev',['../namespace_bembel.html#aebeae9a65184e35201205697138af49b',1,'Bembel']]],
-  ['duffytrick_142',['DuffyTrick',['../_duffy_trick.html',1,'(Global Namespace)'],['../group___duffy_trick.html',1,'(Global Namespace)']]],
-  ['dummyoperator_143',['DummyOperator',['../class_bembel_1_1_dummy_operator.html',1,'Bembel::DummyOperator'],['../class_bembel_1_1_dummy_operator.html#a2461870c27a31b329d57322ec54cbe09',1,'Bembel::DummyOperator::DummyOperator(std::function&lt; double(const Eigen::Vector2d &amp;, const Eigen::Vector2d &amp;)&gt; test_func)'],['../class_bembel_1_1_dummy_operator.html#aae46c81dd3bd2a94408502099e17f2f6',1,'Bembel::DummyOperator::DummyOperator()'],['../_dummy_operator.html',1,'(Global Namespace)']]],
+  ['duffytrick_142',['DuffyTrick',['../group___duffy_trick.html',1,'(Global Namespace)'],['../_duffy_trick.html',1,'(Global Namespace)']]],
+  ['dummyoperator_143',['DummyOperator',['../class_bembel_1_1_dummy_operator.html',1,'Bembel::DummyOperator'],['../class_bembel_1_1_dummy_operator.html#a2461870c27a31b329d57322ec54cbe09',1,'Bembel::DummyOperator::DummyOperator(std::function&lt; double(const Eigen::Vector2d &amp;, const Eigen::Vector2d &amp;)&gt; test_func)'],['../class_bembel_1_1_dummy_operator.html#aae46c81dd3bd2a94408502099e17f2f6',1,'Bembel::DummyOperator::DummyOperator()'],['../group___dummy_operator.html',1,'(Global Namespace)'],['../_dummy_operator.html',1,'(Global Namespace)']]],
   ['dummyoperator_2ehpp_144',['DummyOperator.hpp',['../_dummy_operator_8hpp.html',1,'']]],
   ['dummyoperator_5ftest_5ffunction_145',['DummyOperator_test_function',['../namespace_bembel.html#a7a45a61be55ca86b8c57a2bf68356f50',1,'Bembel']]]
 ];

@@ -40,8 +40,8 @@ var NAVTREEINDEX =
 [
 "_f_a_qs.html",
 "class_bembel_1_1_identity_operator_base.html",
-"namespace_bembel_1_1_glue_routines.html",
-"struct_bembel_1_1_potential_traits_3_01_helmholtz_single_layer_potential_3_01_lin_op_01_4_01_4.html"
+"namespace_bembel_1_1_constants.html#a9844c7cee46cad2052b76f742bd9ad29",
+"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html#a9086ae42db0a0e120cea64bcc85c95af"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
