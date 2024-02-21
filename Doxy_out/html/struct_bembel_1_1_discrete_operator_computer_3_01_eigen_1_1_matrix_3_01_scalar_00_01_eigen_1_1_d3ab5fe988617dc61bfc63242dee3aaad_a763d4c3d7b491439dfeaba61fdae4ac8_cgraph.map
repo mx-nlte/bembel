@@ -1,17 +1,17 @@
 <map id="Bembel::DiscreteOperatorComputer&lt; Eigen::Matrix&lt; Scalar, Eigen::Dynamic, Eigen::Dynamic &gt;, Derived &gt;::compute" name="Bembel::DiscreteOperatorComputer&lt; Eigen::Matrix&lt; Scalar, Eigen::Dynamic, Eigen::Dynamic &gt;, Derived &gt;::compute">
 <area shape="rect" id="node1" title=" " alt="" coords="5,377,208,462"/>
 <area shape="rect" id="node2" href="$group___duffy_trick.html#ga51dfc70fb9ff184673021da12a589d57" title="evaluates a given quadrature on all surface panels storage format is qNodes.col(k) = [xi,..." alt="" coords="268,104,440,145"/>
-<area shape="rect" id="node3" href="$class_bembel_1_1_element_tree.html#a0096ebfa5f958d558ed6bff82927ceb8" title=" " alt="" coords="273,169,435,211"/>
-<area shape="rect" id="node5" href="$class_bembel_1_1_element_tree.html#a47c786a6da606f54e61ea599d1ae8856" title=" " alt="" coords="273,235,435,276"/>
+<area shape="rect" id="node3" href="$class_bembel_1_1_element_tree.html#a0096ebfa5f958d558ed6bff82927ceb8" title="Returns an iterator to the beginning of the sequence represented by the leafs as ElementTreeNodes of ..." alt="" coords="273,169,435,211"/>
+<area shape="rect" id="node5" href="$class_bembel_1_1_element_tree.html#a47c786a6da606f54e61ea599d1ae8856" title="Returns an iterator one past the end of the sequence represented by the leafs as ElementTreeNodes of ..." alt="" coords="273,235,435,276"/>
 <area shape="rect" id="node7" href="$group___duffy_trick.html#ga08c83eb5d1c80c396c653ca32c90f719" title="This function wraps the quadrature routines for the duffy trick and returns all integrals for the giv..." alt="" coords="269,300,439,341"/>
 <area shape="rect" id="node19" href="$class_bembel_1_1_cluster_tree.html#a89a1247815b5ab0e2da43bd8a66c10ff" title="getter" alt="" coords="277,365,431,407"/>
 <area shape="rect" id="node20" href="$struct_bembel_1_1_super_space.html#a14e5e60f4c5b98840f6457bcdf3b9376" title=" " alt="" coords="276,431,432,472"/>
-<area shape="rect" id="node21" href="$class_bembel_1_1_element_tree.html#abd179822f5abd8261b3cceed00d91061" title=" " alt="" coords="256,496,452,537"/>
+<area shape="rect" id="node21" href="$class_bembel_1_1_element_tree.html#abd179822f5abd8261b3cceed00d91061" title="Return number of elements in the ElementTree." alt="" coords="256,496,452,537"/>
 <area shape="rect" id="node22" href="$struct_bembel_1_1_super_space.html#a6675b25cd3d78e2d9958ebbceb72e548" title=" " alt="" coords="263,561,445,603"/>
 <area shape="rect" id="node23" href="$class_bembel_1_1_ansatz_space.html#a976516196d270b3fb5f3af0ef34dc95b" title="Retrieves the reference to the SuperSpace associated with this AnsatzSpace." alt="" coords="273,627,435,668"/>
 <area shape="rect" id="node24" href="$class_bembel_1_1_ansatz_space.html#a5649a924885719a7bff5fd7ba2f90640" title="Retrieves the transformation matrix associated with this AnsatzSpace." alt="" coords="273,693,435,749"/>
 <area shape="rect" id="node4" href="$class_bembel_1_1_element_tree.html#a48c2f97dbc1ab7db5e35951984595801" title="iterators" alt="" coords="535,5,696,47"/>
-<area shape="rect" id="node6" href="$class_bembel_1_1_element_tree.html#a73b7b5b1e3f96db5f477f63d783b0e4d" title=" " alt="" coords="535,71,696,112"/>
+<area shape="rect" id="node6" href="$class_bembel_1_1_element_tree.html#a73b7b5b1e3f96db5f477f63d783b0e4d" title="Returns an iterator one past the end of the sequence represented by the leafs as ElementTreeNodes of ..." alt="" coords="535,71,696,112"/>
 <area shape="rect" id="node8" href="$group___duffy_trick.html#ga63fd7fd5ef96ef692b695626b7bfe566" title="compares two elements for similarities and determines, how the elements have to be rotated to move th..." alt="" coords="541,397,689,439"/>
 <area shape="rect" id="node9" href="$struct_bembel_1_1_linear_operator_base.html#a564ca07e65785b8f8bb8882524d5f1d3" title=" " alt="" coords="503,463,728,504"/>
 <area shape="rect" id="node10" href="$struct_bembel_1_1_linear_operator_base.html#a93eae80056713e449c452e86fe4f89eb" title="Compute quadrature degree for numerical integretation close to the singularity based on distance,..." alt="" coords="500,528,731,569"/>
