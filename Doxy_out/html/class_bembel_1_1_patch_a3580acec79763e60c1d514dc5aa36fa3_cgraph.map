@@ -1,5 +1,5 @@
 <map id="Bembel::Patch::evalNormal" name="Bembel::Patch::evalNormal">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,204,32"/>
-<area shape="rect" id="node2" href="$class_bembel_1_1_patch.html#a839327eaea60f8007fee75ac480853fb" title=" " alt="" coords="252,5,451,32"/>
-<area shape="rect" id="node3" href="$class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title=" " alt="" coords="499,5,705,32"/>
+<area shape="rect" id="node1" title="Evaluate normal vector at given point." alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node2" href="$class_bembel_1_1_patch.html#a839327eaea60f8007fee75ac480853fb" title="Evaluate normal vector at given point." alt="" coords="252,5,451,32"/>
+<area shape="rect" id="node3" href="$class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title="Evaluate Jacobian of the parametrization at given point." alt="" coords="499,5,705,32"/>
 </map>
