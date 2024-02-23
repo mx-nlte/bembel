@@ -103,15 +103,61 @@ $(document).ready(function(){initNavTree('_getting_started.html',''); initResiza
 <div class="title">Getting Started </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="compile"></a>
-How to run our code</h1>
+<div class="textblock"><h1><a class="anchor" id="secStart"></a>
+How to Compile and Run Our Code</h1>
+<p>You need to install the Eigen3 library, see <a href="https://eigen.tuxfamily.org/dox/GettingStarted.html">Eigen's Documentation</a> for help. We do not rely on any other external libraries, except for the standard template library. Thus, having installed <a class="el" href="namespace_eigen.html">Eigen</a>, <a class="el" href="namespace_bembel.html">Bembel</a> should run out of the box. If you want to use <a class="el" href="namespace_bembel.html">Bembel</a> as part of your application, simply add the <code>Bembel/</code> directory to your includes.</p>
+<p>If you want to run the provided examples and tests, you can utilize the provided <code>CMakeLists.txt</code>.</p>
+<h2><a class="anchor" id="subsecCompile"></a>
+Compile the Code</h2>
+<p>On Unix-based systems run: </p><pre><code>$ cmake -B build .
+$ cmake --build build --config release
+</code></pre><p>There also exist a <code>debug</code> config.</p>
+<p>The CMake-File checks for installations of <a class="el" href="namespace_eigen.html">Eigen</a> via the corresponding <code>Eigen3Config.cmake</code>. You can include the source code of <a class="el" href="namespace_eigen.html">Eigen</a> directly byEigen can be integrated as a module. Alternatively, include the source code from <a class="el" href="namespace_eigen.html">Eigen</a> with <code>include_directory(path/to/eigen)</code> and delete the following lines</p>
+<pre><code>find_package (Eigen3 3.3 REQUIRED NO_MODULE)
+target_link_librarires(... Eigen3::Eigen)
+</code></pre><p>from the <code>CMakeLists.txt</code> files.</p>
+<h2><a class="anchor" id="subsecRun"></a>
+Run the Tests</h2>
+<p>On Unix-based systems run: Run the tests in the <code>build/</code> directory with</p>
+<pre><code>$ ctest
+</code></pre><p>The geometry files required to run the examples can be found in the <code>geo/</code> folder.</p>
+<h1><a class="anchor" id="Repository"></a>
+Structure of the Repository</h1>
+<p>The general structure of the repository looks as follows.</p>
+<ul>
+<li><code>Bembel/</code> contains the library. In <code>Bembel/</code>, module files have been created analogously to the design of the <a class="el" href="namespace_eigen.html">Eigen</a> library. If <a class="el" href="namespace_bembel.html">Bembel</a> is used, only these module files should be included. These modules are the following:<ul>
+<li><a class="el" href="group___ansatz_space.html">AnsatzSpace</a></li>
+<li><a class="el" href="group___cluster_tree.html">ClusterTree</a></li>
+<li><a class="el" href="group___duffy_trick.html">DuffyTrick</a></li>
+<li><a class="el" href="group___dummy_operator.html">DummyOperator</a></li>
+<li><a class="el" href="group___geometry.html">Geometry</a></li>
+<li><a class="el" href="group___h2_matrix.html">H2Matrix</a></li>
+<li><a class="el" href="group___helmholtz.html">Helmholtz</a></li>
+<li><a class="el" href="group___homogenised_laplace.html">HomogenisedLaplace</a></li>
+<li><a class="el" href="group___i_o.html">IO</a></li>
+<li><a class="el" href="group___laplace.html">Laplace</a></li>
+<li><a class="el" href="group___linear_form.html">LinearForm</a></li>
+<li><a class="el" href="group___linear_operator.html">LinearOperator</a></li>
+<li><a class="el" href="group___maxwell.html">Maxwell</a></li>
+<li><a class="el" href="group___potential.html">Potential</a></li>
+<li><a class="el" href="group___quadrature.html">Quadrature</a></li>
+<li><a class="el" href="group___spline.html">Spline</a></li>
+</ul>
+</li>
+<li><code>Bembel/src/</code> contains the folders corresponding to these modules, which include the actual implementation.</li>
+<li><code>geo/</code> contains geometry files in the format of the octave <a href="https://octave.sourceforge.io/nurbs/">NURBS package</a>. They can be utilized for computations. Note that <b>the normal vector must be outward directed</b> on all patches!</li>
+<li><code>geo/octave_example/</code> includes <code>.m</code> files that showcase how geometries can be constructed using the NURBS package.</li>
+<li><code>assets/</code> only contains things relevant for GitHub pages.</li>
+<li><code>examples/</code> contains short examples for <a class="el" href="namespace_bembel.html">Bembel</a>'s functionality</li>
+<li><code>tests/</code> contains the unit tests for <a class="el" href="namespace_bembel.html">Bembel</a>. </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 22 2024 14:26:46 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Feb 23 2024 08:55:33 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

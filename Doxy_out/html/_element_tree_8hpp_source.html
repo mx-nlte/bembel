@@ -382,12 +382,15 @@ $(document).ready(function(){initNavTree('_element_tree_8hpp_source.html',''); i
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <span class="comment">// compute distance vector of the two spheres</span></div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="keyword">auto</span> z = mp1 - mp2;</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <span class="keyword">auto</span> norm = (mp1 - mp2).norm();</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    <span class="comment">// B(d2,r2) subset B(d1,r1)</span></div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    <span class="keywordflow">if</span> (norm + r2 &lt;= r1) {</div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;      *mp = mp1;</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;      *r = r1;</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;      <span class="comment">// B(d1,r1) subset B(d2,r2)</span></div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (norm + r1 &lt;= r2) {</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;      *mp = mp2;</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;      *r = r2;</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;      <span class="comment">// the union is not a ball</span></div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;      *mp = 0.5 * (mp1 + mp2 + (r1 - r2) / norm * z);</div>
 <div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;      *r = 0.5 * (r1 + r2 + norm);</div>
@@ -667,7 +670,7 @@ $(document).ready(function(){initNavTree('_element_tree_8hpp_source.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6511baee97c6d368f3c8794f4711eeb4.html">Bembel</a></li><li class="navelem"><a class="el" href="dir_1661f7552841f4f43560732ff45957fc.html">src</a></li><li class="navelem"><a class="el" href="dir_ca76cdc2716056fcdd68371e1ea9d67b.html">ClusterTree</a></li><li class="navelem"><a class="el" href="_element_tree_8hpp.html">ElementTree.hpp</a></li>
-    <li class="footer">Generated on Thu Feb 22 2024 14:26:46 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Feb 23 2024 08:55:33 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -116,9 +116,9 @@ $(document).ready(function(){initNavTree('class_bembel_1_1_glue.html',''); initR
 class Bembel::Glue&lt; Derived &gt;</h3>
 
 <p>This class takes care of identifying DOFs on different edges, which must be identified with one another. </p>
-<p>The <a class="el" href="class_bembel_1_1_glue.html" title="This class takes care of identifying DOFs on different edges, which must be identified with one anoth...">Glue</a> class has routines to assemble continuous B-splines across patch boundaries depending on the template parameter <code><a class="el" href="struct_bembel_1_1_linear_operator_traits.html" title="struct containing specifications on the linear operator has to be specialized or derived for any part...">LinearOperatorTraits</a>&lt;Derived&gt;::Form</code>. If this template parameter is equal to <code><a class="el" href="struct_bembel_1_1_differential_form.html#a1b38ffd24d431c46ccd1dc29e7bdaf99a348366fcc91a759bdd1e3ee5eda286a0">DifferentialForm::Continuous</a></code>, the B-splines are globally glued continuously. Otherwise, it can also be <code><a class="el" href="struct_bembel_1_1_differential_form.html#a1b38ffd24d431c46ccd1dc29e7bdaf99ae6f943889aa67e7aa7ea89eae33b1939">DifferentialForm::DivConforming</a></code>, in which case the normal component is glued continuously. Finally, there is the option of not gluing the B-splines at all if the parameter is <code><a class="el" href="struct_bembel_1_1_differential_form.html#a1b38ffd24d431c46ccd1dc29e7bdaf99a9069b7e3f2dd459f02912eefa3b166a5">DifferentialForm::Discontinuous</a></code>. </p>
+<p>The <a class="el" href="class_bembel_1_1_glue.html" title="This class takes care of identifying DOFs on different edges, which must be identified with one anoth...">Glue</a> class has routines to assemble continuous B-splines across patch boundaries depending on the template parameter LinearOperatorTraits&lt;Derived&gt;::Form. If this template parameter is equal to <a class="el" href="struct_bembel_1_1_differential_form.html#a1b38ffd24d431c46ccd1dc29e7bdaf99a348366fcc91a759bdd1e3ee5eda286a0">DifferentialForm::Continuous</a>, the B-splines are globally glued continuously. Otherwise, it can also be <a class="el" href="struct_bembel_1_1_differential_form.html#a1b38ffd24d431c46ccd1dc29e7bdaf99ae6f943889aa67e7aa7ea89eae33b1939">DifferentialForm::DivConforming</a>, in which case the normal component is glued continuously. Finally, there is the option of not gluing the B-splines at all if the parameter is <a class="el" href="struct_bembel_1_1_differential_form.html#a1b38ffd24d431c46ccd1dc29e7bdaf99a9069b7e3f2dd459f02912eefa3b166a5">DifferentialForm::Discontinuous</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00072">72</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00076">76</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -185,7 +185,7 @@ template&lt;typename Derived &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00088">88</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00092">92</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -252,7 +252,7 @@ template&lt;typename Derived &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="class_bembel_1_1_glue.html" title="This class takes care of identifying DOFs on different edges, which must be identified with one anoth...">Glue</a> matrix. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00149">149</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00153">153</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -305,7 +305,7 @@ template&lt;typename Derived &gt; </div>
 <p>This function returns the <a class="el" href="class_bembel_1_1_glue.html" title="This class takes care of identifying DOFs on different edges, which must be identified with one anoth...">Glue</a> matrix which transforms smooth B-splines to continuous shape functions across patch boundaries. If continuity is not needed this matrix is the identity. Other wise this matrix is a tall thin matrix combining degrees of freedom.</p>
 <dl class="section return"><dt>Returns</dt><dd>Eigen::SparseMatrix&lt;double&gt; <a class="el" href="class_bembel_1_1_glue.html" title="This class takes care of identifying DOFs on different edges, which must be identified with one anoth...">Glue</a> matrix </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00116">116</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00120">120</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -365,7 +365,7 @@ template&lt;typename Derived &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00100">100</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00104">104</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -429,7 +429,7 @@ template&lt;typename Derived &gt; </div>
 </div><div class="memdoc">
 
 <p>Generates a list of degrees of freedom (DOFs) identifications. </p>
-<p>This function creates a list of degrees of freedom (DOFs) identifications which need to be glued together. The return type is a std::vector of <code><a class="el" href="struct_bembel_1_1_glue_routines_1_1dof_identification.html">GlueRoutines::dofIdentification</a></code> which collects the DOFs to be glued. Furthermore, the coef in this struct denotes the orientation.</p>
+<p>This function creates a list of degrees of freedom (DOFs) identifications which need to be glued together. The return type is a std::vector of <a class="el" href="struct_bembel_1_1_glue_routines_1_1dof_identification.html" title="Helper struct.">GlueRoutines::dofIdentification</a> which collects the DOFs to be glued. Furthermore, the coef in this struct denotes the orientation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">superspace</td><td>The <a class="el" href="struct_bembel_1_1_super_space.html" title="The superspace manages local polynomial bases on each element of the mesh and provides an interface t...">SuperSpace</a> reference to handle basis functions. </td></tr>
@@ -437,9 +437,9 @@ template&lt;typename Derived &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A vector of <a class="el" href="struct_bembel_1_1_glue_routines_1_1dof_identification.html">GlueRoutines::dofIdentification</a> containing the DOF identifications. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A vector of <a class="el" href="struct_bembel_1_1_glue_routines_1_1dof_identification.html" title="Helper struct.">GlueRoutines::dofIdentification</a> containing the DOF identifications. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00130">130</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_glue_8hpp_source.html#l00134">134</a> of file <a class="el" href="_glue_8hpp_source.html">Glue.hpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -463,7 +463,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="class_bembel_1_1_glue.html">Glue</a></li>
-    <li class="footer">Generated on Thu Feb 22 2024 14:26:46 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Feb 23 2024 08:55:33 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -256,13 +256,13 @@ Functions</h2></td></tr>
 <p>loads geometry from file with GEOPDE-format. Note that the direction of the normals must be consistent </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>path/filename pointing to the geometry file </td></tr>
+    <tr><td class="paramname">file_name</td><td>path/filename pointing to the geometry file </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>std::vector of NURBS::Patch describing geometry </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_i_o_8hpp_source.html#l00024">24</a> of file <a class="el" href="_geometry_i_o_8hpp_source.html">GeometryIO.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_i_o_8hpp_source.html#l00025">25</a> of file <a class="el" href="_geometry_i_o_8hpp_source.html">GeometryIO.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -312,7 +312,7 @@ Here is the caller graph for this function:</div>
 <p>loads geometry from IGES file. Note that the direction of the normals must be consistent. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>path/filename pointing to the geometry file </td></tr>
+    <tr><td class="paramname">file_name</td><td>path/filename pointing to the geometry file </td></tr>
   </table>
   </dd>
 </dl>
@@ -421,13 +421,13 @@ Here is the caller graph for this function:</div>
 <p>Limitation: This functions assumes a p-open knot vector without internal knots.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">std::vector</td><td>of NURBS::Patch describing geometry </td></tr>
-    <tr><td class="paramname">name</td><td>path/filename to be written to </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_bembel_1_1_geometry.html" title="this class wraps a GeometryVector and provides some basic functionality, like reading Geometry files">Geometry</a></td><td>std::vector of NURBS::Patch describing geometry </td></tr>
+    <tr><td class="paramname">file_name</td><td>path/filename to be written to </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_i_o_8hpp_source.html#l00203">203</a> of file <a class="el" href="_geometry_i_o_8hpp_source.html">GeometryIO.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_i_o_8hpp_source.html#l00204">204</a> of file <a class="el" href="_geometry_i_o_8hpp_source.html">GeometryIO.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -478,7 +478,7 @@ Here is the call graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">file_name</td><td>File name to write the section in. </td></tr>
     <tr><td class="paramname">start_idx</td><td>Vector containing the start lines of the sections. </td></tr>
-    <tr><td class="paramname">start_idx</td><td>Vector containing the lengths of the sections. </td></tr>
+    <tr><td class="paramname">number_of_lines</td><td>Vector containing the lengths of the sections. </td></tr>
   </table>
   </dd>
 </dl>
@@ -584,12 +584,13 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">geometry</td><td>PatchVector which is written to the file. </td></tr>
+    <tr><td class="paramname">file_name</td><td>File name to write to. </td></tr>
     <tr><td class="paramname">precision</td><td>Significant number of digits for writing floats. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00480">480</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_i_g_s_8hpp_source.html#l00481">481</a> of file <a class="el" href="_geometry_i_g_s_8hpp_source.html">GeometryIGS.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -839,7 +840,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 22 2024 14:26:46 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Feb 23 2024 08:55:33 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

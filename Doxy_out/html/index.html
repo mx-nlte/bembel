@@ -110,8 +110,6 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#whatis">What is a Bembel?</a></li>
 <li><a href="#features">Features</a></li>
-<li><a href="#example">How to Run our Code</a></li>
-<li><a href="#structure">Structure of the Repository</a></li>
 <li><a href="#doc">Documentation</a></li>
 <li><a href="#bugs">Known Bugs and Upcoming Features</a></li>
 <li><a href="#publications">Publications, Preprints, and how to cite</a></li>
@@ -137,46 +135,13 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li>openMP parallelized matrix assembly,</li>
 <li>Full compatibility with the <a href="http://eigen.tuxfamily.org/">Eigen</a> linear algebra library. If you are not familiar with Eigen3, we emphasize that you can use it similarly to Matlab or Octave, see <a href="http://eigen.tuxfamily.org/dox/AsciiQuickReference.txt">here</a>.</li>
 </ul>
-<h2>4. How to Run our Code <a class="anchor" id="example"></a></h2>
-<p>You need to install the Eigen3 library, see <a href="https://eigen.tuxfamily.org/dox/GettingStarted.html">Eigen's Documentation</a> for help. We do not rely on any other external libraries, except for the standard template library. Thus, having installed <a class="el" href="namespace_eigen.html">Eigen</a>, <a class="el" href="namespace_bembel.html">Bembel</a> should run out of the box. If you want to use <a class="el" href="namespace_bembel.html">Bembel</a> as part of your application, simply add the <code>Bembel/</code> directory to your includes.</p>
-<p>If you want to run the provided examples and tests, you can utilize the provided <code>CMakeLists.txt</code>. Compile the code with: </p><div class="fragment"><div class="line">$ cmake -B build .</div>
-<div class="line">$ cmake --build build --config release</div>
-</div><!-- fragment --><p> There also exist a <code>debug</code> config.</p>
-<p>The CMake-File checks for installations of <a class="el" href="namespace_eigen.html">Eigen</a> via the corresponding <code>Eigen3Config.cmake</code>. On Unix you may run <code>apt install libeigen3-dev</code>, or on Mac with Homebrew <code>brew install eigen</code>, and everything should work. Alternatively, you can delete the line <code>find_package (Eigen3 3.3 REQUIRED NO_MODULE)</code> and all lines of the type <code>target_link_librarires(... Eigen3::Eigen)</code> from <code>CMakeLists.txt</code>, and give a path to the eigen headers as an include directory manually.</p>
-<p>Then, the examples and tests should compile without any issues. You may run all tests by calling <code>ctest</code> from the <code>build/</code> directory after a successful compilation.</p>
-<p>The geometry files required to run the examples can be found in the <code>geo/</code> folder.</p>
-<h2>5. Structure of the Repository <a class="anchor" id="structure"></a></h2>
-<p>The general structure of the repository looks as follows.</p>
-<ul>
-<li>The root directory contains some helpful shell scripts.</li>
-<li><code>assets/</code> only contains things relevant for GitHub pages.</li>
-<li><code>geo/</code> contains geometry files in the format of the octave <a href="https://octave.sourceforge.io/nurbs/">NURBS package</a>. They can be utilized for computations. Note that <b>the normal vector must be outward directed</b> on all patches!<ul>
-<li><code>geo/octave_example/</code> includes <code>.m</code> files that showcase how geometries can be constructed using the <a href="https://octave.sourceforge.io/nurbs/">NURBS package</a> of octave.</li>
-</ul>
-</li>
-<li><code>Bembel/</code> contains the library. In <code>Bembel/</code>, module files have been created analogously to the design of the <a class="el" href="namespace_eigen.html">Eigen</a> library. If <a class="el" href="namespace_bembel.html">Bembel</a> is used, only these module files should be included. These modules are the following:<ul>
-<li><code><a class="el" href="class_h2_matrix.html" title="Hierarchical Matrix class, which extends the EigenBase class.">H2Matrix</a></code> handles the compression of the large, densely populated matrices. The algorithm was introduced in <a href="#5">[5]</a> and was generalized to the Maxwell case in <a href="#8">[8]</a>.</li>
-<li><code>Helmholtz</code> provides the necessary specializations to solve Helmholtz problems.</li>
-<li><code>HomogenisedLaplace</code> provides the necessary specialisations to solve the homogensied Laplace problem.</li>
-<li><code>IO</code> provides input-output functionality, including routines for VTK file export, timing, and writing log files.</li>
-<li><code>Laplace</code> provides the necessary specializations to solve Laplace problems.</li>
-<li><code>LinearForm</code> implements trace operators, i.e., routines to generate the right hand side of the linear systems. Currently, only a Dirichlet trace and a rotated tangential trace are provided.</li>
-<li><code>LinearOperator</code> provides a framework to implement linear operators that can be used to solve PDEs. Therein, the kernel function, a routine for the evaluation, and certain traits (like the scalar type, the operator order, and the <code>DifferentialForm</code>, i.e., weather the basis must be discontinuous, vector-valued and divergence conforming, or globally continuous) required for discretization must be provided.</li>
-<li><code>Maxwell</code> provides the necessary specializations to solve Maxwell problems.</li>
-<li><code>Potential</code> provides routines for the evaluation of the <code>Potential</code>, i.e., the solution to the PDE via the solution of (non-singular) integrals based on the <code>LinearOperator</code>s.</li>
-<li><code>Quadrature</code></li>
-<li><code>Spline</code> provided basic routines related to spline function and local polynomials.</li>
-</ul>
-</li>
-</ul>
-<p>The <code>Bembel/src/</code> directory leads to folders corresponding to these modules, which include the actual implementation. The folder <code>examples/</code> contains short and <em>well documented</em> examples for Bembels functionality and <code>tests/</code> contains the tests for <a class="el" href="namespace_bembel.html">Bembel</a>.</p>
-<h2>6. Documentation <a class="anchor" id="doc"></a></h2>
+<h2>4. Documentation <a class="anchor" id="doc"></a></h2>
 <p>A good place to start are the examples in the <code>examples/</code> folder, together with publication <a href="#6">[6]</a>. Apart from that, a <a href="https://temf.github.io/bembel/Doxy_out/html/index.html">Doxygen documentation</a> is available.</p>
-<h2>7. Known Bugs and Upcoming Features <a class="anchor" id="bugs"></a></h2>
+<h2>5. Known Bugs and Upcoming Features <a class="anchor" id="bugs"></a></h2>
 <p>For a list of known bugs and upcoming features, please have a look at the issue tracker on github.</p>
-<h2>8. Contributing to <a class="el" href="namespace_bembel.html">Bembel</a> <a class="anchor" id="contributing"></a></h2>
+<h2>6. Contributing to <a class="el" href="namespace_bembel.html">Bembel</a> <a class="anchor" id="contributing"></a></h2>
 <p>Any contribution to this project in fixing a bug or implementing a feature is welcome. Create a fork of this repository and create a pull request after your finished the implementation of the feature. To successfully merge your pull request you should follow our <a href="https://temf.github.io/bembel/Doxy_out/html/codingGuidelines.html">Coding Guidelines</a></p>
-<h2>9. Publications, Preprints, and how to cite <a class="anchor" id="publications"></a></h2>
+<h2>7. Publications, Preprints, and how to cite <a class="anchor" id="publications"></a></h2>
 <p>The following articles and preprints influenced the development of <a class="el" href="namespace_bembel.html">Bembel</a>. We appreciate a citation of <a href="#6">[6]</a> if you use it in one of your articles.</p>
 <p><a class="anchor" id="1"></a>[1] A. Buffa, J. Dölz, S. Kurz, S. Schöps, R. Vázques, and F. Wolf. <em>Multipatch approximation of the de Rham sequence and its traces in isogeometric analysis.</em> In: Numer. Math., 144, 201-236, 2020. <a href="https://link.springer.com/article/10.1007/s00211-019-01079-x">To the paper</a>. <a href="https://arxiv.org/abs/1806.01062">To the preprint</a>.</p>
 <p><a class="anchor" id="2"></a>[2] J. Dölz. <em>A Higher Order Perturbation Approach for Electromagnetic Scattering Problems on Random Domains</em>. In: SIAM/ASA J. UQ, 2020, 8(2). <a href="https://epubs.siam.org/doi/abs/10.1137/19M1274365">To the paper</a>.</p>
@@ -195,7 +160,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <p><a class="anchor" id="15"></a>[15] S. Kurz, S. Schöps, G. Unger and F. Wolf. <em>Solving Maxwell's Eigenvalue Problem via Isogeometric Boundary Elements and a Contour Integral Method</em>. In: Math. Meth. Appl. Sci., 2021, 44(13). <a href="https://onlinelibrary.wiley.com/doi/10.1002/mma.7447">To the paper</a>.</p>
 <p><a class="anchor" id="16"></a>[16] M. Liebsch, S. Russenschuck and S. Kurz. <em>BEM-Based Magnetic Field Reconstruction by Ensemble Kálmán Filtering</em>. In: Comput. Methods Appl. Mech. Engrg., 2022, forthcoming. <a href="https://www.degruyter.com/document/doi/10.1515/cmam-2022-0121/html">To the paper</a>.</p>
 <p><a class="anchor" id="17"></a>[17] R. Torchio, M. Nolte, S. Schöps and A. E. Ruehli. <em>A spline-based partial element equivalent circuit method for electrostatics</em>. In: IEEE Trans. Dielectr. Electr. Insul., 2022, forthcoming. <a href="https://ieeexplore.ieee.org/abstract/document/9963965">To the paper</a>.</p>
-<h2>10. Contributors <a class="anchor" id="contributors"></a></h2>
+<h2>8. Contributors <a class="anchor" id="contributors"></a></h2>
 <p>Contributors include (alphabetically):</p><ul>
 <li>D. Andric,</li>
 <li>J. Corno,</li>
@@ -206,7 +171,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><a href="#RvR">R. von Rickenbach</a>,</li>
 <li><a href="#FW">F. Wolf</a>.</li>
 </ul>
-<h2>11. About the People <a class="anchor" id="people"></a></h2>
+<h2>9. About the People <a class="anchor" id="people"></a></h2>
 <ul>
 <li><a href="https://ins.uni-bonn.de/staff/doelz">Jürgen Dölz</a> <a class="anchor" id="JD"></a> currently holds a professorship at the <a href="https://www.uni-bonn.de/">University of Bonn</a>. He may also be found <a href="https://github.com/jdoelz">on GitHub</a>.</li>
 <li><a href="https://cm.dmi.unibas.ch/">Helmut Harbrecht</a> <a class="anchor" id="HeHa"></a> currently holds a professorship at the <a href="https://dmi.unibas.ch/de/home/">Departement Mathematik und Informatik</a> at the University of Basel.</li>
@@ -217,7 +182,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><a href="https://dmi.unibas.ch/de/personen/remo-von-rickenbach/">Remo von Rickenbach</a> <a class="anchor" id="RvR"></a>is currently a PhD student at the <a href="https://dmi.unibas.ch/de/home/">Departement Mathematik und Informatik</a> at the University of Basel.</li>
 <li><a href="https://www.cem.tu-darmstadt.de/cem/group/wolf.en.jsp">Felix Wolf</a> <a class="anchor" id="FW"></a>is currently a lecturer at the <a href="https://www.temf.tu-darmstadt.de/temf/index.en.jsp">Institute TEMF</a> at TU Darmstadt. He may also be found <a href="https://github.com/flx-wlf">on GitHub</a>.</li>
 </ul>
-<h2>12. Funding <a class="anchor" id="funding"></a></h2>
+<h2>10. Funding <a class="anchor" id="funding"></a></h2>
 <p>Work on <a class="el" href="namespace_bembel.html">Bembel</a> was conducted with the following financial support (alphabetically):</p><ul>
 <li>DFG Grant KU1553/4-1,</li>
 <li>DFG Grant SCHO1562/3-1,</li>
@@ -233,7 +198,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 22 2024 14:26:46 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Feb 23 2024 08:55:33 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
