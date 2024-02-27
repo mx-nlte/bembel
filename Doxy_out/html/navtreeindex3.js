@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html":[3,0,80],
 "struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html#a9086ae42db0a0e120cea64bcc85c95af":[3,0,80,0],
 "struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01std_1_1complex_3_01double_01_4_01_4.html":[3,0,82],
 "struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01std_1_1complex_3_01double_01_4_01_4.html#abb174ab047acf3469e626629d456347d":[3,0,82,0],

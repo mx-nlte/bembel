@@ -27,6 +27,7 @@ var NAVTREE =
   [ "Bembel", "index.html", [
     [ "Getting started", "_getting_started.html", null ],
     [ "Extending Bembel", "usergroup0.html", [
+      [ "Design Considerations", "_design_considerations.html", null ],
       [ "Coding Guidelines", "coding_guidelines.html", null ],
       [ "Frequentyl Asked Questions", "_f_a_qs.html", null ]
     ] ],
@@ -38,10 +39,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_f_a_qs.html",
-"class_bembel_1_1_identity_operator_base.html",
-"namespace_bembel_1_1_constants.html#a9844c7cee46cad2052b76f742bd9ad29",
-"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html#a9086ae42db0a0e120cea64bcc85c95af"
+"_design_considerations.html",
+"class_bembel_1_1_i_o_1_1_stopwatch.html#adc073de20446b111b093cc9d9696c764",
+"namespace_bembel_1_1_constants.html#a61481b7b09e1138cb21eddc88175a0a8",
+"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

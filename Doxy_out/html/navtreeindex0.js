@@ -1,6 +1,7 @@
 var NAVTREEINDEX0 =
 {
-"_f_a_qs.html":[1,1],
+"_design_considerations.html":[1,0],
+"_f_a_qs.html":[1,2],
 "_getting_started.html":[0],
 "annotated.html":[3],
 "class_bembel_1_1_ansatz_space.html":[2,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "class_bembel_1_1_i_o_1_1_stopwatch.html#a9a0e350248d9eaa12c8fa653cccca28e":[2,0,8,1,5],
 "class_bembel_1_1_i_o_1_1_stopwatch.html#ab33e75a5feb47c5ab2b141738354ed3a":[2,0,8,1,6],
 "class_bembel_1_1_i_o_1_1_stopwatch.html#abddad17ce78cd5d633cc77ed9e575fda":[2,0,8,1,3],
-"class_bembel_1_1_i_o_1_1_stopwatch.html#ad322667c36bceb65dcadb47f4671203f":[2,0,8,1,2],
-"class_bembel_1_1_i_o_1_1_stopwatch.html#adc073de20446b111b093cc9d9696c764":[2,0,8,1,0]
+"class_bembel_1_1_i_o_1_1_stopwatch.html#ad322667c36bceb65dcadb47f4671203f":[2,0,8,1,2]
 };

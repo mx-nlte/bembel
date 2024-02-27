@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"namespace_bembel_1_1_constants.html#a61481b7b09e1138cb21eddc88175a0a8":[4,0,0,5],
 "namespace_bembel_1_1_constants.html#a9844c7cee46cad2052b76f742bd9ad29":[4,0,0,7],
 "namespace_bembel_1_1_constants.html#ac7b79e5b9207d56d418c1e2969f929e0":[4,0,0,0],
 "namespace_bembel_1_1_constants.html#aed2993ce38d68c69aafc53ad54a266c0":[4,0,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "struct_bembel_1_1_potential_return_scalar_3_01double_00_01double_01_4.html":[3,0,79],
 "struct_bembel_1_1_potential_return_scalar_3_01double_00_01double_01_4.html#ad644617c04052731be2d5d87d97c3bd3":[3,0,79,0],
 "struct_bembel_1_1_potential_return_scalar_3_01double_00_01std_1_1complex_3_01double_01_4_01_4.html":[3,0,81],
-"struct_bembel_1_1_potential_return_scalar_3_01double_00_01std_1_1complex_3_01double_01_4_01_4.html#a23b4a9c3eed3d3c26bb0125ceff689ba":[3,0,81,0],
-"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html":[3,0,80]
+"struct_bembel_1_1_potential_return_scalar_3_01double_00_01std_1_1complex_3_01double_01_4_01_4.html#a23b4a9c3eed3d3c26bb0125ceff689ba":[3,0,81,0]
 };
