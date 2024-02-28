@@ -40,9 +40,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_design_considerations.html",
-"class_bembel_1_1_i_o_1_1_stopwatch.html#adc073de20446b111b093cc9d9696c764",
-"namespace_bembel.html#ae3e0d6a6e95643a5a2c447d75513d0d5",
-"struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a2a10005ed07ca545c614aa5fa8ef7671"
+"class_bembel_1_1_homogenised_laplace_single_layer_operator.html#a7f9a9fadcb260098f4495a74ebd812f6",
+"group___homogenised_laplace.html",
+"struct_bembel_1_1_h2_multipole_1_1_moment1_d_derivative.html",
+"struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#ade300dbfa526ccd74f65702c5aa3ad1a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

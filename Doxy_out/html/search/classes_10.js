@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['tangentialtrace_870',['TangentialTrace',['../class_bembel_1_1_tangential_trace.html',1,'Bembel']]],
-  ['tensorproductquadraturevector_871',['TensorProductQuadratureVector',['../struct_bembel_1_1_tensor_product_quadrature_vector.html',1,'Bembel']]],
-  ['tensorproductquadraturevector_3c_20constants_3a_3amaximum_5fquadrature_5fdegree_20_3e_872',['TensorProductQuadratureVector&lt; Constants::maximum_quadrature_degree &gt;',['../struct_bembel_1_1_tensor_product_quadrature_vector.html',1,'Bembel']]],
-  ['tensorproductquadraturevector_3c_20quadraturerule_2c_200_20_3e_873',['TensorProductQuadratureVector&lt; QuadratureRule, 0 &gt;',['../struct_bembel_1_1_tensor_product_quadrature_vector_3_01_quadrature_rule_00_010_01_4.html',1,'Bembel']]],
-  ['traits_3c_20h2matrix_3c_20scalart_20_3e_20_3e_874',['traits&lt; H2Matrix&lt; ScalarT &gt; &gt;',['../struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html',1,'Eigen::internal']]],
-  ['treeleaf_875',['TreeLeaf',['../class_bembel_1_1_tree_leaf.html',1,'Bembel']]]
+  ['stopwatch_921',['Stopwatch',['../class_bembel_1_1_i_o_1_1_stopwatch.html',1,'Bembel::IO']]],
+  ['storage_5fkind_5fto_5fevaluator_5fkind_3c_20h2_20_3e_922',['storage_kind_to_evaluator_kind&lt; H2 &gt;',['../struct_eigen_1_1internal_1_1storage__kind__to__evaluator__kind_3_01_h2_01_4.html',1,'Eigen::internal']]],
+  ['storage_5fkind_5fto_5fshape_3c_20h2_20_3e_923',['storage_kind_to_shape&lt; H2 &gt;',['../struct_eigen_1_1internal_1_1storage__kind__to__shape_3_01_h2_01_4.html',1,'Eigen::internal']]],
+  ['superspace_924',['SuperSpace',['../struct_bembel_1_1_super_space.html',1,'Bembel']]]
 ];

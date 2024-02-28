@@ -229,14 +229,14 @@ $(document).ready(function(){initNavTree('_super_space_8hpp_source.html',''); in
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordtype">double</span> kappa2 = p2.segment&lt;3&gt;(6).cross(p2.segment&lt;3&gt;(9)).norm();</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="comment">// compute basis functions&#39;s surface curl. Each column of s_curl is a basis</span></div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="comment">// function&#39;s surface curl at point s.</span></div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    Eigen::MatrixXd s_curl(3, polynomial_degree_plus_one_squared);</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    s_curl = (1.0 / kappa1) *</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;             (-p1.segment&lt;3&gt;(6) * <a class="code" href="struct_bembel_1_1_super_space.html#ade66b57b366eca54c71137ea058c4ebc">basisDy</a>(p1.segment&lt;2&gt;(0)).transpose() +</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;              p1.segment&lt;3&gt;(9) * <a class="code" href="struct_bembel_1_1_super_space.html#a1f3174ff6264672ae9b719a216710284">basisDx</a>(p1.segment&lt;2&gt;(0)).transpose());</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    Eigen::MatrixXd t_curl(3, polynomial_degree_plus_one_squared);</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    t_curl = (1.0 / kappa2) *</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;             (-p2.segment&lt;3&gt;(6) * <a class="code" href="struct_bembel_1_1_super_space.html#ade66b57b366eca54c71137ea058c4ebc">basisDy</a>(p2.segment&lt;2&gt;(0)).transpose() +</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;              p2.segment&lt;3&gt;(9) * <a class="code" href="struct_bembel_1_1_super_space.html#a1f3174ff6264672ae9b719a216710284">basisDx</a>(p2.segment&lt;2&gt;(0)).transpose());</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    Eigen::Matrix&lt;Scalar, Eigen::Dynamic, Eigen::Dynamic&gt; s_curl =</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        (1.0 / kappa1) *</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        (-p1.segment&lt;3&gt;(6) * <a class="code" href="struct_bembel_1_1_super_space.html#ade66b57b366eca54c71137ea058c4ebc">basisDy</a>(p1.segment&lt;2&gt;(0)).transpose() +</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;         p1.segment&lt;3&gt;(9) * <a class="code" href="struct_bembel_1_1_super_space.html#a1f3174ff6264672ae9b719a216710284">basisDx</a>(p1.segment&lt;2&gt;(0)).transpose());</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    Eigen::Matrix&lt;Scalar, Eigen::Dynamic, Eigen::Dynamic&gt; t_curl =</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        (1.0 / kappa2) *</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        (-p2.segment&lt;3&gt;(6) * <a class="code" href="struct_bembel_1_1_super_space.html#ade66b57b366eca54c71137ea058c4ebc">basisDy</a>(p2.segment&lt;2&gt;(0)).transpose() +</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;         p2.segment&lt;3&gt;(9) * <a class="code" href="struct_bembel_1_1_super_space.html#a1f3174ff6264672ae9b719a216710284">basisDx</a>(p2.segment&lt;2&gt;(0)).transpose());</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="comment">// inner product of surface curls of any two basis functions</span></div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; polynomial_degree_plus_one_squared; ++j)</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; polynomial_degree_plus_one_squared; ++i)</div>
@@ -427,7 +427,7 @@ $(document).ready(function(){initNavTree('_super_space_8hpp_source.html',''); in
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_6511baee97c6d368f3c8794f4711eeb4.html">Bembel</a></li><li class="navelem"><a class="el" href="dir_1661f7552841f4f43560732ff45957fc.html">src</a></li><li class="navelem"><a class="el" href="dir_0290df630c5d1b12f2fa9e6500e41b8a.html">AnsatzSpace</a></li><li class="navelem"><a class="el" href="_super_space_8hpp.html">SuperSpace.hpp</a></li>
-    <li class="footer">Generated on Wed Feb 28 2024 08:20:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Feb 28 2024 08:23:19 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
