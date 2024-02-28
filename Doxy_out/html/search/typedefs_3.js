@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['functionspacevalue_1224',['FunctionSpaceValue',['../struct_bembel_1_1_differential_form_traits_3_01_differential_form_1_1_continuous_00_01_scalar_01_4.html#a986eb5684ce9e92e20d4e39a46d77c66',1,'Bembel::DifferentialFormTraits&lt; DifferentialForm::Continuous, Scalar &gt;::FunctionSpaceValue()'],['../struct_bembel_1_1_differential_form_traits_3_01_differential_form_1_1_div_conforming_00_01_scalar_01_4.html#a7b215c1ffd816cc0229eeb8e6c5ae322',1,'Bembel::DifferentialFormTraits&lt; DifferentialForm::DivConforming, Scalar &gt;::FunctionSpaceValue()'],['../struct_bembel_1_1_differential_form_traits_3_01_differential_form_1_1_discontinuous_00_01_scalar_01_4.html#a011519d296722b3158023bf3c5471a4c',1,'Bembel::DifferentialFormTraits&lt; DifferentialForm::Discontinuous, Scalar &gt;::FunctionSpaceValue()']]]
+  ['derived_1354',['Derived',['../class_eigen_1_1_cwise_binary_op_impl_3_01_binary_op_00_01_lhs_00_01_rhs_00_01_h2_01_4.html#a742520c1eeaee603aac63c98a4a8f8db',1,'Eigen::CwiseBinaryOpImpl&lt; BinaryOp, Lhs, Rhs, H2 &gt;']]],
+  ['difference_5ftype_1355',['difference_type',['../struct_bembel_1_1_element_tree_node_1_1const__iterator.html#a46925b59a619b33eb6878ef9c11978ad',1,'Bembel::ElementTreeNode::const_iterator']]],
+  ['discretelocaloperator_1356',['DiscreteLocalOperator',['../namespace_bembel.html#a9ea8dc2d29fd3b1bf3d0d04a212e93f1',1,'Bembel']]]
 ];

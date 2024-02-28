@@ -41,8 +41,8 @@ var NAVTREEINDEX =
 [
 "_design_considerations.html",
 "class_bembel_1_1_i_o_1_1_stopwatch.html#adc073de20446b111b093cc9d9696c764",
-"namespace_bembel_1_1_constants.html#a61481b7b09e1138cb21eddc88175a0a8",
-"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html"
+"namespace_bembel.html#ae3e0d6a6e95643a5a2c447d75513d0d5",
+"struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a2a10005ed07ca545c614aa5fa8ef7671"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

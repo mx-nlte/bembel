@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['you_5fchose_5fincompatible_5ftypes_5ffor_5fh2matrix_5fand_5fpdeproblem_1253',['YOU_CHOSE_INCOMPATIBLE_TYPES_FOR_H2MATRIX_AND_PDEPROBLEM',['../struct_dirty_little_helpers_1_1test_matching_types_3_01true_01_4.html#a4b5f5af36ebc034b7452b9caadb2b492a3771cae50b6c0a2aacf7233a00f66c9f',1,'DirtyLittleHelpers::testMatchingTypes&lt; true &gt;']]],
-  ['you_5fdid_5fnot_5fspecify_5flinearform_5ftraits_1254',['YOU_DID_NOT_SPECIFY_LINEARFORM_TRAITS',['../struct_bembel_1_1_linear_form_traits.html#a845ee8765d662d19ae9a92905f352691a2fd17a7d9081c02fee070cb8222b5ddc',1,'Bembel::LinearFormTraits']]],
-  ['you_5fdid_5fnot_5fspecify_5fpotential_5ftraits_1255',['YOU_DID_NOT_SPECIFY_POTENTIAL_TRAITS',['../struct_bembel_1_1_potential_traits.html#aa7d95a21d7ceaaafa5837b2fae5d079ea2992147114c1ecfb06b87af534102069',1,'Bembel::PotentialTraits']]]
+  ['refine_1405',['Refine',['../struct_bembel_1_1_block_cluster_admissibility.html#a015b9ccb366649033cd399edc72dd84ba89d6fdcaa907a643aaf4f576f0abea56',1,'Bembel::BlockClusterAdmissibility']]],
+  ['return_5ftype_5fonly_5fspecified_5ffor_5fdouble_5for_5fcomplex_5fdouble_1406',['RETURN_TYPE_ONLY_SPECIFIED_FOR_DOUBLE_OR_COMPLEX_DOUBLE',['../struct_bembel_1_1_potential_return_scalar.html#aa604e22e78f48b3361a98ec0f3347758abd0fab142ff7a74fa6144aebffea40c0',1,'Bembel::PotentialReturnScalar']]],
+  ['rowsatcompiletime_1407',['RowsAtCompileTime',['../struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#a009fc32823a15b6db5a035c4261e65a5af862e4bad4d1246c30f5947405078edf',1,'Eigen::internal::traits&lt; H2Matrix&lt; ScalarT &gt; &gt;::RowsAtCompileTime()'],['../class_eigen_1_1_h2_matrix_base.html#ab7bfe23786d2bb36dc71676d2f64385fa3f8624785adf393b4fc508387a50eac0',1,'Eigen::H2MatrixBase::RowsAtCompileTime()']]]
 ];

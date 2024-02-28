@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['realscalar_1230',['RealScalar',['../class_eigen_1_1_h2_matrix.html#a459d5e9f235c43136006e9039a56f5aa',1,'Eigen::H2Matrix']]],
-  ['reference_1231',['reference',['../struct_bembel_1_1_element_tree_node_1_1const__iterator.html#a97245521050d52837532b176df0939d0',1,'Bembel::ElementTreeNode::const_iterator']]],
-  ['rowindex_1232',['rowIndex',['../class_bembel_1_1_generic_matrix.html#acc2323719617a3388d714c42f2d49841',1,'Bembel::GenericMatrix']]]
+  ['h2matrixtype_1362',['H2MatrixType',['../struct_eigen_1_1internal_1_1evaluator_3_01_h2_matrix_3_01_scalar_01_4_01_4.html#af6e028d21597859b5157cdf8887c961c',1,'Eigen::internal::evaluator&lt; H2Matrix&lt; Scalar &gt; &gt;']]]
 ];

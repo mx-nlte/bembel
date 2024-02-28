@@ -104,18 +104,79 @@ $(document).ready(function(){initNavTree('namespace_eigen_1_1internal.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>inherit the traits from the Eigen::SparseMatrix class  
+<p>small modification of internal traits of SparseMatrix  
 <a href="namespace_eigen_1_1internal.html#details">More...</a></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>inherit the traits from the Eigen::SparseMatrix class </p>
-<p>Implementation of <a class="el" href="class_eigen_1_1_h2_matrix.html" title="forward definition of the H2Matrix Class in order to define traits">H2Matrix</a> * Eigen::DenseVector through a specialization of internal::generic_product_impl. </p>
-</div></div><!-- contents -->
+<div class="textblock"><p>small modification of internal traits of SparseMatrix </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a16e2879945059db9c07b96e6095d9d2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e2879945059db9c07b96e6095d9d2d">&#9670;&nbsp;</a></span>H2_time_dense_product()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename H2LhsType , typename DenseRhsType , typename DenseResType , typename AlphaType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Eigen::internal::H2_time_dense_product </td>
+          <td>(</td>
+          <td class="paramtype">const H2LhsType &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const DenseRhsType &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DenseResType &amp;&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AlphaType &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_h2_dense_product_8hpp_source.html#l00169">169</a> of file <a class="el" href="_h2_dense_product_8hpp_source.html">H2DenseProduct.hpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="namespace_eigen_1_1internal_a16e2879945059db9c07b96e6095d9d2d_icgraph.png" border="0" usemap="#anamespace_eigen_1_1internal_a16e2879945059db9c07b96e6095d9d2d_icgraph" alt=""/></div>
+<map name="anamespace_eigen_1_1internal_a16e2879945059db9c07b96e6095d9d2d_icgraph" id="anamespace_eigen_1_1internal_a16e2879945059db9c07b96e6095d9d2d_icgraph">
+<area shape="rect" title=" " alt="" coords="273,20,435,61"/>
+<area shape="rect" href="struct_eigen_1_1internal_1_1generic__product__impl_3_01_lhs_00_01_rhs_00_01_h2_00_01_dense_shape_00_01_product_type_01_4.html#a5ba67db0ebee20b79c4e8ef1377166b9" title=" " alt="" coords="5,5,225,76"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_eigen.html">Eigen</a></li><li class="navelem"><a class="el" href="namespace_eigen_1_1internal.html">internal</a></li>
-    <li class="footer">Generated on Tue Feb 27 2024 08:52:13 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Feb 28 2024 08:20:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

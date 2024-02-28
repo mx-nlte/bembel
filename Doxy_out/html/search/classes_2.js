@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['blockclusteradmissibility_620',['BlockClusterAdmissibility',['../struct_bembel_1_1_block_cluster_admissibility.html',1,'Bembel']]],
-  ['blockclustertree_621',['BlockClusterTree',['../class_bembel_1_1_block_cluster_tree.html',1,'Bembel']]],
-  ['blockclustertreeparameters_622',['BlockClusterTreeParameters',['../struct_bembel_1_1_block_cluster_tree_parameters.html',1,'Bembel']]]
+  ['binary_5fevaluator_3c_20cwisebinaryop_3c_20binaryop_2c_20lhs_2c_20rhs_20_3e_2c_20h2_2c_20h2_20_3e_699',['binary_evaluator&lt; CwiseBinaryOp&lt; BinaryOp, Lhs, Rhs &gt;, H2, H2 &gt;',['../struct_eigen_1_1internal_1_1binary__evaluator_3_01_cwise_binary_op_3_01_binary_op_00_01_lhs_00_0ab961f8b5532cc9922b5dcf1c32e3048.html',1,'Eigen::internal']]],
+  ['binary_5fevaluator_3c_20cwisebinaryop_3c_20binaryop_2c_20lhs_2c_20rhs_20_3e_2c_20h2_2c_20indexbased_20_3e_700',['binary_evaluator&lt; CwiseBinaryOp&lt; BinaryOp, Lhs, Rhs &gt;, H2, IndexBased &gt;',['../struct_eigen_1_1internal_1_1binary__evaluator_3_01_cwise_binary_op_3_01_binary_op_00_01_lhs_00_07844db242e78d493ececb06eddc8ad7a.html',1,'Eigen::internal']]],
+  ['binary_5fevaluator_3c_20cwisebinaryop_3c_20binaryop_2c_20lhs_2c_20rhs_20_3e_2c_20h2_2c_20iteratorbased_20_3e_701',['binary_evaluator&lt; CwiseBinaryOp&lt; BinaryOp, Lhs, Rhs &gt;, H2, IteratorBased &gt;',['../struct_eigen_1_1internal_1_1binary__evaluator_3_01_cwise_binary_op_3_01_binary_op_00_01_lhs_00_02380796a39ed8f8fbeef465401aaf2fd.html',1,'Eigen::internal']]],
+  ['binary_5fevaluator_3c_20cwisebinaryop_3c_20binaryop_2c_20lhs_2c_20rhs_20_3e_2c_20indexbased_2c_20h2_20_3e_702',['binary_evaluator&lt; CwiseBinaryOp&lt; BinaryOp, Lhs, Rhs &gt;, IndexBased, H2 &gt;',['../struct_eigen_1_1internal_1_1binary__evaluator_3_01_cwise_binary_op_3_01_binary_op_00_01_lhs_00_094d7085e16ec6f5c59616c044fb1ed0a.html',1,'Eigen::internal']]],
+  ['binary_5fevaluator_3c_20cwisebinaryop_3c_20binaryop_2c_20lhs_2c_20rhs_20_3e_2c_20iteratorbased_2c_20h2_20_3e_703',['binary_evaluator&lt; CwiseBinaryOp&lt; BinaryOp, Lhs, Rhs &gt;, IteratorBased, H2 &gt;',['../struct_eigen_1_1internal_1_1binary__evaluator_3_01_cwise_binary_op_3_01_binary_op_00_01_lhs_00_0e20e24b49f6868a5f994afbcb553d278.html',1,'Eigen::internal']]],
+  ['blockclusteradmissibility_704',['BlockClusterAdmissibility',['../struct_bembel_1_1_block_cluster_admissibility.html',1,'Bembel']]],
+  ['blockclustertree_705',['BlockClusterTree',['../class_bembel_1_1_block_cluster_tree.html',1,'Bembel']]],
+  ['blockclustertreeparameters_706',['BlockClusterTreeParameters',['../struct_bembel_1_1_block_cluster_tree_parameters.html',1,'Bembel']]]
 ];
