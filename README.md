@@ -28,9 +28,8 @@ information. -->
 ## 1. Introduction <a name="introduction"></a>
 
 Bembel is the *Boundary Element Method Based Engineering Library* written in C++ library featuring higher order isogeometric Galerkin boundary element methods for Laplace, Helmholtz, and Maxwell problems.
-Bembel is compatible with geometries from the [Octave NURBS package](https://octave.sourceforge.io/nurbs/), and provides an interface to the [Eigen template library](https://eigen.tuxfamily.org/) for linear algebra operations.
+Bembel is compatible with geometries from the Octave NURBS package, and provides an interface to the Eigen template library for linear algebra operations.
 For computational efficiency, it applies an embedded fast multipole method tailored to the isogeometric analysis framework and a parallel matrix assembly based on OpenMP.
-
 
 ## 2. What is a Bembel?<a name="whatis"></a>
 
