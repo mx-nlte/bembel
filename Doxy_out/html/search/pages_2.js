@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['frequently_20asked_20questions_1529',['Frequently Asked Questions',['../_f_a_qs.html',1,'']]]
+  ['deprecated_20list_1534',['Deprecated List',['../deprecated.html',1,'']]],
+  ['design_20considerations_1535',['Design Considerations',['../_design_considerations.html',1,'']]]
 ];

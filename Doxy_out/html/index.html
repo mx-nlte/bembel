@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><a href="#funding">Funding</a></li>
 </ol>
 <h2>1. Introduction <a class="anchor" id="introduction"></a></h2>
-<p><a class="el" href="namespace_bembel.html">Bembel</a> is the Boundary Element Method Based Engineering Library written in C++ to solve boundary value problems governed by the Laplace, Helmholtz or electric wave equation within the isogeometric framework [<a href="#5">5</a>,<a href="#6">6</a>,<a href="#10">10</a>,<a href="#11">11</a>]. It was developed as part of a cooperation between the TU Darmstadt and the University of Basel, coordinated by <a href="#HeHa">H. Harbrecht</a>, <a href="#SK">S. Kurz</a> and <a href="#SSc">S. Schöps</a>. The code is based on the Laplace BEM of <a href="#JD">J. Dölz</a>, <a href="#HeHa">H. Harbrecht</a>, and <a href="#MM">M. Multerer</a>, [<a href="#7">7</a>,<a href="#15">15</a>] as well as the spline and geometry framework of <a href="#FW">F. Wolf</a>. The code was extended by <a href="#JD">J. Dölz</a> and <a href="#FW">F. Wolf</a> in early 2018 to cover electromagnetic applications [<a href="#10">10</a>,<a href="#11">11</a>]. An introduction to the code has been published in <a href="#5">[5]</a>. If you utilise our code as part of a publication, we would appreciate it if you cite <a href="#5">[5]</a>.</p>
+<p><a class="el" href="namespace_bembel.html">Bembel</a> is the <em>Boundary Element Method Based Engineering Library</em> written in C++ library featuring higher order isogeometric Galerkin boundary element methods for Laplace, Helmholtz, and Maxwell problems. <a class="el" href="namespace_bembel.html">Bembel</a> is compatible with geometries from the <a href="https://octave.sourceforge.io/nurbs/">Octave NURBS package</a>, and provides an interface to the <a href="https://eigen.tuxfamily.org/">Eigen template library</a> for linear algebra operations. For computational efficiency, it applies an embedded fast multipole method tailored to the isogeometric analysis framework and a parallel matrix assembly based on OpenMP.</p>
 <h2>2. What is a <a class="el" href="namespace_bembel.html">Bembel</a>?<a class="anchor" id="whatis"></a></h2>
 <p>A traditional Hessian ceramic, as depicted in our logo. Quoting <a href="https://en.wikipedia.org/wiki/Apfelwein">Wikipedia</a>:</p>
 <blockquote class="doxtable">
@@ -201,7 +201,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Feb 28 2024 08:23:19 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Mar 1 2024 09:52:06 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
