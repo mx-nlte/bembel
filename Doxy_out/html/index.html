@@ -110,13 +110,13 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#whatis">What is a Bembel?</a></li>
 <li><a href="#features">Features</a></li>
-<li><a href="#doc">Documentation</a></li>
 <li><a href="#bugs">Known Bugs and Upcoming Features</a></li>
 <li><a href="#contributing">Contributing to Bembel</a></li>
-<li><a href="#publications">Publications, Preprints, and how to cite</a></li>
+<li><a href="#cite">How to cite</a></li>
 </ol>
 <h2>1. Introduction <a class="anchor" id="introduction"></a></h2>
 <p><a class="el" href="namespace_bembel.html">Bembel</a> is the <em>Boundary Element Method Based Engineering Library</em> written in C++ library featuring higher order isogeometric Galerkin boundary element methods for Laplace, Helmholtz, and Maxwell problems. <a class="el" href="namespace_bembel.html">Bembel</a> is compatible with geometries from the Octave NURBS package, and provides an interface to the <a class="el" href="namespace_eigen.html">Eigen</a> template library for linear algebra operations. For computational efficiency, it applies an embedded fast multipole method tailored to the isogeometric analysis framework and a parallel matrix assembly based on OpenMP.</p>
+<p>A good place to start are the examples in the <code>examples/</code> folder, together with publication <a href="#1">[1]</a>. Apart from that, a <a href="https://temf.github.io/bembel/Doxy_out/html/index.html">Doxygen documentation</a> is available.</p>
 <h2>2. What is a <a class="el" href="namespace_bembel.html">Bembel</a>?<a class="anchor" id="whatis"></a></h2>
 <p>A traditional Hessian ceramic, as depicted in our logo. Quoting <a href="https://en.wikipedia.org/wiki/Apfelwein">Wikipedia</a>:</p>
 <blockquote class="doxtable">
@@ -133,13 +133,11 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li>openMP parallelized matrix assembly,</li>
 <li>Full compatibility with the <a href="http://eigen.tuxfamily.org/">Eigen</a> linear algebra library.</li>
 </ul>
-<h2>4. Documentation <a class="anchor" id="doc"></a></h2>
-<p>A good place to start are the examples in the <code>examples/</code> folder, together with publication <a href="#1">[1]</a>. Apart from that, a <a href="https://temf.github.io/bembel/Doxy_out/html/index.html">Doxygen documentation</a> is available.</p>
-<h2>5. Known Bugs and Upcoming Features <a class="anchor" id="bugs"></a></h2>
-<p>For a list of known bugs and upcoming features, please have a look at the issue tracker on github.</p>
-<h2>6. Contributing to <a class="el" href="namespace_bembel.html">Bembel</a> <a class="anchor" id="contributing"></a></h2>
-<p>Any contribution to this project in fixing a bug or implementing a feature is welcome. Create a fork of this repository and create a pull request after your finished the implementation of the feature. To successfully merge your pull request you should follow our <a href="https://temf.github.io/bembel/Doxy_out/html/codingGuidelines.html">Coding Guidelines</a></p>
-<h2>7. How to cite <a class="anchor" id="publications"></a></h2>
+<h2>4. Known Bugs and Upcoming Features <a class="anchor" id="bugs"></a></h2>
+<p>Please send bug reports and feature requests via <a href="https://github.com/temf/bembel/issues">issue tracker</a> on GitHub.</p>
+<h2>5. Contributing to <a class="el" href="namespace_bembel.html">Bembel</a> <a class="anchor" id="contributing"></a></h2>
+<p>Any contribution to this project in fixing a bug or implementing a feature is welcome. Create a fork of this repository and create a <a href="https://github.com/temf/bembel/pulls">pull request</a>. To successfully merge your pull request you should follow our <a href="https://temf.github.io/bembel/Doxy_out/html/codingGuidelines.html">Coding Guidelines</a></p>
+<h2>6. How to cite <a class="anchor" id="cite"></a></h2>
 <p><a class="anchor" id="1"></a>[1] J. Dölz, H. Harbrecht, S. Kurz, M. Multerer, S. Schöps, and F. Wolf. <em><a class="el" href="namespace_bembel.html">Bembel</a>: The Fast Isogeometric Boundary Element C++ Library for Laplace, Helmholtz, and Electric Wave Equation</em>. In: SoftwareX, 11, 10476. <a href="https://doi.org/10.1016/j.softx.2020.100476"><img src="https://img.shields.io/badge/DOI-10.1016/j.softx.2020.100476-blue" alt="doi badge" class="inline"/></a></p>
 <div class="fragment"><div class="line">@article{Bembel2020,</div>
 <div class="line">doi = {https://doi.org/10.1016/j.softx.2020.100476},</div>
@@ -154,7 +152,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Mar 4 2024 13:31:56 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Mar 4 2024 13:59:25 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
