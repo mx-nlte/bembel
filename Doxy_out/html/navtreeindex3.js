@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#ae38880a2999cda255a61c14b7513eaef":[3,0,5,1,0],
+"struct_bembel_1_1_h2_multipole_1_1_moment1_d.html":[3,0,5,2],
 "struct_bembel_1_1_h2_multipole_1_1_moment1_d.html#a645c5e59c4d28eca10453539ceef22b9":[3,0,5,2,0],
 "struct_bembel_1_1_h2_multipole_1_1_moment1_d_derivative.html":[3,0,5,3],
 "struct_bembel_1_1_h2_multipole_1_1_moment1_d_derivative.html#ab65342599d2836d4a5bebdb2c1bdd17d":[3,0,5,3,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "struct_eigen_1_1internal_1_1storage__kind__to__evaluator__kind_3_01_h2_01_4.html#a4cbd40165640e4d3dd07f015db8785e4":[4,1,0,0,0],
 "struct_eigen_1_1internal_1_1storage__kind__to__shape_3_01_h2_01_4.html":[4,1,0,1],
 "struct_eigen_1_1internal_1_1storage__kind__to__shape_3_01_h2_01_4.html#a6319a855361472fd14333894d8e95d78":[4,1,0,1,0],
-"struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html":[4,1,0,22],
-"struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#a1a402ff842a76c9e092d0b6549455fc1":[4,1,0,22,3],
-"struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#a4e407a2c64058d1158a599595c458afd":[4,1,0,22,1]
+"struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html":[4,1,0,22]
 };

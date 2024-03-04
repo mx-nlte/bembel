@@ -32,7 +32,9 @@ var NAVTREE =
       [ "Frequently Asked Questions", "_f_a_qs.html", null ]
     ] ],
     [ "Further Information", "usergroup1.html", [
-      [ "Publications Featuring Bembel", "citelist.html", null ]
+      [ "Contributors", "_contributors.html", null ],
+      [ "Publications Featuring Bembel", "citelist.html", null ],
+      [ "Funding", "_funding.html", null ]
     ] ],
     [ "Source Code", "modules.html", "modules" ],
     [ "Class List", "annotated.html", "annotated" ],
@@ -42,11 +44,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_design_considerations.html",
-"class_bembel_1_1_homogenised_laplace_single_layer_operator.html#a680a12363310dcf57461c55a0022e0c3",
-"group___helmholtz.html",
-"struct_bembel_1_1_h2_multipole_1_1_moment1_d.html#a645c5e59c4d28eca10453539ceef22b9",
-"struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#ab8612cd53c590b909bc1962fc7655457"
+"_contributors.html",
+"class_bembel_1_1_homogenised_laplace_single_layer_operator.html#a0ba608b188b016901090dfd63acc4e72",
+"group___h2_matrix.html#gacde0a6d4057b3a1ec3d5bcaf57ff4eeb",
+"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#ae38880a2999cda255a61c14b7513eaef",
+"struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#a1a402ff842a76c9e092d0b6549455fc1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
