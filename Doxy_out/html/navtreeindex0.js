@@ -1,10 +1,12 @@
 var NAVTREEINDEX0 =
 {
+"_configurations.html":[0,1],
 "_contributors.html":[2,0],
 "_design_considerations.html":[1,0],
 "_f_a_qs.html":[1,2],
 "_funding.html":[2,2],
 "_getting_started.html":[0],
+"_structure_repo.html":[0,0],
 "annotated.html":[4],
 "citelist.html":[2,1],
 "class_bembel_1_1_ansatz_space.html":[3,0,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "class_bembel_1_1_helmholtz_single_layer_potential.html#a02d1b310b3e4773297cf07a75ea6356b":[3,0,6,5,1],
 "class_bembel_1_1_helmholtz_single_layer_potential.html#a1e084f81b32c0e71e88d5f79fbdcc1b9":[3,0,6,5,3],
 "class_bembel_1_1_helmholtz_single_layer_potential.html#a53e00cd426cb7ab23764d35c010d9a7b":[3,0,6,5,4],
-"class_bembel_1_1_helmholtz_single_layer_potential.html#aa0893b6eaa39cbde0b089f3bc7d5fea7":[3,0,6,5,2],
-"class_bembel_1_1_helmholtz_single_layer_potential.html#aa2dd7b8523f355748f268ce0406ab19a":[3,0,6,5,0],
-"class_bembel_1_1_homogenised_laplace_single_layer_operator.html":[3,0,7,0]
+"class_bembel_1_1_helmholtz_single_layer_potential.html#aa0893b6eaa39cbde0b089f3bc7d5fea7":[3,0,6,5,2]
 };

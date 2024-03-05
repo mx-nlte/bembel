@@ -25,7 +25,10 @@
 var NAVTREE =
 [
   [ "Bembel", "index.html", [
-    [ "Getting started", "_getting_started.html", null ],
+    [ "Getting started", "_getting_started.html", [
+      [ "Structure of the Repository", "_structure_repo.html", null ],
+      [ "Configurations", "_configurations.html", null ]
+    ] ],
     [ "Extending Bembel", "usergroup0.html", [
       [ "Design Considerations", "_design_considerations.html", null ],
       [ "Coding Guidelines", "coding_guidelines.html", null ],
@@ -44,11 +47,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_contributors.html",
-"class_bembel_1_1_homogenised_laplace_single_layer_operator.html#a0ba608b188b016901090dfd63acc4e72",
-"group___h2_matrix.html#gacde0a6d4057b3a1ec3d5bcaf57ff4eeb",
-"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#ae38880a2999cda255a61c14b7513eaef",
-"struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#a1a402ff842a76c9e092d0b6549455fc1"
+"_configurations.html",
+"class_bembel_1_1_helmholtz_single_layer_potential.html#aa2dd7b8523f355748f268ce0406ab19a",
+"group___h2_matrix.html#gac08b2cd8d930efac4c5f9c836d3134d7",
+"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#a93b9d280db36a51a1f75710fb312852c",
+"struct_eigen_1_1internal_1_1storage__kind__to__shape_3_01_h2_01_4.html#a6319a855361472fd14333894d8e95d78"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

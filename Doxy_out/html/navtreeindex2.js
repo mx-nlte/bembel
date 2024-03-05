@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"group___h2_matrix.html#gac08b2cd8d930efac4c5f9c836d3134d7":[3,0,5,12],
+"group___h2_matrix.html#gac08b2cd8d930efac4c5f9c836d3134d7":[5,0,3,13],
 "group___h2_matrix.html#gacde0a6d4057b3a1ec3d5bcaf57ff4eeb":[3,0,5,7],
 "group___h2_matrix.html#gacde0a6d4057b3a1ec3d5bcaf57ff4eeb":[5,0,3,8],
 "group___helmholtz.html":[3,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_div_conforming_01_4.html":[4,0,0,4],
 "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_div_conforming_01_4.html#a373616fb11310fbdda224d8144220279":[4,0,0,4,0],
 "struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html":[3,0,5,1],
-"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#a2b120c7eebb401fd8cba5075320e776f":[3,0,5,1,3],
-"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#a93b9d280db36a51a1f75710fb312852c":[3,0,5,1,1],
-"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#a9bd1ba03b2f726b53912969b78510451":[3,0,5,1,2]
+"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#a2b120c7eebb401fd8cba5075320e776f":[3,0,5,1,3]
 };
