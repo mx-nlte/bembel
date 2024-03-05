@@ -29,6 +29,7 @@
 </script>
 <script type="text/javascript" async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="bembeldoxy.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -111,20 +112,14 @@ How to Compile</h1>
 Unix-Based Systems</h2>
 <pre><code>$ cmake -B build .
 $ cmake --build build --config release
-</code></pre><p>There also exist a <code>debug</code> config.</p>
-<h2><a class="anchor" id="subsecEigen"></a>
-Include Eigen</h2>
-<p>The CMake-File checks for installations of <a class="el" href="namespace_eigen.html">Eigen</a> via the corresponding <code>Eigen3Config.cmake</code>. You can include the source code of <a class="el" href="namespace_eigen.html">Eigen</a> directly byEigen can be integrated as a module. Alternatively, include the source code from <a class="el" href="namespace_eigen.html">Eigen</a> with <code>include_directory(path/to/eigen)</code> and delete the following lines</p>
-<pre><code>find_package (Eigen3 3.3 REQUIRED NO_MODULE)
-target_link_librarires(... Eigen3::Eigen)
-</code></pre><p>from the <code>CMakeLists.txt</code> files. </p>
+</code></pre><p>There also exist a <code>debug</code> config. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 5 2024 09:24:13 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Mar 5 2024 10:18:30 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
