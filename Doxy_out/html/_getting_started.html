@@ -128,6 +128,43 @@ Procedure of the BEM realized in Bembel</h1>
 \begin{eqnarray*} \mathcal{V}(\rho) &amp;=&amp; f(g) \end{eqnarray*}
 </p>
 <p>where \(f\) is a linear form incorporating the boundary data \(g\). This equation is solved by a Galerkin method to compute the unknown density \(\rho\). See <b>[Dolz_2018aa]</b> for details.</p>
+<h2><a class="anchor" id="subsecExample"></a>
+Example Program</h2>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span> <a class="code" href="example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>() {</div>
+<div class="line">  <span class="keyword">using namespace </span><a class="code" href="namespace_bembel.html">Bembel</a>;</div>
+<div class="line">  <span class="keyword">using namespace </span><a class="code" href="namespace_eigen.html">Eigen</a>;</div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// import geometry</span></div>
+<div class="line">  Geometry geometry(<span class="stringliteral">&quot;external_geometry_file.dat&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// define ansatz space</span></div>
+<div class="line">  AnsatzSpace&lt;Operator&gt; ansatz_space(geometry, refinement_level,</div>
+<div class="line">                                     polynomial_degree);</div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// define linear form</span></div>
+<div class="line">  DiscreteLinearForm&lt;DirichletTrace&lt;double&gt;, Operator&gt; disc_lf(ansatz_space);</div>
+<div class="line">  disc_lf.get_linear_form().set_function(fun);</div>
+<div class="line">  disc_lf.compute();</div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// define linear operator</span></div>
+<div class="line">  DiscreteOperator&lt;H2Matrix&lt;double&gt;, Operator&gt; disc_op(ansatz_space);</div>
+<div class="line">  disc_op.get_linear_operator().set_wavenumber(wavenumber);</div>
+<div class="line">  disc_op.compute();</div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// iterative solution using Eigen -&gt; rho</span></div>
+<div class="line"> </div>
+<div class="line">  <span class="comment">// evaluate potential</span></div>
+<div class="line">  DiscretePotential&lt;Potential&lt;Operator&gt;, Operator&gt; disc_pot(ansatz_space);</div>
+<div class="line">  disc_pot.set_cauchy_data(rho);</div>
+<div class="line">  <span class="keyword">auto</span> pot = disc_pot.evaluate(gridpoints);</div>
+<div class="line"> </div>
+<div class="line">  <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aexample_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> <a href="example_8cpp_source.html#l00013">example.cpp:13</a></div></div>
+<div class="ttc" id="anamespace_bembel_html"><div class="ttname"><a href="namespace_bembel.html">Bembel</a></div><div class="ttdef"><b>Definition:</b> <a href="_ansatz_space_8hpp_source.html#l00014">AnsatzSpace.hpp:14</a></div></div>
+<div class="ttc" id="anamespace_eigen_html"><div class="ttname"><a href="namespace_eigen.html">Eigen</a></div><div class="ttdef"><b>Definition:</b> <a href="_h2_matrix_2_eigen_helper_2_constants_8hpp_source.html#l00016">Constants.hpp:16</a></div></div>
+</div><!-- fragment --> <h2><a class="anchor" id="subsecBasicExtending"></a>
+Implement Your Own Operator</h2>
 <p>The three components <a class="el" href="group___linear_operator.html">LinearOperator</a> \(\mathcal{V}\), <a class="el" href="group___linear_form.html">LinearForm</a> \(f\) and <a class="el" href="group___potential.html">Potential</a> \(\tilde{\mathcal{V}}\) utilized in this procedure are classes in the <a class="el" href="namespace_bembel.html">Bembel</a> library which follow the same design principle. Main idea is to define traits which fundamentally define the behavior of the class. Whilst the Base class provides a framework, the Operator classes provide contrete implementations of computing the integrals. Details on the three classes are given in Section <a class="el" href="_design_considerations.html#secCRTP">Curiously Recurring Template Pattern</a>.</p>
 <div class="image">
 <img src="UML_TraitsBaseOperator.png" alt="" width="700px"/>
@@ -139,7 +176,7 @@ Procedure of the BEM realized in Bembel</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Mar 6 2024 10:17:26 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Mar 6 2024 15:36:12 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
