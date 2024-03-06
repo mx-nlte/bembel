@@ -112,14 +112,34 @@ How to Compile</h1>
 Unix-Based Systems</h2>
 <pre><code>$ cmake -B build .
 $ cmake --build build --config release
-</code></pre><p>There also exist a <code>debug</code> config. </p>
+</code></pre><p>There also exist a <code>debug</code> config.</p>
+<h1><a class="anchor" id="secProcedure"></a>
+Procedure of the BEM realized in Bembel</h1>
+<p>The procedure is as follows. Let \(\Omega\in\mathbb{R}^3\) be a bounded domain with Lipschitz boundary \(\Gamma = \partial\Omega\). <a class="el" href="namespace_bembel.html">Bembel</a> provides examples to the Laplace equation</p>
+<p class="formulaDsp">
+\begin{eqnarray*} -\Delta u &amp;=&amp; 0,\quad \textrm{in}\,\Omega, \\ u &amp;=&amp; g,\quad\textrm{on}\,\Gamma. \end{eqnarray*}
+</p>
+<p>The solution \(u\) can be computed by a single layer potential ansatz</p>
+<p class="formulaDsp">
+\begin{eqnarray*} u(\mathbf{x}) &amp;=&amp; \tilde{\mathcal{V}}(\rho) = \int_\Gamma \frac{\rho(\mathbf{y})}{4\pi\|\mathbf{x} - \mathbf{y}\|}\,\mathrm{d}\sigma(\mathbf{y}),\quad\mathbf{x}\in\Omega. \end{eqnarray*}
+</p>
+<p>Applying the appropriate trace operator yields the integral equation</p>
+<p class="formulaDsp">
+\begin{eqnarray*} \mathcal{V}(\rho) &amp;=&amp; f(g) \end{eqnarray*}
+</p>
+<p>where \(f\) is a linear form incorporating the boundary data \(g\). This equation is solved by a Galerkin method to compute the unknown density \(\rho\). See <b>[Dolz_2018aa]</b> for details.</p>
+<p>The three components <a class="el" href="group___linear_operator.html">LinearOperator</a> \(\mathcal{V}\), <a class="el" href="group___linear_form.html">LinearForm</a> \(f\) and <a class="el" href="group___potential.html">Potential</a> \(\tilde{\mathcal{V}}\) utilized in this procedure are classes in the <a class="el" href="namespace_bembel.html">Bembel</a> library which follow the same design principle. Main idea is to define traits which fundamentally define the behavior of the class. Whilst the Base class provides a framework, the Operator classes provide contrete implementations of computing the integrals. Details on the three classes are given in Section <a class="el" href="_design_considerations.html#secCRTP">Curiously Recurring Template Pattern</a>.</p>
+<div class="image">
+<img src="UML_TraitsBaseOperator.png" alt="" width="700px"/>
+</div>
+<p>If you now write a new problem class as an extension for <a class="el" href="namespace_bembel.html">Bembel</a>, you only have to define the traits. In addition, you have to implement a concrete implementation for computing the integrals. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 5 2024 10:55:56 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Mar 6 2024 10:17:26 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
