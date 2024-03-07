@@ -187,5 +187,8 @@ var annotated =
       [ "H2Matrix", "class_eigen_1_1_h2_matrix.html", "class_eigen_1_1_h2_matrix" ],
       [ "H2MatrixBase", "class_eigen_1_1_h2_matrix_base.html", "class_eigen_1_1_h2_matrix_base" ]
     ] ],
-    [ "H2Matrix", "class_h2_matrix.html", null ]
+    [ "H2Matrix", "class_h2_matrix.html", null ],
+    [ "LinearFormTraits< DirichletTrace< ScalarT > >", "struct_linear_form_traits_3_01_dirichlet_trace_3_01_scalar_t_01_4_01_4.html", "struct_linear_form_traits_3_01_dirichlet_trace_3_01_scalar_t_01_4_01_4" ],
+    [ "LinearOperatorTraits< LaplaceSingleLayerOperator >", "struct_linear_operator_traits_3_01_laplace_single_layer_operator_01_4.html", "struct_linear_operator_traits_3_01_laplace_single_layer_operator_01_4" ],
+    [ "PotentialTraits< LaplaceSingleLayerPotential< LinOp > >", "struct_potential_traits_3_01_laplace_single_layer_potential_3_01_lin_op_01_4_01_4.html", "struct_potential_traits_3_01_laplace_single_layer_potential_3_01_lin_op_01_4_01_4" ]
 ];

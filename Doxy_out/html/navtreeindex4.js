@@ -6,6 +6,14 @@ var NAVTREEINDEX4 =
 "struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#a4e407a2c64058d1158a599595c458afd":[4,1,0,22,1],
 "struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#ab8612cd53c590b909bc1962fc7655457":[4,1,0,22,2],
 "struct_eigen_1_1internal_1_1traits_3_01_h2_matrix_3_01_scalar_t_01_4_01_4.html#ade300dbfa526ccd74f65702c5aa3ad1a":[4,1,0,22,0],
+"struct_linear_form_traits_3_01_dirichlet_trace_3_01_scalar_t_01_4_01_4.html":[4,3],
+"struct_linear_form_traits_3_01_dirichlet_trace_3_01_scalar_t_01_4_01_4.html#a14aa47005792a68956c39bdd3500d7c7":[4,3,0],
+"struct_linear_operator_traits_3_01_laplace_single_layer_operator_01_4.html":[4,4],
+"struct_linear_operator_traits_3_01_laplace_single_layer_operator_01_4.html#a19bed506a34ac7b5d03677a7536471cc":[4,4,0],
+"struct_linear_operator_traits_3_01_laplace_single_layer_operator_01_4.html#acfe6a9f0767537d9006a02332d6c85ff":[4,4,1],
+"struct_potential_traits_3_01_laplace_single_layer_potential_3_01_lin_op_01_4_01_4.html":[4,5],
+"struct_potential_traits_3_01_laplace_single_layer_potential_3_01_lin_op_01_4_01_4.html#a20891e4d8f8f9ca6e7deaaa4da43e8b8":[4,5,0],
+"struct_potential_traits_3_01_laplace_single_layer_potential_3_01_lin_op_01_4_01_4.html#a4f58cf3499f9a02178bf718cb9a76691":[4,5,1],
 "usergroup0.html":[1],
 "usergroup1.html":[2]
 };

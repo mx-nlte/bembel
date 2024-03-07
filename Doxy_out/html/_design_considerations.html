@@ -108,10 +108,12 @@ $(document).ready(function(){initNavTree('_design_considerations.html',''); init
 <h1><a class="anchor" id="secCRTP"></a>
 Curiously Recurring Template Pattern</h1>
 <p>The three essential components <a class="el" href="group___linear_operator.html">LinearOperator</a>, <a class="el" href="group___linear_form.html">LinearForm</a> and <a class="el" href="group___potential.html">Potential</a> of the BEM are implemented in <a class="el" href="namespace_bembel.html">Bembel</a> according to the Curiously Recurring Template Pattern.</p>
-<h2>Linear Operator</h2>
+<h2><a class="anchor" id="CRTPLinearOperator"></a>
+Linear Operator</h2>
 <p>If you want to add an implementation of an <a class="el" href="group___linear_operator.html">LinearOperator</a>, then <a class="el" href="struct_bembel_1_1_linear_operator_traits.html" title="struct containing specifications on the linear operator has to be specialized or derived for any part...">LinearOperatorTraits</a> must be defined and an implementation for the integral evaluation must be given.</p>
-<h3>Linear Operator Traits</h3>
-<p>The <a class="el" href="struct_bembel_1_1_linear_operator_traits.html" title="struct containing specifications on the linear operator has to be specialized or derived for any part...">LinearOperatorTraits</a> are explained using the example of the <a class="el" href="class_bembel_1_1_laplace_single_layer_operator.html" title="This class implements the specification of the integration for the single layer operator for Laplace.">LaplaceSingleLayerOperator</a>. These traits are passed to the implementation via template parameters and fundamentally define the properties of the software. </p><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;&gt;</div>
+<h3>Traits</h3>
+<p>The <a class="el" href="struct_bembel_1_1_linear_operator_traits.html" title="struct containing specifications on the linear operator has to be specialized or derived for any part...">LinearOperatorTraits</a> are explained using the example of the <a class="el" href="class_bembel_1_1_laplace_single_layer_operator.html" title="This class implements the specification of the integration for the single layer operator for Laplace.">LaplaceSingleLayerOperator</a>. These traits are passed to the implementation via template parameters and fundamentally define the properties of the software.</p>
+<div class="fragment"><div class="line"><span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><span class="keyword">struct </span>LinearOperatorTraits&lt;LaplaceSingleLayerOperator&gt; {</div>
 <div class="line">  <span class="keyword">typedef</span> Eigen::VectorXd EigenType;</div>
 <div class="line">  <span class="keyword">typedef</span> Eigen::VectorXd::Scalar Scalar;</div>
@@ -132,15 +134,61 @@ Curiously Recurring Template Pattern</h1>
 </ul>
 <p>There are three options for the parameter <code>Form</code>: <a class="el" href="struct_bembel_1_1_differential_form.html#aef10154eea237eea00157e5a217ec050a348366fcc91a759bdd1e3ee5eda286a0">DifferentialForm::Continuous</a>, <a class="el" href="struct_bembel_1_1_differential_form.html#aef10154eea237eea00157e5a217ec050ae6f943889aa67e7aa7ea89eae33b1939">DifferentialForm::DivConforming</a> and <a class="el" href="struct_bembel_1_1_differential_form.html#aef10154eea237eea00157e5a217ec050a9069b7e3f2dd459f02912eefa3b166a5">DifferentialForm::Discontinuous</a>. This selects a scalar continuous, vector-valued and div conforming or scalar discontinuous B-spline basis for the discretization.</p>
 <h3>Evaluate Integrand</h3>
-<p>Furthermore, there must be an implementation of the function <code>evaluateIntegrand_impl()</code>.</p>
+<p>Furthermore, there must be an implementation of the function <code><a class="el" href="evaluate_integrand__impl_8cpp.html#a1b51e9fa898738334c7cb0521cbc3dc0">evaluateIntegrand_impl()</a></code>.</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="evaluate_integrand__impl_8cpp.html#a1b51e9fa898738334c7cb0521cbc3dc0">evaluateIntegrand_impl</a>(</div>
+<div class="line">    <span class="keyword">const</span> T &amp;super_space, <span class="keyword">const</span> <a class="code" href="group___geometry.html#ga7f3488fb214d75f08146ff31726428b4">SurfacePoint</a> &amp;p1, <span class="keyword">const</span> <a class="code" href="group___geometry.html#ga7f3488fb214d75f08146ff31726428b4">SurfacePoint</a> &amp;p2,</div>
+<div class="line">    Eigen::Matrix&lt;</div>
+<div class="line">        <span class="keyword">typename</span> <a class="code" href="struct_bembel_1_1_linear_operator_traits_3_01_laplace_single_layer_operator_01_4.html#a6e303940187d9defb6c8fd1614bd6ab9">LinearOperatorTraits&lt;LaplaceSingleLayerOperator&gt;::Scalar</a>,</div>
+<div class="line">        Eigen::Dynamic, Eigen::Dynamic&gt; *intval);</div>
+<div class="ttc" id="aevaluate_integrand__impl_8cpp_html_a1b51e9fa898738334c7cb0521cbc3dc0"><div class="ttname"><a href="evaluate_integrand__impl_8cpp.html#a1b51e9fa898738334c7cb0521cbc3dc0">evaluateIntegrand_impl</a></div><div class="ttdeci">void evaluateIntegrand_impl(const T &amp;super_space, const SurfacePoint &amp;p1, const SurfacePoint &amp;p2, Eigen::Matrix&lt; typename LinearOperatorTraits&lt; LaplaceSingleLayerOperator &gt;::Scalar, Eigen::Dynamic, Eigen::Dynamic &gt; *intval)</div></div>
+<div class="ttc" id="agroup___geometry_html_ga7f3488fb214d75f08146ff31726428b4"><div class="ttname"><a href="group___geometry.html#ga7f3488fb214d75f08146ff31726428b4">SurfacePoint</a></div><div class="ttdeci">Eigen::Matrix&lt; double, 12, 1 &gt; SurfacePoint</div><div class="ttdoc">typedef of SurfacePoint</div><div class="ttdef"><b>Definition:</b> <a href="_surface_point_8hpp_source.html#l00042">SurfacePoint.hpp:42</a></div></div>
+<div class="ttc" id="astruct_bembel_1_1_linear_operator_traits_3_01_laplace_single_layer_operator_01_4_html_a6e303940187d9defb6c8fd1614bd6ab9"><div class="ttname"><a href="struct_bembel_1_1_linear_operator_traits_3_01_laplace_single_layer_operator_01_4.html#a6e303940187d9defb6c8fd1614bd6ab9">Bembel::LinearOperatorTraits&lt; LaplaceSingleLayerOperator &gt;::Scalar</a></div><div class="ttdeci">Eigen::VectorXd::Scalar Scalar</div><div class="ttdef"><b>Definition:</b> <a href="_laplace_2_single_layer_operator_8hpp_source.html#l00025">SingleLayerOperator.hpp:25</a></div></div>
+</div><!-- fragment --><p> The <a class="el" href="struct_bembel_1_1_super_space.html" title="The superspace manages local polynomial bases on each element of the mesh and provides an interface t...">SuperSpace</a> manages the basis functions and interactions thereof. Since a BEM always evaluates double integrals, two SurfacePoints are provided, which also contain the information about derivatives. Finally, the result must be added to <code>intval</code>.</p>
 <hr  />
- </div></div><!-- contents -->
+ <h2><a class="anchor" id="CRTPPotential"></a>
+Potential</h2>
+<p>Just as above, as with the LinearOperator, we define and traits and the implementation of the integral evaluation.</p>
+<h3>Traits</h3>
+<div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> LinOp&gt;</div>
+<div class="line"><span class="keyword">struct </span>PotentialTraits&lt;LaplaceSingleLayerPotential&lt;LinOp&gt;&gt; {</div>
+<div class="line">  <span class="keyword">typedef</span> Eigen::VectorXd::Scalar Scalar;</div>
+<div class="line">  <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> OutputSpaceDimension = 1;</div>
+<div class="line">};</div>
+</div><!-- fragment --><ul>
+<li><code>Scalar</code> defines if the potential is real or complex valued.</li>
+<li><code>OutputSpaceDimension</code> defines if the potential is scalar or vector valued.</li>
+</ul>
+<h3>Evaluate Integrand</h3>
+<div class="fragment"><div class="line">Eigen::Matrix&lt;<span class="keyword">typename</span> PotentialReturnScalar&lt;</div>
+<div class="line">                  <span class="keyword">typename</span> LinearOperatorTraits&lt;LinOp&gt;::Scalar, <span class="keywordtype">double</span>&gt;::Scalar,</div>
+<div class="line">              1, 1&gt;</div>
+<div class="line"><a class="code" href="evaluate_integrand__impl_8cpp.html#a1b51e9fa898738334c7cb0521cbc3dc0">evaluateIntegrand_impl</a>(<span class="keyword">const</span> FunctionEvaluator&lt;LinOp&gt; &amp;fun_ev,</div>
+<div class="line">                       <span class="keyword">const</span> ElementTreeNode &amp;element,</div>
+<div class="line">                       <span class="keyword">const</span> Eigen::Vector3d &amp;point, <span class="keyword">const</span> <a class="code" href="group___geometry.html#ga7f3488fb214d75f08146ff31726428b4">SurfacePoint</a> &amp;p);</div>
+</div><!-- fragment --><p> For the return type the <code>Scalar</code> type must be derived from the LinearOperator and Potential. Furthermore, the number of rows in the returned matrix corresponds to the dimension of the output space. The <a class="el" href="class_bembel_1_1_function_evaluator.html" title="The FunctionEvaluator provides means to evaluate coefficient vectors as functions on the geometry.">FunctionEvaluator</a> <code>fun_ev</code> takes care over the evaluation of the surface quantity, which needs an <a class="el" href="class_bembel_1_1_element_tree_node.html" title="The ElementTreeNode corresponds to an element in the element tree.">ElementTreeNode</a> <code>element</code> as input. For the SurfacePoint <code>p</code> the contribution of the potential in the given <code>point</code> is returned.</p>
+<hr  />
+ <h2><a class="anchor" id="CRTPLinearForm"></a>
+Linear Form</h2>
+<p>We also define the scalar type and the evaluation of the integral for the right-hand side integrated using the LinearForm.</p>
+<h3>Traits</h3>
+<div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> ScalarT&gt;</div>
+<div class="line"><span class="keyword">struct </span>LinearFormTraits&lt;DirichletTrace&lt;ScalarT&gt;&gt; {</div>
+<div class="line">  <span class="keyword">typedef</span> ScalarT Scalar;</div>
+<div class="line">};</div>
+</div><!-- fragment --><ul>
+<li><code>Scalar</code> defines if the linear form is real or complex valued.</li>
+</ul>
+<h3>Evaluate Integrand</h3>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="evaluate_integrand__impl_8cpp.html#a1b51e9fa898738334c7cb0521cbc3dc0">evaluateIntegrand_impl</a>(<span class="keyword">const</span> T &amp;super_space, <span class="keyword">const</span> <a class="code" href="group___geometry.html#ga7f3488fb214d75f08146ff31726428b4">SurfacePoint</a> &amp;p,</div>
+<div class="line">                            Eigen::Matrix&lt;Scalar, Eigen::Dynamic, 1&gt; *intval);</div>
+</div><!-- fragment --><p> The <a class="el" href="struct_bembel_1_1_super_space.html" title="The superspace manages local polynomial bases on each element of the mesh and provides an interface t...">SuperSpace</a> manages the basis functions. Integral is evaluated at the SurfacePoint and the value is returned in <code>intval</code>. </p>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Mar 6 2024 15:36:12 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Mar 7 2024 09:58:41 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
