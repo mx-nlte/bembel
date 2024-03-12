@@ -1,8 +1,0 @@
-<map id="Bembel::FunctionEvaluator::set_function" name="Bembel::FunctionEvaluator::set_function">
-<area shape="rect" id="node1" title=" " alt="" coords="353,104,551,145"/>
-<area shape="rect" id="node2" href="$class_bembel_1_1_v_t_k_surface_export.html#a8091dd8fc8ac6e055f297be934b0687d" title="Add a function given through coefficients of an AnsatzSpace to the visualization." alt="" coords="108,5,305,47"/>
-<area shape="rect" id="node3" href="$class_bembel_1_1_function_evaluator.html#a568c2419aeff0965ecb98dbd66b69bc5" title=" " alt="" coords="108,71,305,112"/>
-<area shape="rect" id="node4" href="$class_bembel_1_1_discrete_potential.html#ad6ea39f7ec3c006a6c28020c82b95536" title=" " alt="" coords="111,136,303,177"/>
-<area shape="rect" id="node6" href="$namespace_bembel.html#a5d75608ee7079ac7c9100764ab6a81be" title=" " alt="" coords="119,202,294,229"/>
-<area shape="rect" id="node5" href="$example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,143,60,170"/>
-</map>

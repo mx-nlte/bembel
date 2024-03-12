@@ -15,5 +15,5 @@ var group___modules =
     [ "Maxwell", "group___maxwell.html", "group___maxwell" ],
     [ "Potential", "group___potential.html", "group___potential" ],
     [ "Quadrature", "group___quadrature.html", "group___quadrature" ],
-    [ "Spline", "group___spline.html", null ]
+    [ "Spline", "group___spline.html", "group___spline" ]
 ];

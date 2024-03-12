@@ -114,77 +114,24 @@ $(document).ready(function(){initNavTree('struct_bembel_1_1_linear_operator_trai
 <p><code>#include &lt;<a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html">MassMatrixScalarCont.hpp</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Specification of the LinerOperatorTraits for the MassMatrix. </p>
-<p>With a continuous Basis. </p>
+<p>With a continuous <a class="el" href="namespace_bembel_1_1_basis.html" title="The Basis namespace contains classes and functions that are to be used as an interface between the BE...">Basis</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html#l00026">26</a> of file <a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html">MassMatrixScalarCont.hpp</a>.</p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a4f9d743c11e0b150c8c4b17e83518b73"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a4f9d743c11e0b150c8c4b17e83518b73ad352e5ddf174e449e9480c5f5f0d3cd5">OperatorOrder</a> = 0
-, <a class="el" href="struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a4f9d743c11e0b150c8c4b17e83518b73ac1a786bc566a17f075fd0befa40afcb5">Form</a> = DifferentialForm::Continuous
-, <a class="el" href="struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a4f9d743c11e0b150c8c4b17e83518b73a3e8ff4291a95f98893eb49283a88d45f">NumberOfFMMComponents</a> = 0
+<tr class="memitem:a4f9d743c11e0b150c8c4b17e83518b73"><td class="memItemLeft" align="right" valign="top"><a id="a4f9d743c11e0b150c8c4b17e83518b73"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>OperatorOrder</b> = 0
+, <b>Form</b> = DifferentialForm::Continuous
+, <b>NumberOfFMMComponents</b> = 0
  }</td></tr>
 <tr class="separator:a4f9d743c11e0b150c8c4b17e83518b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a10005ed07ca545c614aa5fa8ef7671"><td class="memItemLeft" align="right" valign="top">typedef Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a2a10005ed07ca545c614aa5fa8ef7671">EigenType</a></td></tr>
+<tr class="memitem:a2a10005ed07ca545c614aa5fa8ef7671"><td class="memItemLeft" align="right" valign="top"><a id="a2a10005ed07ca545c614aa5fa8ef7671"></a>
+typedef Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><b>EigenType</b></td></tr>
 <tr class="separator:a2a10005ed07ca545c614aa5fa8ef7671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77b20b428d89d662ccd5d673719846f0"><td class="memItemLeft" align="right" valign="top">typedef Eigen::VectorXd::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a77b20b428d89d662ccd5d673719846f0">Scalar</a></td></tr>
+<tr class="memitem:a77b20b428d89d662ccd5d673719846f0"><td class="memItemLeft" align="right" valign="top"><a id="a77b20b428d89d662ccd5d673719846f0"></a>
+typedef Eigen::VectorXd::Scalar&#160;</td><td class="memItemRight" valign="bottom"><b>Scalar</b></td></tr>
 <tr class="separator:a77b20b428d89d662ccd5d673719846f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a2a10005ed07ca545c614aa5fa8ef7671"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a10005ed07ca545c614aa5fa8ef7671">&#9670;&nbsp;</a></span>EigenType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef Eigen::VectorXd <a class="el" href="struct_bembel_1_1_linear_operator_traits.html">Bembel::LinearOperatorTraits</a>&lt; <a class="el" href="class_bembel_1_1_mass_matrix_scalar_cont.html">MassMatrixScalarCont</a> &gt;::<a class="el" href="struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a2a10005ed07ca545c614aa5fa8ef7671">EigenType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html#l00027">27</a> of file <a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html">MassMatrixScalarCont.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a77b20b428d89d662ccd5d673719846f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77b20b428d89d662ccd5d673719846f0">&#9670;&nbsp;</a></span>Scalar</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef Eigen::VectorXd::Scalar <a class="el" href="struct_bembel_1_1_linear_operator_traits.html">Bembel::LinearOperatorTraits</a>&lt; <a class="el" href="class_bembel_1_1_mass_matrix_scalar_cont.html">MassMatrixScalarCont</a> &gt;::<a class="el" href="struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a77b20b428d89d662ccd5d673719846f0">Scalar</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html#l00028">28</a> of file <a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html">MassMatrixScalarCont.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a4f9d743c11e0b150c8c4b17e83518b73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f9d743c11e0b150c8c4b17e83518b73">&#9670;&nbsp;</a></span>anonymous enum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4f9d743c11e0b150c8c4b17e83518b73ad352e5ddf174e449e9480c5f5f0d3cd5"></a>OperatorOrder&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4f9d743c11e0b150c8c4b17e83518b73ac1a786bc566a17f075fd0befa40afcb5"></a>Form&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4f9d743c11e0b150c8c4b17e83518b73a3e8ff4291a95f98893eb49283a88d45f"></a>NumberOfFMMComponents&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html#l00029">29</a> of file <a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html">MassMatrixScalarCont.hpp</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>Bembel/src/Identity/<a class="el" href="_mass_matrix_scalar_cont_8hpp_source.html">MassMatrixScalarCont.hpp</a></li>
 </ul>
@@ -194,7 +141,7 @@ Public Types</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_bembel.html">Bembel</a></li><li class="navelem"><a class="el" href="struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html">LinearOperatorTraits&lt; MassMatrixScalarCont &gt;</a></li>
-    <li class="footer">Generated on Mon Mar 11 2024 14:20:05 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Mar 12 2024 16:04:01 for Bembel by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

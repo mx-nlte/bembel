@@ -1,14 +1,23 @@
 var annotated =
 [
     [ "Bembel", "namespace_bembel.html", [
-      [ "GlueRoutines", "namespace_bembel_1_1_glue_routines.html", [
+      [ "Basis", "namespace_bembel_1_1_basis.html", [
+        [ "PSpecificBasisHandler", "class_bembel_1_1_basis_1_1_p_specific_basis_handler.html", "class_bembel_1_1_basis_1_1_p_specific_basis_handler" ],
+        [ "PSpecificBasisHandler< 0, Scalar >", "class_bembel_1_1_basis_1_1_p_specific_basis_handler_3_010_00_01_scalar_01_4.html", "class_bembel_1_1_basis_1_1_p_specific_basis_handler_3_010_00_01_scalar_01_4" ],
+        [ "HiddenBernsteinClass", "class_bembel_1_1_basis_1_1_hidden_bernstein_class.html", "class_bembel_1_1_basis_1_1_hidden_bernstein_class" ],
+        [ "HiddenBernsteinClass< T, 0, P >", "class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_010_00_01_p_01_4.html", "class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_010_00_01_p_01_4" ],
+        [ "HiddenBernsteinClass< T, -1, P >", "class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_01-1_00_01_p_01_4.html", "class_bembel_1_1_basis_1_1_hidden_bernstein_class_3_01_t_00_01-1_00_01_p_01_4" ],
+        [ "PSpecificShapeFunctionHandler", "class_bembel_1_1_basis_1_1_p_specific_shape_function_handler.html", "class_bembel_1_1_basis_1_1_p_specific_shape_function_handler" ],
+        [ "PSpecificShapeFunctionHandler< 0 >", "class_bembel_1_1_basis_1_1_p_specific_shape_function_handler_3_010_01_4.html", "class_bembel_1_1_basis_1_1_p_specific_shape_function_handler_3_010_01_4" ]
+      ] ],
+      [ "GlueRoutines", null, [
         [ "dofIdentification", "struct_bembel_1_1_glue_routines_1_1dof_identification.html", "struct_bembel_1_1_glue_routines_1_1dof_identification" ],
         [ "glue_identificationmaker_", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker__.html", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker__" ],
         [ "glue_identificationmaker_< Derived, DifferentialForm::Discontinuous >", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_discontinuous_01_4.html", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_discontinuous_01_4" ],
         [ "glue_identificationmaker_< Derived, DifferentialForm::Continuous >", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4.html", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4" ],
         [ "glue_identificationmaker_< Derived, DifferentialForm::DivConforming >", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_div_conforming_01_4.html", "struct_bembel_1_1_glue_routines_1_1glue__identificationmaker___3_01_derived_00_01_differential_form_1_1_div_conforming_01_4" ]
       ] ],
-      [ "H2Multipole", "namespace_bembel_1_1_h2_multipole.html", [
+      [ "H2Multipole", null, [
         [ "ChebychevRoots", "struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html", "struct_bembel_1_1_h2_multipole_1_1_chebychev_roots" ],
         [ "Moment1D", "struct_bembel_1_1_h2_multipole_1_1_moment1_d.html", "struct_bembel_1_1_h2_multipole_1_1_moment1_d" ],
         [ "Moment1DDerivative", "struct_bembel_1_1_h2_multipole_1_1_moment1_d_derivative.html", "struct_bembel_1_1_h2_multipole_1_1_moment1_d_derivative" ],
@@ -16,11 +25,11 @@ var annotated =
         [ "Moment2D< InterpolationPoints, HelmholtzHypersingularOperator >", "struct_bembel_1_1_h2_multipole_1_1_moment2_d_3_01_interpolation_points_00_01_helmholtz_hypersingular_operator_01_4.html", "struct_bembel_1_1_h2_multipole_1_1_moment2_d_3_01_interpolation_points_00_01_helmholtz_hypersingular_operator_01_4" ],
         [ "Moment2D< InterpolationPoints, MaxwellSingleLayerOperator >", "struct_bembel_1_1_h2_multipole_1_1_moment2_d_3_01_interpolation_points_00_01_maxwell_single_layer_operator_01_4.html", "struct_bembel_1_1_h2_multipole_1_1_moment2_d_3_01_interpolation_points_00_01_maxwell_single_layer_operator_01_4" ]
       ] ],
-      [ "IO", "namespace_bembel_1_1_i_o.html", [
+      [ "IO", null, [
         [ "Logger", "class_bembel_1_1_i_o_1_1_logger.html", "class_bembel_1_1_i_o_1_1_logger" ],
         [ "Stopwatch", "class_bembel_1_1_i_o_1_1_stopwatch.html", "class_bembel_1_1_i_o_1_1_stopwatch" ]
       ] ],
-      [ "ProjectorRoutines", "namespace_bembel_1_1_projector_routines.html", [
+      [ "ProjectorRoutines", null, [
         [ "projector_matrixmaker_", "struct_bembel_1_1_projector_routines_1_1projector__matrixmaker__.html", "struct_bembel_1_1_projector_routines_1_1projector__matrixmaker__" ],
         [ "_proj_info", "struct_bembel_1_1_projector_routines_1_1__proj__info.html", "struct_bembel_1_1_projector_routines_1_1__proj__info" ],
         [ "projector_matrixmaker_< Derived, DifferentialForm::Continuous >", "struct_bembel_1_1_projector_routines_1_1projector__matrixmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4.html", "struct_bembel_1_1_projector_routines_1_1projector__matrixmaker___3_01_derived_00_01_differential_form_1_1_continuous_01_4" ],
@@ -150,7 +159,14 @@ var annotated =
       [ "QuadratureVector< QuadratureRule, 0 >", "struct_bembel_1_1_quadrature_vector_3_01_quadrature_rule_00_010_01_4.html", "struct_bembel_1_1_quadrature_vector_3_01_quadrature_rule_00_010_01_4" ],
       [ "TensorProductQuadratureVector", "struct_bembel_1_1_tensor_product_quadrature_vector.html", "struct_bembel_1_1_tensor_product_quadrature_vector" ],
       [ "TensorProductQuadratureVector< QuadratureRule, 0 >", "struct_bembel_1_1_tensor_product_quadrature_vector_3_01_quadrature_rule_00_010_01_4.html", "struct_bembel_1_1_tensor_product_quadrature_vector_3_01_quadrature_rule_00_010_01_4" ],
-      [ "GenericMatrix", "class_bembel_1_1_generic_matrix.html", "class_bembel_1_1_generic_matrix" ]
+      [ "static_assertKlessseqN", "struct_bembel_1_1static__assert_klessseq_n.html", null ],
+      [ "static_assertKlessseqN< true >", "struct_bembel_1_1static__assert_klessseq_n_3_01true_01_4.html", null ],
+      [ "Binomial", "struct_bembel_1_1_binomial.html", null ],
+      [ "Binomial< 0, 0 >", "struct_bembel_1_1_binomial_3_010_00_010_01_4.html", null ],
+      [ "Binomial< N, N >", "struct_bembel_1_1_binomial_3_01_n_00_01_n_01_4.html", null ],
+      [ "Binomial< 0, N >", "struct_bembel_1_1_binomial_3_010_00_01_n_01_4.html", null ],
+      [ "GenericMatrix", "class_bembel_1_1_generic_matrix.html", "class_bembel_1_1_generic_matrix" ],
+      [ "LinearOperatorTraits< FakeDivergenceConformingOperator >", "struct_bembel_1_1_linear_operator_traits_3_01_fake_divergence_conforming_operator_01_4.html", "struct_bembel_1_1_linear_operator_traits_3_01_fake_divergence_conforming_operator_01_4" ]
     ] ],
     [ "Eigen", "namespace_eigen.html", [
       [ "internal", "namespace_eigen_1_1internal.html", [

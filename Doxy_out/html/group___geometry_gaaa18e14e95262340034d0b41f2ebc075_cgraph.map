@@ -1,4 +1,0 @@
-<map id="Bembel::LoadGeometryFileIGS" name="Bembel::LoadGeometryFileIGS">
-<area shape="rect" id="node1" title="loads geometry from IGES file. Note that the direction of the normals must be consistent." alt="" coords="5,13,227,39"/>
-<area shape="rect" id="node2" href="$class_bembel_1_1_patch.html#a94e90e693ae9764675d67ea9b1755252" title="init" alt="" coords="275,5,419,47"/>
-</map>

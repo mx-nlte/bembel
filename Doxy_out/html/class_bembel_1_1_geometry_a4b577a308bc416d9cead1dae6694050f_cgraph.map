@@ -1,8 +1,0 @@
-<map id="Bembel::Geometry::Geometry" name="Bembel::Geometry::Geometry">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,56,223,83"/>
-<area shape="rect" id="node2" href="$class_bembel_1_1_geometry.html#a02ce72f4229e168a5c56dd5f174baa8f" title="Initialize the geometry from a geometry given by a file." alt="" coords="271,49,444,90"/>
-<area shape="rect" id="node3" href="$group___geometry.html#gab6cca6243499deb03e7fb6a7c450870e" title="loads geometry from file with GEOPDE&#45;format. Note that the direction of the normals must be consisten..." alt="" coords="492,5,717,32"/>
-<area shape="rect" id="node5" href="$group___geometry.html#gaaa18e14e95262340034d0b41f2ebc075" title="loads geometry from IGES file. Note that the direction of the normals must be consistent." alt="" coords="494,56,715,83"/>
-<area shape="rect" id="node6" href="$namespace_bembel.html#a4964bb4906731ef7ac920f39216a2fc8" title="This function cuts a patch along internal knots, if any." alt="" coords="518,107,691,133"/>
-<area shape="rect" id="node4" href="$class_bembel_1_1_patch.html#a94e90e693ae9764675d67ea9b1755252" title="init" alt="" coords="765,23,909,65"/>
-</map>

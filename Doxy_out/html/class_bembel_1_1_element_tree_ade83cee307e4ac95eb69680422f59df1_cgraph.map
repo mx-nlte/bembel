@@ -1,5 +1,0 @@
-<map id="Bembel::ElementTree::cluster_end" name="Bembel::ElementTree::cluster_end">
-<area shape="rect" id="node1" title="Returns a cluster iterator one past the end of the sequence represented by the the given ElementTreeN..." alt="" coords="5,5,167,47"/>
-<area shape="rect" id="node2" href="$class_bembel_1_1_element_tree_node.html#a137017e42253c1fb88d21ab63ab6af8e" title="Returns an iterator pointing to the element in the sequence after this ElementTreeNode." alt="" coords="215,5,409,47"/>
-<area shape="rect" id="node3" href="$class_bembel_1_1_element_tree_node.html#af01c5109d38e29fedbeb526f0598ba15" title="Returns a const reference to the last son if any or itself." alt="" coords="457,5,652,47"/>
-</map>

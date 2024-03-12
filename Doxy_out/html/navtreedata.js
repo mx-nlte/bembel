@@ -48,10 +48,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_configurations.html",
-"class_bembel_1_1_helmholtz_single_layer_potential.html#aa2dd7b8523f355748f268ce0406ab19a",
-"group___h2_matrix.html#gac08b2cd8d930efac4c5f9c836d3134d7",
-"struct_bembel_1_1_h2_multipole_1_1_chebychev_roots.html#a93b9d280db36a51a1f75710fb312852c",
-"struct_eigen_1_1internal_1_1storage__kind__to__shape_3_01_h2_01_4.html#a6319a855361472fd14333894d8e95d78"
+"class_bembel_1_1_element_tree_node.html#af00e0f28bd1f612f2b90f950e0752f1f",
+"class_eigen_1_1_h2_matrix.html#a0be284245df1b81d9157fe89bec0aeb6",
+"struct_bembel_1_1_block_cluster_tree_parameters.html",
+"struct_bembel_1_1_potential_traits_3_01_helmholtz_single_layer_potential_3_01_lin_op_01_4_01_4.html#a19b2bd4ba2fcb8f96c0056cbf40c8943"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

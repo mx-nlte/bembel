@@ -1,5 +1,0 @@
-<map id="Bembel::ElementTree::computeReorderingVector" name="Bembel::ElementTree::computeReorderingVector">
-<area shape="rect" id="node1" title="The ordering of elements in the element tree does not correspond to the element order underlying the ..." alt="" coords="5,39,204,80"/>
-<area shape="rect" id="node2" href="$class_bembel_1_1_element_tree.html#a48c2f97dbc1ab7db5e35951984595801" title="iterators" alt="" coords="252,5,413,47"/>
-<area shape="rect" id="node3" href="$class_bembel_1_1_element_tree.html#a73b7b5b1e3f96db5f477f63d783b0e4d" title="Returns an iterator one past the end of the sequence represented by the leafs as ElementTreeNodes of ..." alt="" coords="252,71,413,112"/>
-</map>

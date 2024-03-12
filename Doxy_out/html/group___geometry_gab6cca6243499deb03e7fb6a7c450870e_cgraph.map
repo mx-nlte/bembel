@@ -1,4 +1,0 @@
-<map id="Bembel::LoadGeometryFileDAT" name="Bembel::LoadGeometryFileDAT">
-<area shape="rect" id="node1" title="loads geometry from file with GEOPDE&#45;format. Note that the direction of the normals must be consisten..." alt="" coords="5,13,231,39"/>
-<area shape="rect" id="node2" href="$class_bembel_1_1_patch.html#a94e90e693ae9764675d67ea9b1755252" title="init" alt="" coords="279,5,423,47"/>
-</map>

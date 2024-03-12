@@ -1,4 +1,0 @@
-<map id="Bembel::Patch::evalNormal" name="Bembel::Patch::evalNormal">
-<area shape="rect" id="node1" title="Evaluate normal vector at given point." alt="" coords="5,5,204,32"/>
-<area shape="rect" id="node2" href="$class_bembel_1_1_patch.html#a4e68f5e893b2be0b67130f5cdfc01944" title="Evaluate Jacobian of the parametrization at given point." alt="" coords="252,5,459,32"/>
-</map>
