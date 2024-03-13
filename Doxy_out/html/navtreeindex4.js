@@ -1,5 +1,13 @@
 var NAVTREEINDEX4 =
 {
+"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01std_1_1complex_3_01double_01_4_01_4.html":[4,0,99],
+"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01std_1_1complex_3_01double_01_4_01_4.html#abb174ab047acf3469e626629d456347d":[4,0,99,0],
+"struct_bembel_1_1_potential_traits.html":[3,0,13,1],
+"struct_bembel_1_1_potential_traits_3_01_helmholtz_double_layer_potential_3_01_lin_op_01_4_01_4.html":[4,0,28],
+"struct_bembel_1_1_potential_traits_3_01_helmholtz_double_layer_potential_3_01_lin_op_01_4_01_4.html#a57fec2e32b0058c3441d18df3ee7700c":[4,0,28,1],
+"struct_bembel_1_1_potential_traits_3_01_helmholtz_double_layer_potential_3_01_lin_op_01_4_01_4.html#ac9bc26b1859564fbc256b316589dfffd":[4,0,28,0],
+"struct_bembel_1_1_potential_traits_3_01_helmholtz_single_layer_potential_3_01_lin_op_01_4_01_4.html":[4,0,34],
+"struct_bembel_1_1_potential_traits_3_01_helmholtz_single_layer_potential_3_01_lin_op_01_4_01_4.html#a089166ea813f102a7e956f91a420449f":[4,0,34,1],
 "struct_bembel_1_1_potential_traits_3_01_helmholtz_single_layer_potential_3_01_lin_op_01_4_01_4.html#a19b2bd4ba2fcb8f96c0056cbf40c8943":[4,0,34,0],
 "struct_bembel_1_1_potential_traits_3_01_homogenised_laplace_single_layer_potential_3_01_lin_op_01_4_01_4.html":[4,0,38],
 "struct_bembel_1_1_potential_traits_3_01_homogenised_laplace_single_layer_potential_3_01_lin_op_01_4_01_4.html#a84336f1c18ebaa2cc67ab3b44682e5d3":[4,0,38,1],
@@ -182,13 +190,5 @@ var NAVTREEINDEX4 =
 "util_2_constants_8hpp.html#a61481b7b09e1138cb21eddc88175a0a8":[5,0,1,5],
 "util_2_constants_8hpp.html#a9844c7cee46cad2052b76f742bd9ad29":[5,0,1,7],
 "util_2_constants_8hpp.html#ac7b79e5b9207d56d418c1e2969f929e0":[5,0,1,0],
-"util_2_constants_8hpp.html#aed2993ce38d68c69aafc53ad54a266c0":[5,0,1,9],
-"":[5,0,6],
-"":[5,0,7],
-"":[5,0,4],
-"":[5,0,3],
-"":[5,0,9],
-"":[5,0,2],
-"":[5,0,1],
-"":[5,0,5]
+"util_2_constants_8hpp.html#aed2993ce38d68c69aafc53ad54a266c0":[5,0,1,9]
 };

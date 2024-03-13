@@ -1,5 +1,13 @@
 var NAVTREEINDEX3 =
 {
+"print2file_8hpp.html#ab5f2547db8b4d1e94d14f72e3c760d46":[5,0,6,5],
+"print2file_8hpp.html#ac06436d12ca87fce7d7264d962716ac5":[5,0,6,2],
+"print2file_8hpp.html#af23406cf18b95211f12a78a4c0bc4c44":[5,0,6,4],
+"struct_bembel_1_1_binomial.html":[4,0,130],
+"struct_bembel_1_1_binomial_3_010_00_010_01_4.html":[4,0,131],
+"struct_bembel_1_1_binomial_3_010_00_01_n_01_4.html":[4,0,133],
+"struct_bembel_1_1_binomial_3_01_n_00_01_n_01_4.html":[4,0,132],
+"struct_bembel_1_1_block_cluster_admissibility.html":[4,0,20],
 "struct_bembel_1_1_block_cluster_tree_parameters.html":[4,0,21],
 "struct_bembel_1_1_block_cluster_tree_parameters.html#a080fd4baf45241419e5238eda1169c65":[4,0,21,8],
 "struct_bembel_1_1_block_cluster_tree_parameters.html#a1118076c9d015ab482e161d7fb2aed6e":[4,0,21,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX3 =
 "struct_bembel_1_1_potential_return_scalar_3_01double_00_01std_1_1complex_3_01double_01_4_01_4.html":[4,0,98],
 "struct_bembel_1_1_potential_return_scalar_3_01double_00_01std_1_1complex_3_01double_01_4_01_4.html#a23b4a9c3eed3d3c26bb0125ceff689ba":[4,0,98,0],
 "struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html":[4,0,97],
-"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html#a9086ae42db0a0e120cea64bcc85c95af":[4,0,97,0],
-"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01std_1_1complex_3_01double_01_4_01_4.html":[4,0,99],
-"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01std_1_1complex_3_01double_01_4_01_4.html#abb174ab047acf3469e626629d456347d":[4,0,99,0],
-"struct_bembel_1_1_potential_traits.html":[3,0,13,1],
-"struct_bembel_1_1_potential_traits_3_01_helmholtz_double_layer_potential_3_01_lin_op_01_4_01_4.html":[4,0,28],
-"struct_bembel_1_1_potential_traits_3_01_helmholtz_double_layer_potential_3_01_lin_op_01_4_01_4.html#a57fec2e32b0058c3441d18df3ee7700c":[4,0,28,1],
-"struct_bembel_1_1_potential_traits_3_01_helmholtz_double_layer_potential_3_01_lin_op_01_4_01_4.html#ac9bc26b1859564fbc256b316589dfffd":[4,0,28,0],
-"struct_bembel_1_1_potential_traits_3_01_helmholtz_single_layer_potential_3_01_lin_op_01_4_01_4.html":[4,0,34],
-"struct_bembel_1_1_potential_traits_3_01_helmholtz_single_layer_potential_3_01_lin_op_01_4_01_4.html#a089166ea813f102a7e956f91a420449f":[4,0,34,1]
+"struct_bembel_1_1_potential_return_scalar_3_01std_1_1complex_3_01double_01_4_00_01double_01_4.html#a9086ae42db0a0e120cea64bcc85c95af":[4,0,97,0]
 };
