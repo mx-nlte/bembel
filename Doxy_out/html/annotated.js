@@ -79,6 +79,8 @@ var annotated =
       [ "VTKDomainExport", "class_bembel_1_1_v_t_k_domain_export.html", "class_bembel_1_1_v_t_k_domain_export" ],
       [ "VTKPointExport", "class_bembel_1_1_v_t_k_point_export.html", "class_bembel_1_1_v_t_k_point_export" ],
       [ "VTKSurfaceExport", "class_bembel_1_1_v_t_k_surface_export.html", "class_bembel_1_1_v_t_k_surface_export" ],
+      [ "LinearOperatorTraits< LaplaceAdjointDoubleLayerOperator >", "struct_bembel_1_1_linear_operator_traits_3_01_laplace_adjoint_double_layer_operator_01_4.html", "struct_bembel_1_1_linear_operator_traits_3_01_laplace_adjoint_double_layer_operator_01_4" ],
+      [ "LaplaceAdjointDoubleLayerOperator", "class_bembel_1_1_laplace_adjoint_double_layer_operator.html", "class_bembel_1_1_laplace_adjoint_double_layer_operator" ],
       [ "LinearOperatorTraits< LaplaceDoubleLayerOperator >", "struct_bembel_1_1_linear_operator_traits_3_01_laplace_double_layer_operator_01_4.html", "struct_bembel_1_1_linear_operator_traits_3_01_laplace_double_layer_operator_01_4" ],
       [ "LaplaceDoubleLayerOperator", "class_bembel_1_1_laplace_double_layer_operator.html", "class_bembel_1_1_laplace_double_layer_operator" ],
       [ "LaplaceDoubleLayerPotential", "class_bembel_1_1_laplace_double_layer_potential.html", "class_bembel_1_1_laplace_double_layer_potential" ],
