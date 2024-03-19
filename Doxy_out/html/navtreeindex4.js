@@ -1,5 +1,13 @@
 var NAVTREEINDEX4 =
 {
+"struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_disc_01_4.html#a5c8f482d58da94b5f6eb05e3a27e337c":[4,0,42,1],
+"struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_disc_01_4.html#a94de74cc1a7395c80ac53822fafd65c7":[4,0,42,0],
+"struct_bembel_1_1_linear_operator_traits_3_01_maxwell_single_layer_operator_01_4.html":[4,0,93],
+"struct_bembel_1_1_linear_operator_traits_3_01_maxwell_single_layer_operator_01_4.html#a336acb31bdc85ba98aa27180fdb03577":[4,0,93,1],
+"struct_bembel_1_1_linear_operator_traits_3_01_maxwell_single_layer_operator_01_4.html#ab416f67ae487bd55639092d9163ab8dc":[4,0,93,0],
+"struct_bembel_1_1_local_operator_base.html":[4,0,92],
+"struct_bembel_1_1_local_operator_base.html#a64fe8d24712fdffe19964dc49f204a8f":[4,0,92,0],
+"struct_bembel_1_1_potential_base.html":[3,0,13,2],
 "struct_bembel_1_1_potential_base.html#a2dbece2eb1ac2e9b8026d89958641a8d":[3,0,13,2,0],
 "struct_bembel_1_1_potential_base.html#a94455143e9409e24bbd22af51cede667":[3,0,13,2,1],
 "struct_bembel_1_1_potential_base.html#aec3f48e0a6c70a9ef94bdc265de050f1":[3,0,13,2,3],
@@ -201,13 +209,5 @@ var NAVTREEINDEX4 =
 "util_2_constants_8hpp.html#a61481b7b09e1138cb21eddc88175a0a8":[5,0,1,5],
 "util_2_constants_8hpp.html#a9844c7cee46cad2052b76f742bd9ad29":[5,0,1,7],
 "util_2_constants_8hpp.html#ac7b79e5b9207d56d418c1e2969f929e0":[5,0,1,0],
-"util_2_constants_8hpp.html#aed2993ce38d68c69aafc53ad54a266c0":[5,0,1,9],
-"":[5,0,2],
-"":[5,0,9],
-"":[5,0,4],
-"":[5,0,3],
-"":[5,0,5],
-"":[5,0,7],
-"":[5,0,6],
-"":[5,0,1]
+"util_2_constants_8hpp.html#aed2993ce38d68c69aafc53ad54a266c0":[5,0,1,9]
 };
