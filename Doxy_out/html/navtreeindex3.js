@@ -1,13 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"namespace_eigen.html#aa47bc8785e2f1e39538627b16d30f71e":[5,1,13],
-"namespace_eigen.html#ad292b392b5429db747ad822ff3e53d46":[5,1,10],
-"namespace_eigen.html#ae7e7bf2bbef483cdd34c5ba714e0a500":[5,1,5],
-"namespace_eigen.html#af39d9442a5a8267f70d166ce490c2100":[5,1,8],
-"namespace_eigen.html#afc22dca7bb8e19ca5aec81159507b887":[5,1,11],
-"namespace_eigen_1_1internal.html":[5,1,0],
-"namespace_eigen_1_1internal.html#a16e2879945059db9c07b96e6095d9d2d":[5,1,0,27],
-"namespaces.html":[5],
 "pages.html":[],
 "print2file_8hpp.html#a77b5668b1404f24d41387e3ad346e485":[5,0,6,6],
 "print2file_8hpp.html#ab4d31f4164fc1746a1d7e3f5ef29de52":[5,0,6,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX3 =
 "struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html":[4,0,40],
 "struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a2a10005ed07ca545c614aa5fa8ef7671":[4,0,40,0],
 "struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_cont_01_4.html#a77b20b428d89d662ccd5d673719846f0":[4,0,40,1],
-"struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_disc_01_4.html":[4,0,42]
+"struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_disc_01_4.html":[4,0,42],
+"struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_disc_01_4.html#a5c8f482d58da94b5f6eb05e3a27e337c":[4,0,42,1],
+"struct_bembel_1_1_linear_operator_traits_3_01_mass_matrix_scalar_disc_01_4.html#a94de74cc1a7395c80ac53822fafd65c7":[4,0,42,0],
+"struct_bembel_1_1_linear_operator_traits_3_01_maxwell_single_layer_operator_01_4.html":[4,0,93],
+"struct_bembel_1_1_linear_operator_traits_3_01_maxwell_single_layer_operator_01_4.html#a336acb31bdc85ba98aa27180fdb03577":[4,0,93,1],
+"struct_bembel_1_1_linear_operator_traits_3_01_maxwell_single_layer_operator_01_4.html#ab416f67ae487bd55639092d9163ab8dc":[4,0,93,0],
+"struct_bembel_1_1_local_operator_base.html":[4,0,92],
+"struct_bembel_1_1_local_operator_base.html#a64fe8d24712fdffe19964dc49f204a8f":[4,0,92,0],
+"struct_bembel_1_1_potential_base.html":[3,0,13,2]
 };
